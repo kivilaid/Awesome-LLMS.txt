@@ -1,0 +1,61 @@
+# PlayAI Docs
+
+## Docs
+
+- [Get Agent Stats](https://docs.play.ai/api-reference/agents/endpoints/v1/agent-stats/get.md): Returns all available statistics for a specific agent.
+- [Get Agent Conversations](https://docs.play.ai/api-reference/agents/endpoints/v1/agents/conversations/get.md): Get all conversations for an agent.
+- [Get Agent Conversation](https://docs.play.ai/api-reference/agents/endpoints/v1/agents/conversations/get-one.md): Get a conversation for an agent.
+- [Get Agent Conversation Transcript](https://docs.play.ai/api-reference/agents/endpoints/v1/agents/conversations/transcript/get.md): Get a conversation transcript for an agent.
+- [Get Agent](https://docs.play.ai/api-reference/agents/endpoints/v1/agents/get.md): Retrieve all information about an agent.
+- [Update Agent](https://docs.play.ai/api-reference/agents/endpoints/v1/agents/patch.md): Updates a PlayAI Agent.
+- [Create Agent](https://docs.play.ai/api-reference/agents/endpoints/v1/agents/post.md): Creates a new PlayAI Agent.
+- [Delete External Function](https://docs.play.ai/api-reference/agents/endpoints/v1/external-functions/delete.md): Delete an external function.
+- [Get All External Functions](https://docs.play.ai/api-reference/agents/endpoints/v1/external-functions/get.md): Get all external functions.
+- [Get External Function](https://docs.play.ai/api-reference/agents/endpoints/v1/external-functions/get-one.md): Get an external function.
+- [Update External Function](https://docs.play.ai/api-reference/agents/endpoints/v1/external-functions/patch.md): Update an external function.
+- [Create External Function](https://docs.play.ai/api-reference/agents/endpoints/v1/external-functions/post.md): Create a new external function.
+- [Introduction](https://docs.play.ai/api-reference/agents/introduction.md): Create and manage PlayAI agents via the API
+- [Websocket API](https://docs.play.ai/api-reference/agents/websocket.md): Enhance your app with our audio-in, audio-out API, enabling seamless, natural conversations with your PlayAI agent. Transform your user experience with the power of voice.
+- [Get All PlayNotes for User](https://docs.play.ai/api-reference/playnote/get-all.md): Retrieve all PlayNotes
+- [Get PlayNote](https://docs.play.ai/api-reference/playnote/get-id.md): Retrieve a specific PlayNote by ID
+- [Create PlayNote via File URL](https://docs.play.ai/api-reference/playnote/post.md): Create a new PlayNote with either a source file URL or an uploaded file (but not both)
+- [Create PlayNote via File Upload](https://docs.play.ai/api-reference/playnote/post-file-upload.md): Create a new PlayNote with either a source file URL or an uploaded file (but not both)
+- [Create Speech](https://docs.play.ai/api-reference/text-to-speech/endpoints/v1/tts/create-speech.md): Convert text to speech with our top-of-the-line PlayAI models.
+- [Get an Async TTS Job](https://docs.play.ai/api-reference/text-to-speech/endpoints/v1/tts/get-async.md): Gets the current status of an asynchronous job created using our [Async Text-to-Speech API](/tts-api-reference/endpoints/v1/tts/create-speech).
+
+- [List Voices](https://docs.play.ai/api-reference/text-to-speech/endpoints/v1/tts/list-voices.md): Get a list of all pre-built voices.
+- [Stream Speech](https://docs.play.ai/api-reference/text-to-speech/endpoints/v1/tts/stream-speech.md): Streams the audio bytes with our ultra-fast text-in, audio-out API.
+- [Stream Speech in Turbo Mode](https://docs.play.ai/api-reference/text-to-speech/endpoints/v1/tts/stream-speech-turbo.md): Stream speech with our fastest and best-quality model, Dialog 1.0 Turbo.
+- [Introduction](https://docs.play.ai/api-reference/text-to-speech/introduction.md): Create lifelike speech via the API
+- [Websocket API](https://docs.play.ai/api-reference/text-to-speech/websocket.md): Enhance your app with our audio-in, audio-out API, enabling seamless, natural conversations with your PlayAI agent. Transform your user experience with the power of voice.
+- [Agent Flutter SDK](https://docs.play.ai/documentation/agent-sdks/flutter-sdk.md): Integrate AI agents into your Flutter applications
+- [Agent Web SDK](https://docs.play.ai/documentation/agent-sdks/web-sdk.md): Integrate AI agents into your web applications
+- [Actions and Integrations](https://docs.play.ai/documentation/agent/actions-integrations.md): Learn how to empower your agents to perform actions on your or your users' behalf
+- [Create Your First Agent](https://docs.play.ai/documentation/agent/agent-quickstart.md): Build your first AI voice agent in minutes
+- [Knowledge Base](https://docs.play.ai/documentation/agent/crawl-website.md): Learn how to give agents access to your documents and websites
+- [PlayAI Agent](https://docs.play.ai/documentation/agent/introduction.md): Deploy voice-powered agents to web, apps, and telephony in minutes
+- [Web Embed](https://docs.play.ai/documentation/agent/web-embed.md): Learn how to embed a PlayAI Agent on your website
+- [Welcome to PlayAI](https://docs.play.ai/documentation/get-started/overview.md): Comprehensive platform for building world-class voice AI solutions
+- [Use Cases](https://docs.play.ai/documentation/get-started/use-cases.md): Explore real-world applications and use cases for PlayAI products
+- [Introduction to PlayNote](https://docs.play.ai/documentation/playnote/introduction.md): Transform documents into engaging podcasts
+- [Generate Conversation from PDF](https://docs.play.ai/documentation/playnote/playnote-quickstart.md): Learn how to transform PDF documents into engaging multi-speaker conversations
+- [Changelog](https://docs.play.ai/documentation/resources/changelog.md): Latest updates and improvements to PlayAI
+- [Error Messages](https://docs.play.ai/documentation/resources/error-messages.md): Understanding and handling PlayAI API errors
+- [Rate Limits](https://docs.play.ai/documentation/resources/rate-limits.md): Understanding PlayAI API rate limits and quotas
+- [Troubleshooting](https://docs.play.ai/documentation/resources/troubleshooting.md): Common issues and solutions for PlayAI APIs
+- [Text to Speech](https://docs.play.ai/documentation/text-to-speech/introduction.md): Turn text into lifelike speech with PlayAI's API
+- [Models](https://docs.play.ai/documentation/text-to-speech/tts-models.md): Explore our state-of-the-art text-to-speech models
+- [Text-to-Speech Quickstart](https://docs.play.ai/documentation/text-to-speech/tts-quickstart.md): Get started with PlayAI Text-to-Speech in minutes
+- [Voices](https://docs.play.ai/documentation/text-to-speech/tts-voices.md): How to use our pre-built voices or create your own
+- [Voice Cloning](https://docs.play.ai/documentation/text-to-speech/voice-cloning.md): Learn how to create custom voices from your own audio samples
+- [Web Embed Examples](https://docs.play.ai/documentation/tutorials/agent/web-embed-examples.md): Examples of AI agent web embeddings and implementations
+- [Web Embed Tutorial](https://docs.play.ai/documentation/tutorials/agent/web-embed-tutorial.md): Learn how to embed AI agents in your web applications
+- [Create an AI Podcast](https://docs.play.ai/documentation/tutorials/tts/dialogs/create-ai-podcast.md): Learn how to create engaging AI-powered podcasts using PlayAI
+- [Async TTS API Quickstart](https://docs.play.ai/documentation/tutorials/tts/dialogs/how-to-use-async-tts-api.md): Learn how to use PlayAI's asynchronous Text-to-Speech API
+- [TTS API Quickstart](https://docs.play.ai/documentation/tutorials/tts/dialogs/how-to-use-tts-api.md): Learn how to use PlayAI's Text-to-Speech API for natural conversations
+
+
+## Optional
+
+- [Playground](https://play.ai/home)
+- [Get Your API Key](https://play.ai/api/keys)

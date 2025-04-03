@@ -1,0 +1,192 @@
+# Liveblocks
+
+## Readme
+
+**[Liveblocks](https://liveblocks.io) provides customizable pre-built features
+for human and AI collaboration, used to make your product multiplayer, engaging,
+and AI‑ready. All without derailing your roadmap.**
+
+**[Get started now](https://liveblocks.io/signup)**
+
+### Ready-made features
+
+Liveblocks provides ready‑to‑use features through customizable pre‑built
+components that can easily be dropped into your product to boost growth:
+[Comments](https://liveblocks.io/docs/ready-made-features/comments),
+[Text Editor](https://liveblocks.io/docs/ready-made-features/text-editor),
+[AI Copilots](https://liveblocks.io/docs/ready-made-features/ai-copilots),
+[Presence](https://liveblocks.io/docs/ready-made-features/presence), and
+[Notifications](https://liveblocks.io/docs/ready-made-features/notifications).
+You can decide features which you want to use based on your requirements and the
+collaborative experiences you’re looking to add.
+
+If you have more advanced needs, you can also leverage Liveblocks to
+[host and scale local-first sync engines](https://liveblocks.io/docs/platform/sync-datastore)
+such as Liveblocks Storage and Yjs.
+
+### Packages and SDKs
+
+Packages for specific libraries and frameworks to add Liveblocks-powered
+collaborative experiences to your product. Integrations are designed to serve
+various collaboration use cases such as collaborative text editors, comments,
+notifications, and more.
+
+- [`@liveblocks/client`](https://liveblocks.io/docs/api-reference/liveblocks-client)
+- [`@liveblocks/react`](https://liveblocks.io/docs/api-reference/liveblocks-react)
+- [`@liveblocks/react-ui`](https://liveblocks.io/docs/api-reference/liveblocks-react-ui)
+- [`@liveblocks/react-tiptap`](https://liveblocks.io/docs/api-reference/liveblocks-react-tiptap)
+- [`@liveblocks/node-prosemirror`](https://liveblocks.io/docs/api-reference/liveblocks-node-prosemirror)
+- [`@liveblocks/react-lexical`](https://liveblocks.io/docs/api-reference/liveblocks-react-lexical)
+- [`@liveblocks/node-lexical`](https://liveblocks.io/docs/api-reference/liveblocks-node-lexical)
+- [`@liveblocks/redux`](https://liveblocks.io/docs/api-reference/liveblocks-redux)
+- [`@liveblocks/zustand`](https://liveblocks.io/docs/api-reference/liveblocks-zustand)
+- [`@liveblocks/yjs`](https://liveblocks.io/docs/api-reference/liveblocks-yjs)
+- [`@liveblocks/node`](https://liveblocks.io/docs/api-reference/liveblocks-node)
+- [`@liveblocks/emails`](https://liveblocks.io/docs/api-reference/liveblocks-emails)
+
+## Developers
+
+- [Documentation](https://liveblocks.io/docs) - [`/docs`](./docs)
+- [Guides](https://liveblocks.io/docs/guides) - [`/guides`](./guides)
+- [Tutorial](https://liveblocks.io/docs/tutorial/react/getting-started)
+  [`/tutorial`](./tutorial)
+- [Examples](https://liveblocks.io/examples) - [`/examples`](./examples)
+
+You can read our release notes
+[here](https://github.com/liveblocks/liveblocks/releases).
+
+## Community and support
+
+- [GitHub issues](https://github.com/liveblocks/liveblocks/issues) to file bugs
+  and errors you encounter using Liveblocks.
+- [Discord](https://liveblocks.io/discord) to get involved with the Liveblocks
+  community, ask questions and share tips.
+- [Email](https://liveblocks.io/contact) to contact us directly for support and
+  sales enquiries.
+- [X](https://x.com/liveblocks) to receive updates, announcements, blog posts,
+  and general Liveblocks tips.
+
+## License
+
+Licensed under the Apache License 2.0, Copyright © 2021-present
+[Liveblocks](https://liveblocks.io).
+
+See [LICENSE](./LICENSE) for more information.
+
+## Docs
+
+- [HOME](https://liveblocks.io/docs)
+- [TUTORIALS](https://liveblocks.io/docs/tutorial/react/getting-started)
+- [GUIDES](https://liveblocks.io/docs/guides)
+- [GET_STARTED](https://liveblocks.io/docs/get-started)
+- [GET_STARTED_NEXTJS](https://liveblocks.io/docs/get-started/nextjs)
+- [GET_STARTED_REACT](https://liveblocks.io/docs/get-started/react)
+- [GET_STARTED_REACT_COMMENTS](https://liveblocks.io/docs/get-started/react-comments)
+- [GET_STARTED_NEXTJS_COMMENTS](https://liveblocks.io/docs/get-started/nextjs-comments)
+- [GET_STARTED_REACT_NOTIFICATIONS](https://liveblocks.io/docs/get-started/react-notifications)
+- [GET_STARTED_NEXTJS_NOTIFICATIONS](https://liveblocks.io/docs/get-started/nextjs-notifications)
+- [GET_STARTED_REACT_TIPTAP](https://liveblocks.io/docs/get-started/react-tiptap)
+- [GET_STARTED_NEXTJS_TIPTAP](https://liveblocks.io/docs/get-started/nextjs-tiptap)
+- [GET_STARTED_REACT_BLOCKNOTE](https://liveblocks.io/docs/get-started/react-blocknote)
+- [GET_STARTED_NEXTJS_BLOCKNOTE](https://liveblocks.io/docs/get-started/nextjs-blocknote)
+- [GET_STARTED_REACT_LEXICAL](https://liveblocks.io/docs/get-started/react-lexical)
+- [GET_STARTED_NEXTJS_LEXICAL](https://liveblocks.io/docs/get-started/nextjs-lexical)
+- [GET_STARTED_REDUX](https://liveblocks.io/docs/get-started/redux)
+- [GET_STARTED_ZUSTAND](https://liveblocks.io/docs/get-started/zustand)
+- [GET_STARTED_SVELTE](https://liveblocks.io/docs/get-started/svelte)
+- [GET_STARTED_VUEJS](https://liveblocks.io/docs/get-started/vuejs)
+- [GET_STARTED_SOLIDJS](https://liveblocks.io/docs/get-started/solidjs)
+- [GET_STARTED_JAVASCRIPT](https://liveblocks.io/docs/get-started/javascript)
+- [GET_STARTED_YJS_CODEMIRROR_REACT](https://liveblocks.io/docs/get-started/yjs-codemirror-react)
+- [GET_STARTED_YJS_CODEMIRROR_SVELTE](https://liveblocks.io/docs/get-started/yjs-codemirror-svelte)
+- [GET_STARTED_YJS_CODEMIRROR_VUEJS](https://liveblocks.io/docs/get-started/yjs-codemirror-vuejs)
+- [GET_STARTED_YJS_CODEMIRROR_JAVASCRIPT](https://liveblocks.io/docs/get-started/yjs-codemirror-javascript)
+- [GET_STARTED_YJS_MONACO_REACT](https://liveblocks.io/docs/get-started/yjs-monaco-react)
+- [GET_STARTED_YJS_MONACO_SVELTE](https://liveblocks.io/docs/get-started/yjs-monaco-svelte)
+- [GET_STARTED_YJS_MONACO_VUEJS](https://liveblocks.io/docs/get-started/yjs-monaco-vuejs)
+- [GET_STARTED_YJS_MONACO_JAVASCRIPT](https://liveblocks.io/docs/get-started/yjs-monaco-javascript)
+- [GET_STARTED_YJS_QUILL_REACT](https://liveblocks.io/docs/get-started/yjs-quill-react)
+- [GET_STARTED_YJS_QUILL_SVELTE](https://liveblocks.io/docs/get-started/yjs-quill-svelte)
+- [GET_STARTED_YJS_QUILL_VUEJS](https://liveblocks.io/docs/get-started/yjs-quill-vuejs)
+- [GET_STARTED_YJS_QUILL_JAVASCRIPT](https://liveblocks.io/docs/get-started/yjs-quill-javascript)
+- [GET_STARTED_YJS_SLATE_REACT](https://liveblocks.io/docs/get-started/yjs-slate-react)
+- [GET_STARTED_YJS_TIPTAP_SVELTE](https://liveblocks.io/docs/get-started/yjs-tiptap-svelte)
+- [GET_STARTED_YJS_TIPTAP_VUEJS](https://liveblocks.io/docs/get-started/yjs-tiptap-vuejs)
+- [GET_STARTED_YJS_TIPTAP_JAVASCRIPT](https://liveblocks.io/docs/get-started/yjs-tiptap-javascript)
+- [CONCEPTS_WHY_LIVEBLOCKS](https://liveblocks.io/docs/concepts/why-liveblocks)
+- [CONCEPTS_HOW_LIVEBLOCKS_WORKS](https://liveblocks.io/docs/concepts/how-liveblocks-works)
+- [FEATURES_COMMENTS](https://liveblocks.io/docs/ready-made-features/comments)
+- [FEATURES_COMMENTS_CONCEPTS](https://liveblocks.io/docs/ready-made-features/comments/concepts)
+- [FEATURES_COMMENTS_USERS_AND_MENTIONS](https://liveblocks.io/docs/ready-made-features/comments/users-and-mentions)
+- [FEATURES_COMMENTS_DEFAULT_COMPONENTS](https://liveblocks.io/docs/ready-made-features/comments/default-components)
+- [FEATURES_COMMENTS_HOOKS](https://liveblocks.io/docs/ready-made-features/comments/hooks)
+- [FEATURES_COMMENTS_METADATA](https://liveblocks.io/docs/ready-made-features/comments/metadata)
+- [FEATURES_COMMENTS_PRIMITIVES](https://liveblocks.io/docs/ready-made-features/comments/primitives)
+- [FEATURES_COMMENTS_STYLING_AND_CUSTOMIZATION](https://liveblocks.io/docs/ready-made-features/comments/styling-and-customization)
+- [FEATURES_COMMENTS_EMAIL_NOTIFICATIONS](https://liveblocks.io/docs/ready-made-features/comments/email-notifications)
+- [FEATURES_NOTIFICATIONS](https://liveblocks.io/docs/ready-made-features/notifications)
+- [FEATURES_NOTIFICATIONS_CONCEPTS](https://liveblocks.io/docs/ready-made-features/notifications/concepts)
+- [FEATURES_NOTIFICATIONS_DEFAULT_COMPONENTS](https://liveblocks.io/docs/ready-made-features/notifications/default-components)
+- [FEATURES_NOTIFICATIONS_HOOKS](https://liveblocks.io/docs/ready-made-features/notifications/hooks)
+- [FEATURES_NOTIFICATIONS_STYLING_AND_CUSTOMIZATION](https://liveblocks.io/docs/ready-made-features/notifications/styling-and-customization)
+- [FEATURES_NOTIFICATIONS_EMAIL_NOTIFICATIONS](https://liveblocks.io/docs/ready-made-features/notifications/email-notifications)
+- [FEATURES_TEXT_EDITOR](https://liveblocks.io/docs/ready-made-features/text-editor)
+- [FEATURES_TEXT_EDITOR_TIPTAP](https://liveblocks.io/docs/ready-made-features/text-editor/tiptap)
+- [FEATURES_TEXT_EDITOR_BLOCKNOTE](https://liveblocks.io/docs/ready-made-features/text-editor/blocknote)
+- [FEATURES_TEXT_EDITOR_LEXICAL](https://liveblocks.io/docs/ready-made-features/text-editor/lexical)
+- [FEATURES_PRESENCE](https://liveblocks.io/docs/ready-made-features/presence)
+- [FEATURES_AI_COPILOTS](https://liveblocks.io/docs/ready-made-features/ai-copilots)
+- [AUTHENTICATION](https://liveblocks.io/docs/authentication)
+- [AUTHENTICATION_ID_TOKEN_NEXTJS](https://liveblocks.io/docs/authentication/id-token/nextjs)
+- [AUTHENTICATION_ID_TOKEN_REMIX](https://liveblocks.io/docs/authentication/id-token/remix)
+- [AUTHENTICATION_ID_TOKEN_SVELTEKIT](https://liveblocks.io/docs/authentication/id-token/sveltekit)
+- [AUTHENTICATION_ID_TOKEN_NUXTJS](https://liveblocks.io/docs/authentication/id-token/nuxtjs)
+- [AUTHENTICATION_ID_TOKEN_FIREBASE](https://liveblocks.io/docs/authentication/id-token/firebase)
+- [AUTHENTICATION_ID_TOKEN_EXPRESS](https://liveblocks.io/docs/authentication/id-token/express)
+- [AUTHENTICATION_ACCESS_TOKEN_NEXTJS](https://liveblocks.io/docs/authentication/access-token/nextjs)
+- [AUTHENTICATION_ACCESS_TOKEN_REMIX](https://liveblocks.io/docs/authentication/access-token/remix)
+- [AUTHENTICATION_ACCESS_TOKEN_SVELTEKIT](https://liveblocks.io/docs/authentication/access-token/sveltekit)
+- [AUTHENTICATION_ACCESS_TOKEN_NUXTJS](https://liveblocks.io/docs/authentication/access-token/nuxtjs)
+- [AUTHENTICATION_ACCESS_TOKEN_FIREBASE](https://liveblocks.io/docs/authentication/access-token/firebase)
+- [AUTHENTICATION_ACCESS_TOKEN_EXPRESS](https://liveblocks.io/docs/authentication/access-token/express)
+- [METADATA](https://liveblocks.io/docs/rooms/metadata)
+- [PERMISSIONS](https://liveblocks.io/docs/rooms/permissions)
+- [API_REFERENCE_CLIENT](https://liveblocks.io/docs/api-reference/liveblocks-client)
+- [API_REFERENCE_REACT](https://liveblocks.io/docs/api-reference/liveblocks-react)
+- [API_REFERENCE_REACT_UI](https://liveblocks.io/docs/api-reference/liveblocks-react-ui)
+- [API_REFERENCE_REACT_TIPTAP](https://liveblocks.io/docs/api-reference/liveblocks-react-tiptap)
+- [API_REFERENCE_REACT_BLOCKNOTE](https://liveblocks.io/docs/api-reference/liveblocks-react-blocknote)
+- [API_REFERENCE_NODE_PROSEMIRROR](https://liveblocks.io/docs/api-reference/liveblocks-node-prosemirror)
+- [API_REFERENCE_REACT_LEXICAL](https://liveblocks.io/docs/api-reference/liveblocks-react-lexical)
+- [API_REFERENCE_NODE_LEXICAL](https://liveblocks.io/docs/api-reference/liveblocks-node-lexical)
+- [API_REFERENCE_ZUSTAND](https://liveblocks.io/docs/api-reference/liveblocks-zustand)
+- [API_REFERENCE_REDUX](https://liveblocks.io/docs/api-reference/liveblocks-redux)
+- [API_REFERENCE_YJS](https://liveblocks.io/docs/api-reference/liveblocks-yjs)
+- [API_REFERENCE_NODE](https://liveblocks.io/docs/api-reference/liveblocks-node)
+- [API_REFERENCE_EMAILS](https://liveblocks.io/docs/api-reference/liveblocks-emails)
+- [API_REFERENCE_REST](https://liveblocks.io/docs/api-reference/rest-api-endpoints)
+- [API_REFERENCE_REST_V1](https://liveblocks.io/docs/api-reference/rest-api-endpoints-v1)
+- [TOOLS_NEXTJS_STARTER_KIT](https://liveblocks.io/docs/platform/nextjs-starter-kit)
+- [TOOLS_DEVTOOLS](https://liveblocks.io/docs/platform/devtools)
+- [PLATFORM_SYNC_DATASTORE](https://liveblocks.io/docs/platform/sync-datastore)
+- [PLATFORM_SYNC_DATASTORE_STORAGE](https://liveblocks.io/docs/platform/sync-datastore/liveblocks-storage)
+- [PLATFORM_SYNC_DATASTORE_YJS](https://liveblocks.io/docs/platform/sync-datastore/liveblocks-yjs)
+- [PLATFORM_WEBSOCKET_INFRASTRUCTURE](https://liveblocks.io/docs/platform/websocket-infrastructure)
+- [PLATFORM_WEBHOOKS](https://liveblocks.io/docs/platform/webhooks)
+- [PLATFORM_PROJECTS](https://liveblocks.io/docs/platform/projects)
+- [PLATFORM_REST_API](https://liveblocks.io/docs/platform/rest-api)
+- [PLATFORM_ANALYTICS](https://liveblocks.io/docs/platform/analytics)
+- [PLATFORM_ACCOUNT_MANAGEMENT](https://liveblocks.io/docs/platform/account-management)
+- [PLATFORM_ACCOUNT_MANAGEMENT_CREATE_ACCOUNT](https://liveblocks.io/docs/platform/account-management/create-an-account)
+- [PLATFORM_ACCOUNT_MANAGEMENT_MANAGE_TEAM_MEMBERS](https://liveblocks.io/docs/platform/account-management/manage-team-members)
+- [PLATFORM_SCHEMA_VALIDATION](https://liveblocks.io/docs/platform/schema-validation)
+- [PLATFORM_SCHEMA_VALIDATION_SYNTAX](https://liveblocks.io/docs/platform/schema-validation/syntax)
+- [PLATFORM_PLANS](https://liveblocks.io/docs/platform/plans)
+- [PLATFORM_LIMITS](https://liveblocks.io/docs/platform/limits)
+- [PLATFORM_LIMITS_FAIR_USE_POLICY](https://liveblocks.io/docs/platform/limits/fair-use-policy)
+- [PLATFORM_UPGRADING](https://liveblocks.io/docs/platform/upgrading)
+- [PLATFORM_UPGRADING_1](https://liveblocks.io/docs/platform/upgrading/1.0)
+- [PLATFORM_UPGRADING_019](https://liveblocks.io/docs/platform/upgrading/0.19)
+- [PLATFORM_UPGRADING_018](https://liveblocks.io/docs/platform/upgrading/0.18)
+- [PLATFORM_UPGRADING_017](https://liveblocks.io/docs/platform/upgrading/0.17)
+  

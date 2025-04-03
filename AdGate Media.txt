@@ -1,0 +1,24 @@
+# Developer Documentation
+
+## Developer Documentation
+
+- [Getting Started](https://docs.adgatemedia.com/master)
+- [AdGate Rewards Setup](https://docs.adgatemedia.com/adgate-rewards-monetization/untitled): This page describes how to setup your AdGate Rewards offer wall.
+- [Web Integration](https://docs.adgatemedia.com/adgate-rewards-monetization/web-integration): If you wish to integrate the offer wall on your website, this page describes the steps needed to do so.
+- [iOS SDK](https://docs.adgatemedia.com/adgate-rewards-monetization/ios-sdk): This page describes how to install the AdGate Media iOS SDK.
+- [Android SDK](https://docs.adgatemedia.com/adgate-rewards-monetization/android-sdk): This page describes how to install the AdGate Media iOS SDK.
+- [Unity SDK](https://docs.adgatemedia.com/adgate-rewards-monetization/unity-sdk): This page describes how to install the AdGate Media Unity SDK.
+- [Magic Receipts Standalone](https://docs.adgatemedia.com/adgate-rewards-monetization/magic-receipts-standalone): This page describes how to setup Magic Receipts as a standalone offering.
+- [Postback Information](https://docs.adgatemedia.com/postbacks/postback-information): This page describes how a postback works.
+- [Magic Receipts Postbacks](https://docs.adgatemedia.com/postbacks/magic-receipts-postbacks): This page describes how Magic Receipts postback works.
+- [PHP Postback Examples](https://docs.adgatemedia.com/postbacks/php-postback-examples): See some sample code for capturing postbacks on your server.
+- [User Based API (v1)](https://docs.adgatemedia.com/apis/user-based-api-v1)
+- [Get Offers](https://docs.adgatemedia.com/apis/user-based-api-v1/get-offers): Main API endpoint to fetch available offers for a particular user. Use this to display offers in your offer wall.
+- [Get Offers By Ids](https://docs.adgatemedia.com/apis/user-based-api-v1/get-offers-by-ids): Gets the available information for the provided offer IDs, including interaction history.
+- [Post Devices](https://docs.adgatemedia.com/apis/user-based-api-v1/post-devices): If a user owns a mobile device, call this endpoint to store the devices. If provided, desktop users will be able to see available mobile offers.
+- [Get History](https://docs.adgatemedia.com/apis/user-based-api-v1/get-history): API endpoint to fetch user history. It returns a list of all offers the user has interacted with, and how many points were earned for each one.
+- [Get Offer History - DEPRECATED](https://docs.adgatemedia.com/apis/user-based-api-v1/get-offer-history-deprecated): API endpoint to fetch historical details for a specific offer. Use it to get the status of each offer event.
+- [Offers API (v3)](https://docs.adgatemedia.com/apis/offers-api)
+- [Offers API (v2)](https://docs.adgatemedia.com/apis/offers-api-1)
+- [Publisher Reporting API](https://docs.adgatemedia.com/apis/publisher-reporting-api)
+- [Advertiser Reporting API](https://docs.adgatemedia.com/apis/advertiser-reporting-api)

@@ -1,0 +1,8 @@
+# AwesomeAPI
+
+## AwesomeAPI
+
+- [Bem-vindo!](https://docs.awesomeapi.com.br/master)
+- [Aviso sobre limites](https://docs.awesomeapi.com.br/aviso-sobre-limites)
+- [API de Cotações](https://docs.awesomeapi.com.br/api-de-moedas): API de Cotações em tempo real com mais de 150 moedas!
+- [API CEP](https://docs.awesomeapi.com.br/api-cep): Base de CEP IBGE

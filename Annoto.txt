@@ -1,0 +1,6 @@
+# Home
+
+## Home
+
+- [Introduction](https://docs.annoto.net/home/master)
+- [Getting Started](https://docs.annoto.net/home/getting-started)

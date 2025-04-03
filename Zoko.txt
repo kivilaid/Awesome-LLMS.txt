@@ -1,0 +1,67 @@
+# Zoko
+
+## Docs
+
+- [Get Agent Details](https://docs.zoko.io/api-reference/agent-management/get-agent-details.md): Retrieve agent details
+- [Get Agents](https://docs.zoko.io/api-reference/agent-management/get-agents.md): Retrieve agents list
+- [Get Teams](https://docs.zoko.io/api-reference/agent-management/get-teams.md): Retrieve teams list
+- [Update Agent](https://docs.zoko.io/api-reference/agent-management/update-agent.md): Update an existing agent's role and availability
+
+- [Add Customer Tag](https://docs.zoko.io/api-reference/customer/add-customer-tag.md): Create Customer Tag 
+
+- [Assign Customer](https://docs.zoko.io/api-reference/customer/assign-customer.md): Assign customer to an agent or team
+- [Create Customer Property](https://docs.zoko.io/api-reference/customer/create-customer-property.md): Create customer property 
+
+- [Customer Properties List](https://docs.zoko.io/api-reference/customer/customer-properties-list.md): List all properties of a customer. 
+
+- [Delete Customer Property](https://docs.zoko.io/api-reference/customer/delete-customer-property.md): Delete customer property
+
+- [Delete Customer Tag](https://docs.zoko.io/api-reference/customer/delete-customer-tag.md): Delete tag of a customer. 
+
+- [Delete Messages](https://docs.zoko.io/api-reference/customer/delete-messages.md): Delete all messages for a customer. 
+> **Note:** Deletion is only from Zoko database and will not affect the actual message(s) at the customer's client application.
+
+- [Get Customer](https://docs.zoko.io/api-reference/customer/get-customer.md): Retrieve customer details
+- [Get Customer List](https://docs.zoko.io/api-reference/customer/get-customer-list.md): Retrieve customer list
+- [Get Customer Property](https://docs.zoko.io/api-reference/customer/get-customer-property.md): Get customer property details
+
+- [List Customer Tags](https://docs.zoko.io/api-reference/customer/list-customer-tags.md): List all tags of a customer 
+
+- [Update Customer Property](https://docs.zoko.io/api-reference/customer/update-customer-property.md): Update customer property details
+
+- [Update Customer Tags (Bulk)](https://docs.zoko.io/api-reference/customer/update-customer-tags-bulk.md): Update all tags of a customer. Replaces the existing list of tags with the provided list. 
+
+- [Delete Message](https://docs.zoko.io/api-reference/delete-message.md): Delete a message
+> **Note:** Deletion is only from Zoko database and will not affect the actual message(s) at the customer's client application.
+
+- [Delete Messages (bulk)](https://docs.zoko.io/api-reference/delete-messages-bulk.md): Deletes a set of messages
+> **Note:** Deletion is only from Zoko database and will not affect the actual message(s) at the customer's client application.
+
+- [Get Message](https://docs.zoko.io/api-reference/get-message.md): Retrieve message details
+- [Get Message History](https://docs.zoko.io/api-reference/get-message-history.md): Retrieve message delivery history
+- [Get Message Templates](https://docs.zoko.io/api-reference/get-message-templates.md): Retrieve approved templates for the account
+- [Send Message](https://docs.zoko.io/api-reference/send-message.md): Send message to customer on a specific channel
+- [Create Webhook](https://docs.zoko.io/api-reference/webhook/create-webhook.md): Create a new webhook
+
+- [Delete Webhook](https://docs.zoko.io/api-reference/webhook/delete-webhook.md): Delete an existing webhook
+- [Get Webhook](https://docs.zoko.io/api-reference/webhook/get-webhook.md): Retrieve webhook details
+- [List Webhooks](https://docs.zoko.io/api-reference/webhook/list-webhooks.md): Retrieve all webhooks for the account
+- [Update Webhook](https://docs.zoko.io/api-reference/webhook/update-webhook.md): Update webhook details
+- [Authentication](https://docs.zoko.io/authentication.md): Zoko API authentication
+- [Agent API](https://docs.zoko.io/messaging-api/agent-api.md): Resources to manage agents and teams
+- [Customer API](https://docs.zoko.io/messaging-api/customer-api.md): Resources to get customer information
+- [Message API](https://docs.zoko.io/messaging-api/message-api.md): Resources to communicate with your customers via social channel(s). These will help you send messages to your customers where they are.
+- [Message History](https://docs.zoko.io/messaging-api/message-history.md)
+- [Send a Message](https://docs.zoko.io/messaging-api/sending-a-message.md): How to send a message to a user using the API
+- [Webhook API](https://docs.zoko.io/messaging-api/webhook-api.md): webhooks, webhooks everywhere!
+- [Enough Talk! Let's Build One](https://docs.zoko.io/webhooks/enough-talk.md)
+- [Key Considerations](https://docs.zoko.io/webhooks/key-considerations.md)
+- [Webhook Payload by Event](https://docs.zoko.io/webhooks/webhook-payload.md)
+- [Webhooks](https://docs.zoko.io/webhooks/webhooks.md)
+- [What is a Webhook](https://docs.zoko.io/webhooks/what-is-a-webhook.md)
+- [When Do I Need One?](https://docs.zoko.io/webhooks/when-do-i-need-one.md)
+
+
+## Optional
+
+- [Contact Us](https://www.zoko.io/contact)

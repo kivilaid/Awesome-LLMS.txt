@@ -1,0 +1,30 @@
+# Alpha Network
+
+## Alpha Network Whitepaper
+
+- [World's first decentralized data execution layer of AI](https://docs.alphaos.net/whitepaper/worlds-first-decentralized-data-execution-layer-of-ai): Crypto Industry for Advancing AI Development.
+- [Market Opportunity](https://docs.alphaos.net/whitepaper/market-opportunity): For AI Training Data Scarcity
+- [AlphaOS](https://docs.alphaos.net/whitepaper/alphaos): A One-Stop AI-Driven Solution for the Web3 Ecosystem
+- [How does it Work?](https://docs.alphaos.net/whitepaper/alphaos/how-does-it-work)
+- [Use Cases](https://docs.alphaos.net/whitepaper/alphaos/use-cases): How users can use AlphaOS in Web3 to experience the efficiency and security improvements brought by AI?
+- [Update History](https://docs.alphaos.net/whitepaper/alphaos/update-history): Key feature update history of AlphaOS.
+- [Terms of Service](https://docs.alphaos.net/whitepaper/alphaos/terms-of-service)
+- [Privacy Policy](https://docs.alphaos.net/whitepaper/alphaos/privacy-policy)
+- [Alpha Chain](https://docs.alphaos.net/whitepaper/alpha-chain): A Decentralized Blockchain Solution for Private Data Storage and Trading of AI Training Data
+- [Blockchain Architecture](https://docs.alphaos.net/whitepaper/alpha-chain/blockchain-architecture): Robust Data Dynamics in the Alpha Chain Utilizing RPC Node Fluidity and Network Topology Optimization
+- [Roles](https://docs.alphaos.net/whitepaper/alpha-chain/roles)
+- [Provider](https://docs.alphaos.net/whitepaper/alpha-chain/roles/provider)
+- [Labelers](https://docs.alphaos.net/whitepaper/alpha-chain/roles/labelers)
+- [Preprocessors](https://docs.alphaos.net/whitepaper/alpha-chain/roles/preprocessors)
+- [Data Privacy and Security](https://docs.alphaos.net/whitepaper/alpha-chain/data-privacy-and-security)
+- [Decentralized Task Allocation Virtual Machine](https://docs.alphaos.net/whitepaper/alpha-chain/decentralized-task-allocation-virtual-machine)
+- [Data Utilization and AI Training](https://docs.alphaos.net/whitepaper/alpha-chain/data-utilization-and-ai-training)
+- [Blockchain Consensus](https://docs.alphaos.net/whitepaper/alpha-chain/blockchain-consensus)
+- [Distributed Crawler Protocol (DCP)](https://docs.alphaos.net/whitepaper/distributed-crawler-protocol-dcp): A Decentralized and Privacy-First Solution for AI Data Collection
+- [Distributed VPN Protocol (DVP)](https://docs.alphaos.net/whitepaper/distributed-vpn-protocol-dvp): A decentralized VPN protocol enabling DePin devices to share bandwidth, ensuring Web3 users access resources securely and anonymously while protecting their location privacy.
+- [Architecture](https://docs.alphaos.net/whitepaper/distributed-vpn-protocol-dvp/architecture): The DVP protocol is built on the following core components:
+- [Benefits](https://docs.alphaos.net/whitepaper/distributed-vpn-protocol-dvp/benefits): The Distributed VPN Protocol (DVP) offers several significant benefits:
+- [Tokenomics](https://docs.alphaos.net/whitepaper/tokenomics)
+- [DePin's Sustainable Revenue](https://docs.alphaos.net/whitepaper/depins-sustainable-revenue): Integrating Distributed Crawler Protocol (DCP) with Alpha Network for Sustainable DePin Ecosystems
+- [Committed to Global Poverty Alleviation](https://docs.alphaos.net/whitepaper/committed-to-global-poverty-alleviation)
+- [@alpha-network/keccak256-zk](https://docs.alphaos.net/whitepaper/open-source-contributions/alpha-network-keccak256-zk)

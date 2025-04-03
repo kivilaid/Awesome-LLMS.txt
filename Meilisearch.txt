@@ -1,0 +1,23 @@
+# Meilisearch
+
+> Meilisearch is an open-source search engine API that is easy to use and deploy for developers. It offers a cloud service for companies seeking advanced search capabilities.
+
+Meilisearch provides a user-focused, powerful, and flexible search engine that integrates seamlessly into applications and workflows. It delivers lightning-fast, ultra-relevant search results with minimal configuration.
+
+## Documentation
+
+- [Getting Started](https://docs.meilisearch.com/learn/getting_started/quick_start.html): Quick setup guide to begin using Meilisearch.
+- [API Reference](https://docs.meilisearch.com/reference/api/): Detailed information on Meilisearch's API endpoints.
+- [Configuration](https://docs.meilisearch.com/reference/features/configuration.html): Guide on configuring Meilisearch to suit your needs.
+- [Deployment](https://docs.meilisearch.com/reference/features/installation.html): Instructions for deploying Meilisearch in various environments.
+
+## Resources
+
+- [GitHub Repository](https://github.com/meilisearch/meilisearch): Access the source code and contribute to the project.
+- [Community Forum](https://community.meilisearch.com/): Join discussions and seek support from the Meilisearch community.
+- [Blog](https://blog.meilisearch.com/): Read articles and updates about Meilisearch and search technology.
+
+## Optional
+
+- [Integrations](https://docs.meilisearch.com/reference/integrations/): Explore various integrations to enhance Meilisearch's functionality.
+- [FAQ](https://docs.meilisearch.com/learn/faq/): Find answers to frequently asked questions about Meilisearch.

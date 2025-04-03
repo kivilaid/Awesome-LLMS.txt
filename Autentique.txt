@@ -1,0 +1,47 @@
+# Documentação
+
+## API v1
+
+- [Introdução](https://docs.autentique.com.br/api/1/master): Documentação a versão v1 da API REST do Autentique. (Deprecada)
+- [Informações da conta](https://docs.autentique.com.br/api/1/contas/informacoes-da-conta): Resgata as informações da conta.
+- [Lista documentos](https://docs.autentique.com.br/api/1/documentos/lista-documentos): Lista todos os documentos que não estão em uma pasta, por páginas.
+- [Resgata documento](https://docs.autentique.com.br/api/1/documentos/resgata-documento): Resgata informações de um documento específico.
+- [Cria documento](https://docs.autentique.com.br/api/1/documentos/cria-documento): Cria um documento e o envia para assinatura.
+- [Exclui documento](https://docs.autentique.com.br/api/1/documentos/exclui-documento): Exclui um documento sem assinaturas ou coloca na lixeira se alguém já assinou/rejeitou.
+- [Resgata assinatura](https://docs.autentique.com.br/api/1/assinatura/resgata-assinatura): Resgata informações para a assinatura de um documento, se a conta usando a API for um signatário.
+- [Assina documento](https://docs.autentique.com.br/api/1/assinatura/assina-documento): Assina um documento específico onde a conta usando a API é um signatário do documento.
+- [Lista pastas](https://docs.autentique.com.br/api/1/pastas/lista-pastas): Lista todas as pastas, por páginas.
+- [Resgata pasta](https://docs.autentique.com.br/api/1/pastas/resgata-pasta): Resgata informações de uma pasta específica.
+- [Lista documentos da pasta](https://docs.autentique.com.br/api/1/pastas/lista-documentos-da-pasta): Lista todos os documentos de uma pasta específica, por páginas.
+- [Cria pasta](https://docs.autentique.com.br/api/1/pastas/cria-pasta): Cria uma pasta na conta.
+- [Move documentos para pasta](https://docs.autentique.com.br/api/1/pastas/move-documentos-para-pasta): Move vários documentos especificados para uma pasta.
+
+## API v2
+
+- [Introdução](https://docs.autentique.com.br/api/master): Guia de integração com a API do autentique.com.br usando GraphQL. Não tem em REST, se algum dia existir removeremos essa frase.
+- [Sobre o GraphQL](https://docs.autentique.com.br/api/sobre-o-graphql): O GraphQL é uma linguagem de consulta para APIs e uma runtime para atender essas consultas com os dados existentes. Ao contrário do REST, nele você pode compor a sua requisição como achar melhor.
+- [Preços para uso via API](https://docs.autentique.com.br/api/precos-para-uso-via-api): Esta página apresenta informações detalhadas sobre a estrutura de preços para o uso da API da Autentique. Inclui tabelas com valores de diferentes ações e exemplos de uso e cobrança.
+- [Usando o Altair](https://docs.autentique.com.br/api/integracao/altair): O Altair é uma aplicação para executar queries/mutations em GraphQL. Nele você poderá construir e conferir o resultado das requisições na web, antes de colocar em seu código.
+- [Sandbox/testes](https://docs.autentique.com.br/api/integracao/sandbox-testes): Uma bela ajuda para realizar testes na plataforma sem custos adicionais ou gastar os documentos grátis.
+- [Webhooks](https://docs.autentique.com.br/api/integracao/webhooks): Escute eventos da sua organização no Autentique através de seus endpoints de webhooks
+- [Webhooks (deprecado)](https://docs.autentique.com.br/api/integracao/webhooks-1): Como configurar webhooks e receber notificações de status dos documentos
+- [Mensagens de erro](https://docs.autentique.com.br/api/integracao/mensagens-de-erro): Exemplos das mensagens de erro ou validações retornadas pela API e quais são.
+- [Buscar Usuário Atual](https://docs.autentique.com.br/api/queries/buscar-usuario-atual): Como buscar dados do usuário que está realizando as chamadas da API.
+- [Resgatando Documentos](https://docs.autentique.com.br/api/queries/resgatando-documentos): Quase tudo o que você precisa saber para listar ou buscar documentos específicos de um usuário.
+- [Listar Organizações](https://docs.autentique.com.br/api/queries/listar-organizacoes): Como Listar as Organizações da sua conta
+- [Listando Pastas](https://docs.autentique.com.br/api/queries/listando-pastas): Como listar as pastas de sua conta
+- [Listando Modelos de Email](https://docs.autentique.com.br/api/queries/listando-modelos-de-email): Como listar os templates de email de sua conta
+- [Criando um Documento](https://docs.autentique.com.br/api/mutations/criando-um-documento): Como criar um documento/enviar um documento para assinatura.
+- [Assinando um Documento](https://docs.autentique.com.br/api/mutations/criando-um-documento/assinando-um-documento): Como assinar um documento.
+- [Editando um Documento](https://docs.autentique.com.br/api/mutations/editando-um-documento): Como editar um documento já criado.
+- [Removendo um Documento](https://docs.autentique.com.br/api/mutations/removendo-um-documento): Como excluir um documento criado.
+- [Transferindo um Documento](https://docs.autentique.com.br/api/mutations/transferindo-um-documento): Como transferir um documento para uma organização.
+- [Adicionar Signatário](https://docs.autentique.com.br/api/mutations/adicionar-signatario): Como adicionar um signatário em um documento já criado.
+- [Remover Signatário](https://docs.autentique.com.br/api/mutations/remover-signatario): Como remover um signatário de um documento já criado.
+- [Criando Pastas](https://docs.autentique.com.br/api/mutations/criando-pastas): Como criar uma pasta normal ou compartilhada com a organização.
+- [Removendo Pastas](https://docs.autentique.com.br/api/mutations/removendo-pastas): Como excluir uma pasta
+- [Movendo Documento para Pasta](https://docs.autentique.com.br/api/mutations/movendo-documento-para-pasta): Como mover um documento para uma pasta.
+- [Reenviar Assinaturas](https://docs.autentique.com.br/api/mutations/reenviar-assinaturas): Como reenviar assinaturas por API.
+- [Criar Link de Assinatura](https://docs.autentique.com.br/api/mutations/criar-link-de-assinatura): Como gerar um link de assinatura para um signatário com outro método de envio.
+- [Aprovar Verificação Biométrica Pendente](https://docs.autentique.com.br/api/mutations/aprovar-verificacao-biometrica-pendente): Como aprovar uma verificação biométrica pendente por API.
+- [Rejeitar Verificação Biométrica Pendente](https://docs.autentique.com.br/api/mutations/rejeitar-verificacao-biometrica-pendente): Como rejeitar uma verificação biométrica pendente por API.

@@ -1,0 +1,36 @@
+# Axiom
+
+## Axiom Main
+
+- [Axiom – The Future of Trading](https://docs.axiom.trade/readme)
+- [FAQs](https://docs.axiom.trade/faqs)
+- [Y-Combinator](https://docs.axiom.trade/y-combinator)
+- [Signup](https://docs.axiom.trade/getting-started/signup): Our onboarding process is one of the simplest in the industry.
+- [Referral Program](https://docs.axiom.trade/getting-started/referral-program)
+- [Reward System](https://docs.axiom.trade/getting-started/reward-system)
+- [Point System](https://docs.axiom.trade/getting-started/point-system): Showing ❤️ to our Axiom Family
+- [Fees](https://docs.axiom.trade/getting-started/fees)
+- [Axiom Fees](https://docs.axiom.trade/getting-started/fees/axiom-fees)
+- [Solana Fees](https://docs.axiom.trade/getting-started/fees/solana-fees): A discussion about the fees charged per transaction exectuted.
+- [Buy Crypto](https://docs.axiom.trade/axiom/buy-crypto): Easiest way to buy crypto, right through the Axiom website!
+- [Finding Tokens](https://docs.axiom.trade/axiom/finding-tokens)
+- [Explore Tokens](https://docs.axiom.trade/axiom/finding-tokens/explore-tokens)
+- [Pulse](https://docs.axiom.trade/axiom/finding-tokens/pulse)
+- [Similar Tokens](https://docs.axiom.trade/axiom/finding-tokens/similar-tokens)
+- [Swap](https://docs.axiom.trade/axiom/swap)
+- [Market](https://docs.axiom.trade/axiom/swap/market)
+- [Limit Orders](https://docs.axiom.trade/axiom/swap/limit-orders)
+- [Convert](https://docs.axiom.trade/axiom/swap/convert)
+- [Migration Actions](https://docs.axiom.trade/axiom/swap/migration-actions): Eliminate the need of third party sniper bots!
+- [Instant Trade](https://docs.axiom.trade/axiom/swap/instant-trade)
+- [Portfolio](https://docs.axiom.trade/axiom/portfolio)
+- [Staking](https://docs.axiom.trade/staking)
+- [Multi-wallet](https://docs.axiom.trade/multi-wallet)
+- [Deposit](https://docs.axiom.trade/perpetuals/deposit)
+- [Trading on Hyperliquid](https://docs.axiom.trade/perpetuals/trading-on-hyperliquid)
+- [Withdraw](https://docs.axiom.trade/perpetuals/withdraw)
+- [Adding Wallets](https://docs.axiom.trade/wallet-tracking/adding-wallets)
+- [Monitor Wallets](https://docs.axiom.trade/wallet-tracking/monitor-wallets)
+- [Tweet Monitor](https://docs.axiom.trade/tweet-monitor)
+- [Twitter Preview Popup](https://docs.axiom.trade/twitter-preview-popup)
+- [Trader Scan](https://docs.axiom.trade/trader-scan)

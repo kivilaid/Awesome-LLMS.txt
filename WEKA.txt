@@ -1,0 +1,1065 @@
+# W E K A
+
+## 4.4
+
+- [WEKA v4.4 documentation](https://docs.weka.io/readme)
+- [Documentation revision history](https://docs.weka.io/readme/documentation-revision-history)
+- [Introduction](https://docs.weka.io/weka-system-overview/about): WEKA is a software solution that enables the implementation of a shareable, scalable, distributed filesystem storage.
+- [WEKA system functionality features](https://docs.weka.io/weka-system-overview/about/weka-system-functionality-features)
+- [Converged WEKA system deployment](https://docs.weka.io/weka-system-overview/about/converged-weka-system-deployment)
+- [Optimize redundancy in WEKA deployments](https://docs.weka.io/weka-system-overview/about/optimize-redundancy-in-weka-deployments)
+- [SSD capacity management](https://docs.weka.io/weka-system-overview/ssd-capacity-management): Understand the key terms of WEKA system capacity management and the formula for calculating the net data storage capacity.
+- [Filesystems, object stores, and filesystem groups](https://docs.weka.io/weka-system-overview/filesystems): This page describes the three entity types relevant to data storage in the WEKA system.
+- [WEKA networking](https://docs.weka.io/weka-system-overview/networking-in-wekaio): Explore network technologies in WEKA, including DPDK, SR-IOV, CPU-optimized networking, UDP mode, high availability, and RDMA/GPUDirect Storage, with configuration guidelines.
+- [Data lifecycle management](https://docs.weka.io/weka-system-overview/data-storage): Explore the principles for data lifecycle management and how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [WEKA client and mount modes](https://docs.weka.io/weka-system-overview/weka-client-and-mount-modes): Understanding the WEKA system client and possible mount modes of operation in relation to the page cache.
+- [WEKA containers architecture overview](https://docs.weka.io/weka-system-overview/weka-containers-architecture-overview): Overview of WEKA's container-based architecture, where interconnected processes within server-hosted containers provide scalable and resilient storage services in a cluster.
+- [Glossary](https://docs.weka.io/weka-system-overview/glossary)
+- [Prerequisites and compatibility](https://docs.weka.io/planning-and-installation/prerequisites-and-compatibility): This page describes the prerequisites and compatibility for the installation of the WEKA system.
+- [WEKA cluster installation on bare metal servers](https://docs.weka.io/planning-and-installation/bare-metal): This topic provides an overview of the automated tools and workflow paths for installing and configuring the WEKA software on a group of bare metal servers (on-premises environment).
+- [Plan the WEKA system hardware requirements](https://docs.weka.io/planning-and-installation/bare-metal/planning-a-weka-system-installation)
+- [Obtain the WEKA installation packages](https://docs.weka.io/planning-and-installation/bare-metal/obtaining-the-weka-install-file): This page describes registering to get.weka.io and obtaining the WEKA installation packages: WMS, WSA, and WEKA software release.
+- [Install the WEKA cluster using the WMS with WSA](https://docs.weka.io/planning-and-installation/bare-metal/install-the-weka-cluster-using-the-wms-with-wsa)
+- [Install the WEKA cluster using the WSA](https://docs.weka.io/planning-and-installation/bare-metal/install-the-weka-cluster-using-the-wsa): The WSA (WEKA Software Appliance) is an alternative method to install WEKA software on bare-metal servers. The WSA simplifies and accelerates the installation.
+- [Manually install OS and WEKA on servers](https://docs.weka.io/planning-and-installation/bare-metal/manually-install-os-and-weka-on-servers): This requirement only applies when manually preparing and installing the WEKA cluster on bare metal servers.
+- [Manually prepare the system for WEKA configuration](https://docs.weka.io/planning-and-installation/bare-metal/setting-up-the-hosts): If the system is not prepared using the WMS, perform this procedure to set the networking and other tasks before configuring the WEKA cluster.
+- [Broadcom adapter setup for WEKA system](https://docs.weka.io/planning-and-installation/bare-metal/setting-up-the-hosts/broadcom-adapter-setup-for-weka-system)
+- [Enable the SR-IOV](https://docs.weka.io/planning-and-installation/bare-metal/setting-up-the-hosts/sr-iov-enablement)
+- [Configure the WEKA cluster using the WEKA Configurator](https://docs.weka.io/planning-and-installation/bare-metal/configure-the-weka-cluster-using-the-weka-configurator): Detailed workflow for WEKA cluster installation in a multi-container backend architecture using the WEKA Configurator.
+- [Manually configure the WEKA cluster using the resource generator](https://docs.weka.io/planning-and-installation/bare-metal/manually-configure-the-weka-cluster-using-the-resource-generator): Detailed workflow for manually configuring the WEKA cluster using the resource generator in a multi-container backend architecture.
+- [VLAN tagging in the WEKA system](https://docs.weka.io/planning-and-installation/bare-metal/manually-configure-the-weka-cluster-using-the-resource-generator/vlan-tagging-in-the-weka-system): WEKA tenant clusters use VLAN tagging to enable isolated network communication between clusters and their clients.
+- [Perform post-configuration procedures](https://docs.weka.io/planning-and-installation/bare-metal/perform-post-configuration-procedures)
+- [Add clients to an on-premises WEKA cluster](https://docs.weka.io/planning-and-installation/bare-metal/adding-clients-bare-metal): This page describes how to add clients to a bare-metal cluster.
+- [WEKA Cloud Deployment Manager Web (CDM Web) User Guide](https://docs.weka.io/planning-and-installation/weka-cdm-web-user-guide)
+- [WEKA Cloud Deployment Manager Local (CDM Local) User Guide](https://docs.weka.io/planning-and-installation/weka-cdm-local-user-manager)
+- [WEKA installation on AWS](https://docs.weka.io/planning-and-installation/aws): This section provides detailed instructions on installing a WEKA system on AWS.
+- [WEKA installation on AWS using Terraform](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform)
+- [Terraform-AWS-WEKA module description](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform/aws-weka-terraform-deployment-module-description)
+- [Deployment on AWS using Terraform](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform/deployment-on-aws-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform/required-services-and-supported-regions)
+- [Supported EC2 instance types using Terraform](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform/supported-ec2-instance-types)
+- [WEKA cluster auto-scaling in AWS](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform/weka-cluster-auto-scaling-in-aws)
+- [Detailed deployment tutorial: WEKA on AWS using Terraform](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-terraform/detailed-deployment-tutorial-weka-on-aws-using-terraform)
+- [WEKA installation on AWS using the Cloud Formation](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation)
+- [Self-service portal](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/self-service-portal): This page presents working with the WEKA Self-Service Portal when installing the WEKA system in AWS.
+- [CloudFormation template generator](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/cloudformation): This page shows how to create CloudFormation templates using an API call. The same API calls are used by the Self-Service Portal to generate the CloudFormation template before redirecting to AWS.
+- [Deployment types](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/deployment-types): This page describes the types of cluster deployments in AWS, which depend on the instance types being used and their configuration.
+- [AWS Outposts deployment](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/aws-outposts-deployment): This page describes how to install WEKA on AWS Outposts
+- [Supported EC2 instance types using Cloud Formation](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/supported-ec2-instance-types-using-cloud-formation): This page lists all instance types available in the Cloud Formation template generator.
+- [Add clients to a WEKA cluster on AWS](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/adding-clients)
+- [Auto scaling group](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/auto-scaling-group)
+- [Troubleshooting](https://docs.weka.io/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/troubleshooting): This page details common errors that can occur when deploying WEKA in AWS using CloudFormation and what can be done to resolve them.
+- [WEKA installation on Azure](https://docs.weka.io/planning-and-installation/weka-installation-on-azure): This section aims at a system engineer familiar with the Azure fundamentals and experienced in using Terraform to deploy a system on Azure.
+- [Azure-WEKA deployment Terraform package description](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/azure-weka-terraform-package-description)
+- [Deployment on Azure using Terraform](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/deployment-on-azure-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/required-services-and-supported-regions)
+- [Supported virtual machine types](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/supported-virtual-machine-types)
+- [Auto-scale virtual machines in Azure](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/auto-scale-virtual-machines-in-azure)
+- [Add clients to a WEKA cluster on Azure](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/add-clients)
+- [Troubleshooting](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/troubleshooting)
+- [Detailed deployment tutorial: WEKA on Azure using Terraform](https://docs.weka.io/planning-and-installation/weka-installation-on-azure/detailed-deployment-tutorial-weka-on-azure-using-terraform): This guide provides step-by-step instructions for deploying the WEKA Data Platform on Microsoft Azure using Terraform, tailored for customers, partners, and WEKA teams.
+- [WEKA installation on GCP](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp): This section aims at a system engineer familiar with the GCP concepts and experienced in using Terraform to deploy a system on GCP.
+- [WEKA project description](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/weka-project-description)
+- [GCP-WEKA deployment Terraform package description](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/gcp-terraform-package-description)
+- [Deployment on GCP using Terraform](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/deployment-on-gcp-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/required-services-and-supported-regions)
+- [Supported machine types and storage](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/supported-machine-types-and-storage)
+- [Auto-scale instances in GCP](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/auto-scale-instances-in-gcp)
+- [Add clients to a WEKA cluster on GCP](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/add-clients)
+- [Troubleshooting](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/troubleshooting)
+- [Detailed deployment tutorial: WEKA on GCP using Terraform](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/detailed-deployment-tutorial-weka-on-gcp-using-terraform): This guide provides step-by-step instructions for deploying the WEKA Data Platform on GCP using Terraform, tailored for customers, partners, and WEKA teams.
+- [Google Kubernetes Engine and WEKA over POSIX deployment](https://docs.weka.io/planning-and-installation/weka-installation-on-gcp/google-kubernetes-engine-and-weka-over-posix-deployment): A step-by-step guide to setting up Google Kubernetes Engine (GKE) with WEKA on Google Cloud Platform (GCP), enhancing storage and scalability for demanding Kubernetes workloads.
+- [Manage the system using the WEKA GUI](https://docs.weka.io/getting-started-with-weka/manage-the-system-using-weka-gui): WEKA GUI application enables you to configure, administer, and monitor the WEKA system. This page provides an overview of the primary operations, access to the GUI, and system dashboard.
+- [Manage the system using the WEKA CLI](https://docs.weka.io/getting-started-with-weka/manage-the-system-using-weka-cli): The overview of the WEKA CLI includes top-level commands, command hierarchy, how to connect to another server, auto-completion, and how to check the status of the cluster.
+- [WEKA CLI hierarchy](https://docs.weka.io/getting-started-with-weka/manage-the-system-using-weka-cli/weka-cli-hierarchy): Explore the hierarchical structure of WEKA Command-Line Interface (CLI) commands for easy reference.
+- [CLI reference guide](https://docs.weka.io/getting-started-with-weka/manage-the-system-using-weka-cli/cli-reference-guide): This CLI reference guide is generated from the output of running the weka command with the help option. It provides detailed descriptions of available commands, arguments, and options.
+- [Run first IOs with WEKA filesystem](https://docs.weka.io/getting-started-with-weka/performing-the-first-io): This is a quick reference guide using the CLI to perform the first IO in the WEKA filesystem.
+- [Getting started with WEKA REST API](https://docs.weka.io/getting-started-with-weka/getting-started-with-weka-rest-api)
+- [WEKA REST API and equivalent CLI commands](https://docs.weka.io/getting-started-with-weka/weka-rest-api-and-equivalent-cli-commands): Explore the tasks you can program using the WEKA REST API, equivalent CLI commands, and the related information to learn the theory.
+- [WEKA performance tests](https://docs.weka.io/performance/testing-weka-system-performance): This page describes a series of tests for measuring performance after the installation of the WEKA system. The same tests can be used to test the performance of any other storage solution.
+- [Test environment details](https://docs.weka.io/performance/testing-weka-system-performance/test-environment-details): The page described specific configuration of the performance tests environments.
+- [Manage object stores](https://docs.weka.io/weka-filesystems-and-object-stores/managing-object-stores): This page provides an overview about managing object stores.
+- [Manage object stores using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/managing-object-stores/managing-object-stores): This page describes how to view and manage object stores using the GUI.
+- [Manage object stores using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/managing-object-stores/managing-object-stores-1): This page describes how to view and manage object stores using the CLI.
+- [Manage filesystem groups](https://docs.weka.io/weka-filesystems-and-object-stores/managing-filesystem-groups): This page provides an overview about managing filesystem groups.
+- [Manage filesystem groups using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/managing-filesystem-groups/managing-filesystem-groups): This page describes how to view and manage filesystem groups using the GUI.
+- [Manage filesystem groups using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/managing-filesystem-groups/manage-filesystem-groups-using-the-cli): This page describes how to view and manage filesystem groups using the CLI.
+- [Manage filesystems](https://docs.weka.io/weka-filesystems-and-object-stores/managing-filesystems): This page provides an overview about managing filesystems.
+- [Manage filesystems using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/managing-filesystems/managing-filesystems): This page describes how to view and manage filesystems using the GUI.
+- [Manage filesystems using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/managing-filesystems/managing-filesystems-1): This page describes how to view and manage filesystems using the CLI.
+- [Attach or detach object store buckets](https://docs.weka.io/weka-filesystems-and-object-stores/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems.
+- [Attach or detach object store bucket using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems using the GUI.
+- [Attach or detach object store buckets using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems-1): This page describes how to attach or detach object store buckets to or from filesystems using the CLI.
+- [Advanced data lifecycle management](https://docs.weka.io/weka-filesystems-and-object-stores/tiering): This page provides a detailed description of how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [Advanced time-based policies for data storage location](https://docs.weka.io/weka-filesystems-and-object-stores/tiering/advanced-time-based-policies-for-data-storage-location): This page provides a detailed description of how data storage is managed in tiered WEKA system configurations.
+- [Data management in tiered filesystems](https://docs.weka.io/weka-filesystems-and-object-stores/tiering/data-management-in-tiered-filesystems): This page describes the system behavior when tiering, accessing or deleting data in tiered filesystems.
+- [Transition between tiered and SSD-only filesystems](https://docs.weka.io/weka-filesystems-and-object-stores/tiering/transition-between-tiered-and-ssd-only-filesystems): This page describes how to transition from an SSD-only to a tiered filesystem, and vice versa.
+- [Manual fetch and release of data](https://docs.weka.io/weka-filesystems-and-object-stores/tiering/pre-fetching-from-object-store): How to manually force fetching tiered data back to the SSDs, and force releasing SSD data to object-store regardless of the retention policy. Also, how to find the location of the data.
+- [Mount filesystems](https://docs.weka.io/weka-filesystems-and-object-stores/mounting-filesystems): Discover the two modes for mounting a filesystem on a cluster server: persistent mount mode (stateful) and stateless mount mode. You can also use fstab or autofs for mounting.
+- [Mount filesystems from Single Client to Multiple Clusters (SCMC)](https://docs.weka.io/weka-filesystems-and-object-stores/mounting-filesystems/mount-fs-from-scmc): Mount a single WEKA client to multiple clusters simultaneously, optimizing data access and workload distribution.
+- [Manage authentication across multiple clusters with connection profiles](https://docs.weka.io/weka-filesystems-and-object-stores/mounting-filesystems/manage-authentication-across-multiple-clusters-with-connection-profiles): Learn how to manage authentication across multiple clusters in the WEKA CLI using connection profiles, enabling seamless switching between clusters without re-authentication.
+- [Snapshots](https://docs.weka.io/weka-filesystems-and-object-stores/snapshots): Snapshots enable the saving of a filesystem state to a directory and can be used for backup, archiving and testing purposes.
+- [Manage snapshots using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/snapshots/snapshots): This page describes how to manage snapshots using the GUI.
+- [Manage snapshots using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/snapshots/snapshots-1): This page describes how to manage snapshots using the CLI.
+- [Snap-To-Object](https://docs.weka.io/weka-filesystems-and-object-stores/snap-to-obj): Explore the Snap-To-Object feature, a capability facilitating the seamless data transfer from a designated snapshot to an object store.
+- [Manage Snap-To-Object using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/snap-to-obj/snap-to-obj): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/snap-to-obj/snap-to-obj-1): The Snap-To-Object feature enables the committing of all the data of a specific snapshot to an object store.
+- [Snapshot policies](https://docs.weka.io/weka-filesystems-and-object-stores/snapshot-policies): Snapshot policies define rules and schedules for creating and managing point-in-time data copies, ensuring reliable recovery from deletion, corruption, or integrity issues.
+- [Manage snapshot policies using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/snapshot-policies/manage-snapshot-policies-using-the-gui): Manage snapshot policies using the GUI, ensuring efficient data protection.
+- [Manage snapshot policies using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/snapshot-policies/manage-snapshot-policies-using-the-cli): Manage snapshot policies using the CLI, ensuring efficient data protection and disaster recovery.
+- [Quota management](https://docs.weka.io/weka-filesystems-and-object-stores/quota-management): Implement quota management to monitor and control usage of the WEKA filesystem effectively.
+- [Manage quotas using the GUI](https://docs.weka.io/weka-filesystems-and-object-stores/quota-management/manage-quotas-using-the-gui): This page describes how to manage quotas using the GUI.
+- [Manage quotas using the CLI](https://docs.weka.io/weka-filesystems-and-object-stores/quota-management/quota-management): This page describes how to manage quotas using the CLI.
+- [Additional protocol containers](https://docs.weka.io/additional-protocols/additional-protocols-overview)
+- [Manage the NFS protocol](https://docs.weka.io/additional-protocols/nfs-support): The WEKA system enables file access through the NFS protocol instead of the WEKA client.
+- [Supported NFS client mount parameters](https://docs.weka.io/additional-protocols/nfs-support/supported-nfs-client-mount-options): Configure mandatory and recommended NFS client mount options with WEKA based on real-world testing and validation for optimal performance and reliability.
+- [Manage NFS networking using the GUI](https://docs.weka.io/additional-protocols/nfs-support/nfs-support): This page describes how to configure the NFS networking using the GUI.
+- [Manage NFS networking using the CLI](https://docs.weka.io/additional-protocols/nfs-support/nfs-support-1): This page describes how to configure the NFS networking using the CLI.
+- [Manage the S3 protocol](https://docs.weka.io/additional-protocols/s3): The WEKA configuration of the S3 protocol.
+- [S3 cluster management](https://docs.weka.io/additional-protocols/s3/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster.
+- [Manage the S3 service using the GUI](https://docs.weka.io/additional-protocols/s3/s3-cluster-management/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [Manage the S3 service using the CLI](https://docs.weka.io/additional-protocols/s3/s3-cluster-management/s3-cluster-management-1): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [S3 buckets management](https://docs.weka.io/additional-protocols/s3/s3-buckets-management): Explore managing your buckets in WEKA using S3 API, GUI, CLI, or API, with flexible permissions through IAM or bucket policies for anonymous access.
+- [Manage S3 buckets using the GUI](https://docs.weka.io/additional-protocols/s3/s3-buckets-management/s3-buckets-management): This page describes how to manage S3 buckets using the GUI.
+- [Manage S3 buckets using the CLI](https://docs.weka.io/additional-protocols/s3/s3-buckets-management/s3-buckets-management-1): This page describes how to manage S3 buckets using the CLI.
+- [S3 users and authentication](https://docs.weka.io/additional-protocols/s3/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol.
+- [Manage S3 users and authentication using the CLI](https://docs.weka.io/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol using the CLI.
+- [Manage S3 service accounts using the CLI](https://docs.weka.io/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication-1): This page describes how to add and control S3 service accounts using the CLI.
+- [S3 lifecycle rules management](https://docs.weka.io/additional-protocols/s3/s3-information-lifecycle-management): S3 lifecycle rules management in WEKA automates object organization and expiration in S3 buckets through customizable rules, ensuring consistent application across all access protocols.
+- [Manage S3 lifecycle rules using the GUI](https://docs.weka.io/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the GUI.
+- [Manage S3 lifecycle rules using the CLI](https://docs.weka.io/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management-1): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the CLI.
+- [Audit S3 APIs](https://docs.weka.io/additional-protocols/s3/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes.
+- [Configure audit webhook using the GUI](https://docs.weka.io/additional-protocols/s3/audit-s3-apis/configure-audit-webhook-using-the-gui)
+- [Configure audit webhook using the CLI](https://docs.weka.io/additional-protocols/s3/audit-s3-apis/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes using the CLI.
+- [Example: How to use Splunk to audit S3](https://docs.weka.io/additional-protocols/s3/audit-s3-apis/audit-s3-apis-1): This page describes an example for using Splunk to audit S3.
+- [S3 supported APIs and limitations](https://docs.weka.io/additional-protocols/s3/s3-limitations): This page describes limitations concerning the S3 service and protocol implementation.
+- [S3 examples using boto3](https://docs.weka.io/additional-protocols/s3/s3-examples-using-boto3): This page provides some examples of using the S3 API.
+- [Configure and use AWS CLI with WEKA S3 storage](https://docs.weka.io/additional-protocols/s3/configure-and-use-aws-cli-with-weka-s3-storage): Learn how to configure and use the AWS CLI with WEKA S3 storage.
+- [Manage the SMB protocol](https://docs.weka.io/additional-protocols/smb-support): The WEKA configuration of the SMB protocol for shared Windows clients.
+- [Manage SMB using the GUI](https://docs.weka.io/additional-protocols/smb-support/smb-management-using-the-gui): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the GUI.
+- [Manage SMB using the CLI](https://docs.weka.io/additional-protocols/smb-support/smb-management-using-the-cli): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the CLI.
+- [WEKA security overview](https://docs.weka.io/security/security): WEKA implements a comprehensive security framework with multiple controls to ensure secure communication and protect user data in the WEKA cluster.
+- [Obtain authentication tokens](https://docs.weka.io/security/obtain-authentication-tokens)
+- [Manage account lockout threshold policy](https://docs.weka.io/security/account-lockout-threshold-policy-management)
+- [Manage KMS](https://docs.weka.io/security/kms-management): Efficiently manage and safeguard WEKA system keys through strategic KMS configurations and best practices. Optimize security and operational resilience.
+- [Manage KMS using GUI](https://docs.weka.io/security/kms-management/kms-management): Explore procedures for managing Key Management System (KMS) integration with the WEKA system using the GUI.
+- [Manage KMS using CLI](https://docs.weka.io/security/kms-management/kms-management-1): Explore commands for managing Key Management System (KMS) integration with the WEKA system using the CLI.
+- [Manage TLS certificates](https://docs.weka.io/security/tls-certificate-management): Manage TLS certificates to encrypt data in transit and verify system identity, ensuring secure communication in the WEKA cluster.
+- [Manage TLS certificates using GUI](https://docs.weka.io/security/tls-certificate-management/manage-the-tls-certificate-using-the-gui)
+- [Manage TLS certificates using CLI](https://docs.weka.io/security/tls-certificate-management/manage-the-tls-certificate-using-the-cli)
+- [Manage Cross-Origin Resource Sharing](https://docs.weka.io/security/manage-cross-origin-resource-sharing)
+- [Manage CIDR-based security policies](https://docs.weka.io/security/manage-cidr-based-security-policies): Manage CIDR-based security policies to control access to WEKA clusters based on client IP address ranges, enhancing security and simplifying administration.
+- [Manage login banner](https://docs.weka.io/security/manage-the-login-banner): This page describes how to set a login banner displayed on the sign-in page.
+- [License overview](https://docs.weka.io/licensing/overview): This page describes how licensing works in a WEKA cluster.
+- [Classic license](https://docs.weka.io/licensing/classic-licensing): Learn how to obtain and apply a classic WEKA license, a time-based license purchased for a predetermined period, to your WEKA cluster.
+- [Alerts](https://docs.weka.io/operation-guide/alerts): This page describes the alerts that can be received in this version of the WEKA system.
+- [Manage alerts using the GUI](https://docs.weka.io/operation-guide/alerts/alerts): This page describes how to manage alerts using the GUI.
+- [Manage alerts using the CLI](https://docs.weka.io/operation-guide/alerts/alerts-1): This page describes how to manage alerts using the CLI.
+- [List of alerts and corrective actions](https://docs.weka.io/operation-guide/alerts/list-of-alerts): Check WEKA system alerts and take necessary actions based on severity and nature.
+- [Events](https://docs.weka.io/operation-guide/events): This page describes the events available in the WEKA system and how to work with them.
+- [Manage events using the GUI](https://docs.weka.io/operation-guide/events/events): This page describes how to manage events using the GUI.
+- [Manage events using the CLI](https://docs.weka.io/operation-guide/events/events-1): This page describes how to manage events using the CLI.
+- [List of events](https://docs.weka.io/operation-guide/events/list-of-events): Explore the various events produced by the WEKA system, organized according to their respective categories.
+- [Statistics](https://docs.weka.io/operation-guide/statistics): This page describes the statistics available in the WEKA system and how to work with them.
+- [Manage statistics using the GUI](https://docs.weka.io/operation-guide/statistics/statistics): This page describes how to manage the statistics using the GUI.
+- [Manage statistics using the CLI](https://docs.weka.io/operation-guide/statistics/statistics-1): This page describes how to manage the statistics using the CLI.
+- [List of statistics](https://docs.weka.io/operation-guide/statistics/list-of-statistics): Explore the various events produced by the WEKA system, organized according to their respective categories.
+- [Insights](https://docs.weka.io/operation-guide/insights)
+- [System congestion](https://docs.weka.io/operation-guide/system-congestion): This page describes possible congestion issues in the WEKA system.
+- [User management](https://docs.weka.io/operation-guide/user-management): The WEKA system enables managing user access and roles locally and through organizational directories like LDAP or AD. This topic covers user types, authentication methods, and management.
+- [Manage users using the GUI](https://docs.weka.io/operation-guide/user-management/user-management): Explore the GUI to manage local users and configure the user directories LDAP or AD.
+- [Manage users using the CLI](https://docs.weka.io/operation-guide/user-management/user-management-1): Explore the CLI to perform a broader range of user management tasks, including creating, updating, and deleting local users, managing access, and authenticating users through the LDAP or AD directory.
+- [Organizations management](https://docs.weka.io/operation-guide/organizations): Gain insights into the conceptual framework of organizations and the operation of various WEKA system features within this context.
+- [Manage organizations using the GUI](https://docs.weka.io/operation-guide/organizations/organizations): Explore how to manage organizations using the GUI.
+- [Manage organizations using the CLI](https://docs.weka.io/operation-guide/organizations/organizations-1): Explore how to manage organizations using the CLI.
+- [Mount authentication for organization filesystems](https://docs.weka.io/operation-guide/organizations/organizations-2): Explore the authentication process for users mounting organization filesystems.
+- [Expand and shrink cluster resources](https://docs.weka.io/operation-guide/expanding-and-shrinking-cluster-resources): Expand and shrink a cluster in a homogeneous WEKA system configuration.
+- [Add a backend server](https://docs.weka.io/operation-guide/expanding-and-shrinking-cluster-resources/add-a-backend-server)
+- [Expand specific resources of a container](https://docs.weka.io/operation-guide/expanding-and-shrinking-cluster-resources/expansion-of-specific-resources): Guidelines for expansion processes that only involve the addition of a specific resource.
+- [Shrink a cluster](https://docs.weka.io/operation-guide/expanding-and-shrinking-cluster-resources/shrinking-a-cluster)
+- [Background tasks](https://docs.weka.io/operation-guide/background-tasks): This page describes the management of background tasks running on the WEKA system.‌
+- [Set up a Data Services container for background tasks](https://docs.weka.io/operation-guide/background-tasks/set-up-a-data-services-container-for-background-tasks): Efficiently manage resource-intensive tasks with at least one Data Services container for improved performance and reliability.
+- [Manage background tasks using the GUI](https://docs.weka.io/operation-guide/background-tasks/manage-background-tasks-using-the-gui)
+- [Manage background tasks using the CLI](https://docs.weka.io/operation-guide/background-tasks/manage-background-tasks-using-the-cli)
+- [Upgrade WEKA versions](https://docs.weka.io/operation-guide/upgrading-weka-versions): Upgrade your WEKA system with the latest version.
+- [Manage WEKA drivers](https://docs.weka.io/operation-guide/manage-weka-drivers): Learn how to manage WEKA drivers to ensure they are properly built, installed, signed, and distributed for the appropriate kernel version.
+- [Deploy monitoring tools using the WEKA Management Station (WMS)](https://docs.weka.io/monitor-the-weka-cluster/deploy-monitoring-tools-using-the-weka-management-station-wms): Deploy the monitoring tools, LWH, WEKAmon, and SnapTool, using the WEKA Management Station (WMS) in an on-premises environment.
+- [WEKA Home - The WEKA support cloud](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud): Improve the WEKA support process with WEKA Home.
+- [Local WEKA Home overview](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/local-weka-home-overview): Local WEKA Home is a private instance of WEKA Home deployed with a WEKA cluster in a private network.
+- [Deploy Local WEKA Home v3.0 or higher](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/local-weka-home-deployment): Explore procedures for deploying the Local WEKA Home v3.0 or higher, upgrading, modifying the configuration, and troubleshooting.
+- [Deploy Local WEKA Home v2.x](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/deploy-local-weka-home-v2.x): Explore procedures for deploying the Local WEKA Home v2.x, upgrading, modifying the configuration, and troubleshooting.
+- [Explore cluster insights](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/explore-cluster-insights-and-statistics)
+- [Explore performance statistics in Grafana](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/explore-performance-statistics-in-grafana)
+- [Manage alerts and integrations](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/manage-alerts-and-integrations)
+- [Enforce security and compliance](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/enforce-security-and-compliance)
+- [Optimize support and data management](https://docs.weka.io/monitor-the-weka-cluster/the-wekaio-support-cloud/optimize-support-and-data-management)
+- [Set up the WEKAmon external monitoring](https://docs.weka.io/monitor-the-weka-cluster/external-monitoring): The WEKAmon is an external monitoring package that provides enriched monitoring capabilities using the Grafana and Prometheus tools.
+- [Set up the SnapTool external snapshots manager](https://docs.weka.io/monitor-the-weka-cluster/snapshot-management): The SnapTool is an external snapshots manager that enables scheduled snapshots and automatic operations
+- [Multi-tenancy in WEKA](https://docs.weka.io/kubernetes/multi-tenancy-in-weka): Explore WEKA’s multi-tenancy with composable clusters, ensuring full resource isolation and optimal performance through Kubernetes-driven deployment.
+- [WEKA Operator deployment](https://docs.weka.io/kubernetes/weka-operator-deployment): Discover how the WEKA Operator streamlines deploying, scaling, and managing the WEKA Data Platform on Kubernetes, delivering high-performance storage for compute-intensive workloads like AI and HPC.
+- [WEKA Operator day-2 operations](https://docs.weka.io/kubernetes/weka-operator-day-2-operations): WEKA Operator day-2 operations involve managing hardware, scaling clusters, and optimizing resources to ensure system stability and performance.
+- [WEKApod Data Platform Appliance overview](https://docs.weka.io/wekapod/overview)
+- [WEKApod servers overview](https://docs.weka.io/wekapod/server-overview)
+- [Rack installation](https://docs.weka.io/wekapod/rack-installation)
+- [WEKApod initial system setup and configuration](https://docs.weka.io/wekapod/setup)
+- [WEKApod support process](https://docs.weka.io/wekapod/support)
+- [Amazon SageMaker HyperPod and WEKA Integrations](https://docs.weka.io/aws-solutions/amazon-sagemaker-hyperpod-and-weka-integrations)
+- [Deploy a new Amazon SageMaker HyperPod cluster with WEKA](https://docs.weka.io/aws-solutions/amazon-sagemaker-hyperpod-and-weka-integrations/deploy-a-new-amazon-sagemaker-hyperpod-cluster-with-weka)
+- [Add WEKA to an existing Amazon SageMaker HyperPod cluster](https://docs.weka.io/aws-solutions/amazon-sagemaker-hyperpod-and-weka-integrations/add-weka-to-an-existing-amazon-sagemaker-hyperpod-cluster)
+- [AWS ParallelCluster and WEKA Integration](https://docs.weka.io/aws-solutions/aws-parallelcluster-and-weka-integration)
+- [Azure CycleCloud for SLURM and WEKA Integration](https://docs.weka.io/azure-solutions/azure-cyclecloud-for-slurm-and-weka-integration): Learn to integrate Azure CycleCloud with the WEKA Data Platform and SLURM scheduler to streamline HPC cluster management and enable high-performance, scalable data solutions for AI, ML, and analytics.
+- [WEKA and Slurm integration](https://docs.weka.io/best-practice-guides/weka-and-slurm-integration): Explore the architecture and configuration of an HPC cluster using the Slurm workload manager for job scheduling and WEKA as the high-performance data platform.
+- [Avoid conflicting CPU allocations](https://docs.weka.io/best-practice-guides/weka-and-slurm-integration/avoid-conflicting-cpu-allocations)
+- [Storage expansion best practice](https://docs.weka.io/best-practice-guides/storage-expansion-best-practice): Explore the best practices for expanding WEKA clusters, focusing on maintaining optimal performance in heterogeneous environments.
+- [Get support for your WEKA system](https://docs.weka.io/support/getting-support-for-your-weka-system): Discover WEKA's support policies, proactive approach, and helpful tips for a seamless start.
+- [Diagnostics management](https://docs.weka.io/support/diagnostics-management)
+- [Traces management](https://docs.weka.io/support/diagnostics-management/traces-management): This page describes how to manage traces generated by the WEKA processes.
+- [Manage traces using the GUI](https://docs.weka.io/support/diagnostics-management/traces-management/manage-traces-using-the-gui)
+- [Manage traces using the CLI](https://docs.weka.io/support/diagnostics-management/traces-management/manage-traces-using-the-cli)
+- [Protocols debug level management](https://docs.weka.io/support/diagnostics-management/protocols-debug-level-management): This page describes the S3, NFS, and SMB protocols debug level management. A higher debug level provides more details for investigating issues.
+- [Manage protocols debug level using the GUI](https://docs.weka.io/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-gui)
+- [Manage protocols debug level using the CLI](https://docs.weka.io/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-cli)
+- [Diagnostics data management](https://docs.weka.io/support/diagnostics-management/diagnostics-utility): Manage diagnostics data for clusters, servers, and containers with CLI commands.
+- [WEKA CSI Plugin](https://docs.weka.io/appendices/weka-csi-plugin): Connect Kubernetes worker nodes to the WEKA data platform to leverage its capabilities.
+- [Deployment](https://docs.weka.io/appendices/weka-csi-plugin/deployment)
+- [Storage class configurations](https://docs.weka.io/appendices/weka-csi-plugin/storage-class-configurations)
+- [Tailor your storage class configuration with mount options](https://docs.weka.io/appendices/weka-csi-plugin/tailor-your-storage-class-configuration-with-mount-options): Leverage mount options for tailored storage control with the CSI Plugin.
+- [Dynamic and static provisioning](https://docs.weka.io/appendices/weka-csi-plugin/dynamic-and-static-provisioning)
+- [Launch an application using WEKA as the POD's storage](https://docs.weka.io/appendices/weka-csi-plugin/launch-an-application-using-weka-as-the-pods-storage)
+- [Add SELinux support](https://docs.weka.io/appendices/weka-csi-plugin/add-selinux-support)
+- [NFS transport failback](https://docs.weka.io/appendices/weka-csi-plugin/nfs-transport-failback)
+- [Upgrade legacy persistent volumes for capacity enforcement](https://docs.weka.io/appendices/weka-csi-plugin/upgrade-legacy-persistent-volumes-for-capacity-enforcement)
+- [Troubleshooting](https://docs.weka.io/appendices/weka-csi-plugin/troubleshooting)
+- [Convert cluster to multi-container backend](https://docs.weka.io/appendices/convert-the-cluster-architecture-from-a-single-container-backend-to-a-multi-container-backend): Professional services workflow for converting the cluster architecture from a single-container backend to a multi-container backend.
+- [Create a client image](https://docs.weka.io/appendices/create-a-client-image)
+- [Update WMS and WSA](https://docs.weka.io/appendices/update-wms-and-wsa): Learn to manually update the WEKA Management Station (WMS) and WEKA Software Appliance (WSA) on sites with Internet access and dark sites to maintain system security and functionality.
+- [BIOS tool](https://docs.weka.io/appendices/bios-tool): This tool simplifies managing BIOS settings across multiple servers, ensuring consistency and reducing manual configuration efforts.
+
+## 4.3
+
+- [WEKA v4.3 documentation](https://docs.weka.io/4.3/readme)
+- [Documentation revision history](https://docs.weka.io/4.3/readme/documentation-revision-history)
+- [WEKA Data Platform introduction](https://docs.weka.io/4.3/weka-system-overview/about): The WEKA Data Platform is a software solution that enables the implementation of shareable, scalable, distributed filesystem storage.
+- [WEKA system functionality features](https://docs.weka.io/4.3/weka-system-overview/about/weka-system-functionality-features)
+- [Converged WEKA system deployment](https://docs.weka.io/4.3/weka-system-overview/about/converged-weka-system-deployment)
+- [Optimize redundancy in WEKA deployments](https://docs.weka.io/4.3/weka-system-overview/about/optimize-redundancy-in-weka-deployments)
+- [SSD capacity management](https://docs.weka.io/4.3/weka-system-overview/ssd-capacity-management): Understand the key terms of WEKA system capacity management and the formula for calculating the net data storage capacity.
+- [Filesystems, object stores, and filesystem groups](https://docs.weka.io/4.3/weka-system-overview/filesystems): This page describes the three entity types relevant to data storage in the WEKA system.
+- [WEKA networking](https://docs.weka.io/4.3/weka-system-overview/networking-in-wekaio): Explore network technologies in WEKA, including DPDK, SR-IOV, CPU-optimized networking, UDP mode, high availability, and RDMA/GPUDirect Storage, with configuration guidelines.
+- [Data lifecycle management](https://docs.weka.io/4.3/weka-system-overview/data-storage): Explore the principles for data lifecycle management and how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [WEKA client and mount modes](https://docs.weka.io/4.3/weka-system-overview/weka-client-and-mount-modes): Understanding the WEKA system client and possible mount modes of operation in relation to the page cache.
+- [WEKA containers architecture overview](https://docs.weka.io/4.3/weka-system-overview/weka-containers-architecture-overview): Overview of WEKA's container-based architecture, where interconnected processes within server-hosted containers provide scalable and resilient storage services in a cluster.
+- [Glossary](https://docs.weka.io/4.3/weka-system-overview/glossary)
+- [Prerequisites and compatibility](https://docs.weka.io/4.3/planning-and-installation/prerequisites-and-compatibility): This page describes the prerequisites and compatibility for the installation of the WEKA system.
+- [WEKA cluster installation on bare metal servers](https://docs.weka.io/4.3/planning-and-installation/bare-metal): This topic provides an overview of the automated tools and workflow paths for installing and configuring the WEKA software on a group of bare metal servers (on-premises environment).
+- [Plan the WEKA system hardware requirements](https://docs.weka.io/4.3/planning-and-installation/bare-metal/planning-a-weka-system-installation)
+- [Obtain the WEKA installation packages](https://docs.weka.io/4.3/planning-and-installation/bare-metal/obtaining-the-weka-install-file): This page describes registering to get.weka.io and obtaining the WEKA installation packages: WMS, WSA, and WEKA software release.
+- [Install the WEKA cluster using the WMS with WSA](https://docs.weka.io/4.3/planning-and-installation/bare-metal/install-the-weka-cluster-using-the-wms-with-wsa)
+- [Install the WEKA cluster using the WSA](https://docs.weka.io/4.3/planning-and-installation/bare-metal/install-the-weka-cluster-using-the-wsa): The WSA (WEKA Software Appliance) is an alternative method to install WEKA software on bare-metal servers. The WSA simplifies and accelerates the installation.
+- [Manually install OS and WEKA on servers](https://docs.weka.io/4.3/planning-and-installation/bare-metal/manually-install-os-and-weka-on-servers): This requirement only applies when manually preparing and installing the WEKA cluster on bare metal servers.
+- [Manually prepare the system for WEKA configuration](https://docs.weka.io/4.3/planning-and-installation/bare-metal/setting-up-the-hosts): If the system is not prepared using the WMS, perform this procedure to set the networking and other tasks before configuring the WEKA cluster.
+- [Broadcom adapter setup for WEKA system](https://docs.weka.io/4.3/planning-and-installation/bare-metal/setting-up-the-hosts/broadcom-adapter-setup-for-weka-system)
+- [Enable the SR-IOV](https://docs.weka.io/4.3/planning-and-installation/bare-metal/setting-up-the-hosts/sr-iov-enablement)
+- [Configure the WEKA cluster using the WEKA Configurator](https://docs.weka.io/4.3/planning-and-installation/bare-metal/configure-the-weka-cluster-using-the-weka-configurator): Detailed workflow for WEKA cluster installation in a multi-container backend architecture using the WEKA Configurator.
+- [Manually configure the WEKA cluster using the resource generator](https://docs.weka.io/4.3/planning-and-installation/bare-metal/manually-configure-the-weka-cluster-using-the-resource-generator): Detailed workflow for manually configuring the WEKA cluster using the resource generator in a multi-container backend architecture.
+- [Perform post-configuration procedures](https://docs.weka.io/4.3/planning-and-installation/bare-metal/perform-post-configuration-procedures)
+- [Add clients to an on-premises WEKA cluster](https://docs.weka.io/4.3/planning-and-installation/bare-metal/adding-clients-bare-metal): This page describes how to add clients to a bare-metal cluster.
+- [WEKA Cloud Deployment Manager Web (CDM Web) User Guide](https://docs.weka.io/4.3/planning-and-installation/weka-cloud-deployment-manager-cdm-user-guide)
+- [WEKA Cloud Deployment Manager Local (CDM Local) User Guide](https://docs.weka.io/4.3/planning-and-installation/weka-cdm-local-user-manager)
+- [WEKA installation on AWS](https://docs.weka.io/4.3/planning-and-installation/aws): This section provides detailed instructions on installing a WEKA system on AWS.
+- [WEKA installation on AWS using Terraform](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform)
+- [Terraform-AWS-WEKA module description](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform/aws-weka-terraform-deployment-module-description)
+- [Deployment on AWS using Terraform](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform/deployment-on-aws-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform/required-services-and-supported-regions)
+- [Supported EC2 instance types using Terraform](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform/supported-ec2-instance-types)
+- [WEKA cluster auto-scaling in AWS](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform/weka-cluster-auto-scaling-in-aws)
+- [Detailed deployment tutorial: WEKA on AWS using Terraform](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-terraform/detailed-deployment-tutorial-weka-on-aws-using-terraform)
+- [WEKA installation on AWS using the Cloud Formation](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation)
+- [Self-service portal](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/self-service-portal): This page presents working with the WEKA Self-Service Portal when installing the WEKA system in AWS.
+- [CloudFormation template generator](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/cloudformation): This page shows how to create CloudFormation templates using an API call. The same API calls are used by the Self-Service Portal to generate the CloudFormation template before redirecting to AWS.
+- [Deployment types](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/deployment-types): This page describes the types of cluster deployments in AWS, which depend on the instance types being used and their configuration.
+- [AWS Outposts deployment](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/aws-outposts-deployment): This page describes how to install WEKA on AWS Outposts
+- [Supported EC2 instance types using Cloud Formation](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/supported-ec2-instance-types-using-cloud-formation): This page lists all instance types available in the Cloud Formation template generator.
+- [Add clients to a WEKA cluster on AWS](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/adding-clients)
+- [Auto scaling group](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/auto-scaling-group)
+- [Troubleshooting](https://docs.weka.io/4.3/planning-and-installation/aws/weka-installation-on-aws-using-the-cloud-formation/troubleshooting): This page details common errors that can occur when deploying WEKA in AWS using CloudFormation and what can be done to resolve them.
+- [Install SMB on AWS](https://docs.weka.io/4.3/planning-and-installation/aws/install-smb-on-aws): Set up SMB in AWS for secure and efficient file sharing and access control, integrating seamlessly with your cloud resources.
+- [WEKA installation on Azure](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-azure)
+- [WEKA installation on GCP](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp): This section aims at a system engineer familiar with the GCP concepts and experienced in using Terraform to deploy a system on GCP.
+- [WEKA project description](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/weka-project-description)
+- [GCP-WEKA deployment Terraform package description](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/gcp-terraform-package-description)
+- [Deployment on GCP using Terraform](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/deployment-on-gcp-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/required-services-and-supported-regions)
+- [Supported machine types and storage](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/supported-machine-types-and-storage)
+- [Auto-scale instances in GCP](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/auto-scale-instances-in-gcp)
+- [Add clients to a WEKA cluster on GCP](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/add-clients)
+- [Troubleshooting](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/troubleshooting)
+- [Detailed deployment tutorial: WEKA on GCP using Terraform](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/detailed-deployment-tutorial-weka-on-gcp-using-terraform)
+- [Google Kubernetes Engine and WEKA over POSIX deployment](https://docs.weka.io/4.3/planning-and-installation/weka-installation-on-gcp/google-kubernetes-engine-and-weka-over-posix-deployment): A step-by-step guide to setting up Google Kubernetes Engine (GKE) with WEKA on Google Cloud Platform (GCP), enhancing storage and scalability for demanding Kubernetes workloads.
+- [Manage the system using the WEKA GUI](https://docs.weka.io/4.3/getting-started-with-weka/manage-the-system-using-weka-gui): WEKA GUI application enables you to configure, administer, and monitor the WEKA system. This page provides an overview of the primary operations, access to the GUI, and system dashboard.
+- [Manage the system using the WEKA CLI](https://docs.weka.io/4.3/getting-started-with-weka/manage-the-system-using-weka-cli): The overview of the WEKA CLI includes top-level commands, command hierarchy, how to connect to another server, auto-completion, and how to check the status of the cluster.
+- [WEKA CLI hierarchy](https://docs.weka.io/4.3/getting-started-with-weka/manage-the-system-using-weka-cli/weka-cli-hierarchy): Explore the hierarchical structure of WEKA Command-Line Interface (CLI) commands for easy reference. (Commands marked with asterisks \*\* are new additions in V4.3.)
+- [CLI reference guide](https://docs.weka.io/4.3/getting-started-with-weka/manage-the-system-using-weka-cli/cli-reference-guide): This CLI reference guide is generated from the output of running the weka command with the help option. It provides detailed descriptions of available commands, arguments, and options.
+- [Run first IOs with WEKA filesystem](https://docs.weka.io/4.3/getting-started-with-weka/performing-the-first-io): This is a quick reference guide using the CLI to perform the first IO in the WEKA filesystem.
+- [Getting started with WEKA REST API](https://docs.weka.io/4.3/getting-started-with-weka/getting-started-with-weka-rest-api)
+- [WEKA REST API and equivalent CLI commands](https://docs.weka.io/4.3/getting-started-with-weka/weka-rest-api-and-equivalent-cli-commands): Explore the tasks you can program using the WEKA REST API, equivalent CLI commands, and the related information to learn the theory. (REST APIs marked with asterisks \*\* are new additions in V4.3.)
+- [WEKA performance tests](https://docs.weka.io/4.3/performance/testing-weka-system-performance): This page describes a series of tests for measuring performance after the installation of the WEKA system. The same tests can be used to test the performance of any other storage solution.
+- [Test environment details](https://docs.weka.io/4.3/performance/testing-weka-system-performance/test-environment-details): The page described specific configuration of the performance tests environments.
+- [Manage object stores](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-object-stores): This page provides an overview about managing object stores.
+- [Manage object stores using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-object-stores/managing-object-stores): This page describes how to view and manage object stores using the GUI.
+- [Manage object stores using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-object-stores/managing-object-stores-1): This page describes how to view and manage object stores using the CLI.
+- [Manage filesystem groups](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-filesystem-groups): This page provides an overview about managing filesystem groups.
+- [Manage filesystem groups using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-filesystem-groups/managing-filesystem-groups): This page describes how to view and manage filesystem groups using the GUI.
+- [Manage filesystem groups using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-filesystem-groups/manage-filesystem-groups-using-the-cli): This pages describes how to view and manage filesystem groups using the CLI.
+- [Manage filesystems](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-filesystems): This page provides an overview about managing filesystems.
+- [Manage filesystems using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-filesystems/managing-filesystems): This page describes how to view and manage filesystems using the GUI.
+- [Manage filesystems using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/managing-filesystems/managing-filesystems-1): This page describes how to view and manage filesystems using the CLI.
+- [Attach or detach object store buckets](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems.
+- [Attach or detach object store bucket using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems using the GUI.
+- [Attach or detach object store buckets using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems-1): This page describes how to attach or detach object store buckets to or from filesystems using the CLI.
+- [Advanced data lifecycle management](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/tiering): This page provides a detailed description of how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [Advanced time-based policies for data storage location](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/tiering/advanced-time-based-policies-for-data-storage-location): This page provides a detailed description of how data storage is managed in tiered WEKA system configurations.
+- [Data management in tiered filesystems](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/tiering/data-management-in-tiered-filesystems): This page describes the system behavior when tiering, accessing or deleting data in tiered filesystems.
+- [Transition between tiered and SSD-only filesystems](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/tiering/transition-between-tiered-and-ssd-only-filesystems): This page describes how to transition from an SSD-only to a tiered filesystem, and vice versa.
+- [Manual fetch and release of data](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/tiering/pre-fetching-from-object-store): How to manually force fetching tiered data back to the SSDs, and force releasing SSD data to object-store regardless of the retention policy. Also, how to find the location of the data.
+- [Mount filesystems](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/mounting-filesystems): Discover the two modes for mounting a filesystem on a cluster server: persistent mount mode (stateful) and stateless mount mode. You can also use fstab or autofs for mounting.
+- [Mount filesystems from Single Client to Multiple Clusters (SCMC)](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/mounting-filesystems/mount-filesystems-from-multiple-clusters-on-a-single-client): Mount a single WEKA client to multiple clusters simultaneously, optimizing data access and workload distribution.
+- [Snapshots](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/snapshots): Snapshots enable the saving of a filesystem state to a directory and can be used for backup, archiving and testing purposes.
+- [Manage snapshots using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/snapshots/snapshots): This page describes how to manage snapshots using the GUI.
+- [Manage snapshots using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/snapshots/snapshots-1): This page describes how to manage snapshots using the CLI.
+- [Snap-To-Object](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/snap-to-obj): Explore the Snap-To-Object feature, a capability facilitating the seamless data transfer from a designated snapshot to an object store.
+- [Manage Snap-To-Object using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/snap-to-obj/snap-to-obj): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/snap-to-obj/snap-to-obj-1): The Snap-To-Object feature enables the committing of all the data of a specific snapshot to an object store.
+- [Quota management](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/quota-management): Implement quota management to monitor and control usage of the WEKA filesystem effectively.
+- [Manage quotas using the GUI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/quota-management/manage-quotas-using-the-gui): This page describes how to manage quotas using the GUI.
+- [Manage quotas using the CLI](https://docs.weka.io/4.3/weka-filesystems-and-object-stores/quota-management/quota-management): This page describes how to manage quotas using the CLI.
+- [Additional protocol containers](https://docs.weka.io/4.3/additional-protocols/additional-protocols-overview)
+- [Manage the NFS protocol](https://docs.weka.io/4.3/additional-protocols/nfs-support): The WEKA system enables file access through the NFS protocol instead of the WEKA client.
+- [Supported NFS client mount parameters](https://docs.weka.io/4.3/additional-protocols/nfs-support/supported-nfs-client-mount-options): Configure mandatory and recommended NFS client mount options with WEKA based on real-world testing and validation for optimal performance and reliability.
+- [Manage NFS networking using the GUI](https://docs.weka.io/4.3/additional-protocols/nfs-support/nfs-support): This page describes how to configure the NFS networking using the GUI.
+- [Manage NFS networking using the CLI](https://docs.weka.io/4.3/additional-protocols/nfs-support/nfs-support-1): This page describes how to configure the NFS networking using the CLI.
+- [Manage the S3 protocol](https://docs.weka.io/4.3/additional-protocols/s3): The WEKA configuration of the S3 protocol.
+- [S3 cluster management](https://docs.weka.io/4.3/additional-protocols/s3/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster.
+- [Manage the S3 service using the GUI](https://docs.weka.io/4.3/additional-protocols/s3/s3-cluster-management/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [Manage the S3 service using the CLI](https://docs.weka.io/4.3/additional-protocols/s3/s3-cluster-management/s3-cluster-management-1): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [S3 buckets management](https://docs.weka.io/4.3/additional-protocols/s3/s3-buckets-management): Explore managing your buckets in WEKA using S3 API, GUI, CLI, or API, with flexible permissions through IAM or bucket policies for anonymous access.
+- [Manage S3 buckets using the GUI](https://docs.weka.io/4.3/additional-protocols/s3/s3-buckets-management/s3-buckets-management): This page describes how to manage S3 buckets using the GUI.
+- [Manage S3 buckets using the CLI](https://docs.weka.io/4.3/additional-protocols/s3/s3-buckets-management/s3-buckets-management-1): This page describes how to manage S3 buckets using the CLI.
+- [S3 users and authentication](https://docs.weka.io/4.3/additional-protocols/s3/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol.
+- [Manage S3 users and authentication using the CLI](https://docs.weka.io/4.3/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol using the CLI.
+- [Manage S3 service accounts using the CLI](https://docs.weka.io/4.3/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication-1): This page describes how to add and control S3 service accounts using the CLI.
+- [S3 rules information lifecycle management (ILM)](https://docs.weka.io/4.3/additional-protocols/s3/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets.
+- [Manage S3 lifecycle rules using the GUI](https://docs.weka.io/4.3/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the GUI.
+- [Manage S3 lifecycle rules using the CLI](https://docs.weka.io/4.3/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management-1): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the CLI.
+- [Audit S3 APIs](https://docs.weka.io/4.3/additional-protocols/s3/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes.
+- [Configure audit webhook using the GUI](https://docs.weka.io/4.3/additional-protocols/s3/audit-s3-apis/configure-audit-webhook-using-the-gui)
+- [Configure audit webhook using the CLI](https://docs.weka.io/4.3/additional-protocols/s3/audit-s3-apis/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes using the CLI.
+- [Example: How to use Splunk to audit S3](https://docs.weka.io/4.3/additional-protocols/s3/audit-s3-apis/audit-s3-apis-1): This page describes an example for using Splunk to audit S3.
+- [S3 supported APIs and limitations](https://docs.weka.io/4.3/additional-protocols/s3/s3-limitations): This page describes limitations concerning the S3 service and protocol implementation.
+- [S3 examples using boto3](https://docs.weka.io/4.3/additional-protocols/s3/s3-examples-using-boto3): This page provides some examples of using the S3 API.
+- [Access S3 using AWS CLI](https://docs.weka.io/4.3/additional-protocols/s3/access-s3-using-aws-cli): Learn how to configure and use the AWS CLI with WEKA's S3 storage.
+- [Manage the SMB protocol](https://docs.weka.io/4.3/additional-protocols/smb-support): The WEKA configuration of the SMB protocol for shared Windows clients.
+- [Manage SMB using the GUI](https://docs.weka.io/4.3/additional-protocols/smb-support/smb-management-using-the-gui): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the GUI.
+- [Manage SMB using the CLI](https://docs.weka.io/4.3/additional-protocols/smb-support/smb-management-using-the-cli): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the CLI.
+- [Alerts](https://docs.weka.io/4.3/operation-guide/alerts): This page describes the alerts that can be received in this version of the WEKA system.
+- [Manage alerts using the GUI](https://docs.weka.io/4.3/operation-guide/alerts/alerts): This page describes how to manage alerts using the GUI.
+- [Manage alerts using the CLI](https://docs.weka.io/4.3/operation-guide/alerts/alerts-1): This page describes how to manage alerts using the CLI.
+- [List of alerts and corrective actions](https://docs.weka.io/4.3/operation-guide/alerts/list-of-alerts): Check WEKA system alerts and take necessary actions based on severity and nature.
+- [Events](https://docs.weka.io/4.3/operation-guide/events): This page describes the events available in the WEKA system and how to work with them.
+- [Manage events using the GUI](https://docs.weka.io/4.3/operation-guide/events/events): This page describes how to manage events using the GUI.
+- [Manage events using the CLI](https://docs.weka.io/4.3/operation-guide/events/events-1): This page describes how to manage events using the CLI.
+- [List of events](https://docs.weka.io/4.3/operation-guide/events/list-of-events): Explore the various events produced by the WEKA system, organized according to their respective categories.
+- [Statistics](https://docs.weka.io/4.3/operation-guide/statistics): This page describes the statistics available in the WEKA system and how to work with them.
+- [Manage statistics using the GUI](https://docs.weka.io/4.3/operation-guide/statistics/statistics): This page describes how to manage the statistics using the GUI.
+- [Manage statistics using the CLI](https://docs.weka.io/4.3/operation-guide/statistics/statistics-1): This page describes how to manage the statistics using the CLI.
+- [List of statistics](https://docs.weka.io/4.3/operation-guide/statistics/list-of-statistics): Explore the statistics the WEKA system generates organized by categories.
+- [Insights](https://docs.weka.io/4.3/operation-guide/insights)
+- [System congestion](https://docs.weka.io/4.3/operation-guide/system-congestion): This page describes possible congestion issues in the WEKA system.
+- [Security management](https://docs.weka.io/4.3/operation-guide/security): This page describes important security considerations for WEKA cluster management.
+- [Obtain authentication tokens](https://docs.weka.io/4.3/operation-guide/security/obtain-authentication-tokens)
+- [KMS management](https://docs.weka.io/4.3/operation-guide/security/kms-management): Efficiently manage and safeguard WEKA system keys through strategic KMS configurations and best practices. Optimize security and operational resilience.
+- [Manage KMS using the GUI](https://docs.weka.io/4.3/operation-guide/security/kms-management/kms-management): Explore procedures for managing Key Management System (KMS) integration with the WEKA system using the GUI.
+- [Manage KMS using the CLI](https://docs.weka.io/4.3/operation-guide/security/kms-management/kms-management-1): Explore commands for managing Key Management System (KMS) integration with the WEKA system using the CLI.
+- [TLS certificate management](https://docs.weka.io/4.3/operation-guide/security/tls-certificate-management): This page describes how manage the TLS certificate.
+- [Manage the TLS certificate using the GUI](https://docs.weka.io/4.3/operation-guide/security/tls-certificate-management/manage-the-tls-certificate-using-the-gui): Set and download the TLS certificate using the GUI.
+- [Manage the TLS certificate using the CLI](https://docs.weka.io/4.3/operation-guide/security/tls-certificate-management/manage-the-tls-certificate-using-the-cli): Set and download the TLS certificate using the CLI.
+- [CA certificate management](https://docs.weka.io/4.3/operation-guide/security/ca-certificate-management): This page describes how manage the CA certificate.
+- [Manage the CA certificate using the GUI](https://docs.weka.io/4.3/operation-guide/security/ca-certificate-management/manage-the-ca-certificate-using-the-gui)
+- [Manage the CA certificate using the CLI](https://docs.weka.io/4.3/operation-guide/security/ca-certificate-management/manage-the-ca-certificate-using-the-cli)
+- [Account lockout threshold policy management](https://docs.weka.io/4.3/operation-guide/security/account-lockout-threshold-policy-management)
+- [Manage the account lockout threshold policy using GUI](https://docs.weka.io/4.3/operation-guide/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-gui)
+- [Manage the account lockout threshold policy using CLI](https://docs.weka.io/4.3/operation-guide/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-cli)
+- [Manage the login banner](https://docs.weka.io/4.3/operation-guide/security/manage-the-login-banner): This page describes how to set a login banner displayed on the sign-in page.
+- [Manage the login banner using the GUI](https://docs.weka.io/4.3/operation-guide/security/manage-the-login-banner/manage-the-login-banner-using-the-gui)
+- [Manage the login banner using the CLI](https://docs.weka.io/4.3/operation-guide/security/manage-the-login-banner/manage-the-login-banner-using-the-cli)
+- [Manage Cross-Origin Resource Sharing](https://docs.weka.io/4.3/operation-guide/security/manage-cross-origin-resource-sharing)
+- [User management](https://docs.weka.io/4.3/operation-guide/user-management): This page describes the management of users licensed to work with the WEKA system.
+- [Manage users using the GUI](https://docs.weka.io/4.3/operation-guide/user-management/user-management): Explore the management of users licensed to work with the WEKA system using the GUI.
+- [Manage users using the CLI](https://docs.weka.io/4.3/operation-guide/user-management/user-management-1): Explore the management of users licensed to work with the WEKA system using the CLI.
+- [Organizations management](https://docs.weka.io/4.3/operation-guide/organizations): Gain insights into the conceptual framework of organizations and the operation of various WEKA system features within this context.
+- [Manage organizations using the GUI](https://docs.weka.io/4.3/operation-guide/organizations/organizations): Explore how to manage organizations using the GUI.
+- [Manage organizations using the CLI](https://docs.weka.io/4.3/operation-guide/organizations/organizations-1): Explore how to manage organizations using the CLI.
+- [Mount authentication for organization filesystems](https://docs.weka.io/4.3/operation-guide/organizations/organizations-2): Explore the authentication process for users mounting organization filesystems.
+- [Expand and shrink cluster resources](https://docs.weka.io/4.3/operation-guide/expanding-and-shrinking-cluster-resources): Expand and shrink a cluster in a homogeneous WEKA system configuration.
+- [Add a backend server](https://docs.weka.io/4.3/operation-guide/expanding-and-shrinking-cluster-resources/add-a-backend-server)
+- [Expand specific resources of a container](https://docs.weka.io/4.3/operation-guide/expanding-and-shrinking-cluster-resources/expansion-of-specific-resources): Guidelines for expansion processes that only involve the addition of a specific resource.
+- [Shrink a cluster](https://docs.weka.io/4.3/operation-guide/expanding-and-shrinking-cluster-resources/shrinking-a-cluster)
+- [Background tasks](https://docs.weka.io/4.3/operation-guide/background-tasks): This page describes the management of background tasks running on the WEKA system.‌
+- [Set up a Data Services container for background tasks](https://docs.weka.io/4.3/operation-guide/background-tasks/set-up-a-data-services-container-for-background-tasks): Efficiently manage resource-intensive tasks with at least one Data Services container for improved performance and reliability.
+- [Manage background tasks using the GUI](https://docs.weka.io/4.3/operation-guide/background-tasks/manage-background-tasks-using-the-gui)
+- [Manage background tasks using the CLI](https://docs.weka.io/4.3/operation-guide/background-tasks/manage-background-tasks-using-the-cli)
+- [Upgrade WEKA versions](https://docs.weka.io/4.3/operation-guide/upgrading-weka-versions): Upgrade your WEKA system with the latest version.
+- [License overview](https://docs.weka.io/4.3/licensing/overview): This page describes how licensing works in a WEKA cluster.
+- [Classic license](https://docs.weka.io/4.3/licensing/classic-licensing): Learn how to obtain and apply a classic WEKA license, a time-based license purchased for a predetermined period, to your WEKA cluster.
+- [Deploy monitoring tools using the WEKA Management Station (WMS)](https://docs.weka.io/4.3/monitor-the-weka-cluster/deploy-monitoring-tools-using-the-weka-management-station-wms): Deploy the monitoring tools, LWH, WEKAmon, and SnapTool, using the WEKA Management Station (WMS) in an on-premises environment.
+- [WEKA Home - The WEKA support cloud](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud): Improve the WEKA support process with WEKA Home.
+- [Local WEKA Home overview](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/local-weka-home-overview): Local WEKA Home is a private instance of WEKA Home deployed with a WEKA cluster in a private network.
+- [Deploy Local WEKA Home v3.0 or higher](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/local-weka-home-deployment): Explore procedures for deploying the Local WEKA Home v3.0 or higher, upgrading, modifying the configuration, and troubleshooting.
+- [Deploy Local WEKA Home v2.x](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/deploy-local-weka-home-v2.x): Explore procedures for deploying the Local WEKA Home v2.x, upgrading, modifying the configuration, and troubleshooting.
+- [Explore cluster insights and statistics](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/explore-cluster-insights-and-statistics)
+- [Manage alerts and integrations](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/manage-alerts-and-integrations)
+- [Enforce security and compliance](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/enforce-security-and-compliance)
+- [Optimize support and data management](https://docs.weka.io/4.3/monitor-the-weka-cluster/the-wekaio-support-cloud/optimize-support-and-data-management)
+- [Set up the WEKAmon external monitoring](https://docs.weka.io/4.3/monitor-the-weka-cluster/external-monitoring): The WEKAmon is an external monitoring package that provides enriched monitoring capabilities using the Grafana and Prometheus tools.
+- [Set up the SnapTool external snapshots manager](https://docs.weka.io/4.3/monitor-the-weka-cluster/snapshot-management): The SnapTool is an external snapshots manager that enables scheduled snapshots and automatic operations
+- [Get support for your WEKA system](https://docs.weka.io/4.3/support/getting-support-for-your-weka-system): Discover WEKA's support policies, proactive approach, and helpful tips for a seamless start.
+- [Diagnostics management](https://docs.weka.io/4.3/support/diagnostics-management)
+- [Traces management](https://docs.weka.io/4.3/support/diagnostics-management/traces-management): This page describes how to manage traces generated by the WEKA processes.
+- [Manage traces using the GUI](https://docs.weka.io/4.3/support/diagnostics-management/traces-management/manage-traces-using-the-gui)
+- [Manage traces using the CLI](https://docs.weka.io/4.3/support/diagnostics-management/traces-management/manage-traces-using-the-cli)
+- [Protocols debug level management](https://docs.weka.io/4.3/support/diagnostics-management/protocols-debug-level-management): This page describes the S3, NFS, and SMB protocols debug level management. A higher debug level provides more details for investigating issues.
+- [Manage protocols debug level using the GUI](https://docs.weka.io/4.3/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-gui)
+- [Manage protocols debug level using the CLI](https://docs.weka.io/4.3/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-cli)
+- [Diagnostics data management](https://docs.weka.io/4.3/support/diagnostics-management/diagnostics-utility): Manage diagnostics data for clusters, servers, and containers with CLI commands.
+- [WEKA and Slurm integration](https://docs.weka.io/4.3/best-practice-guides/weka-and-slurm-integration): Explore the architecture and configuration of an HPC cluster using the Slurm workload manager for job scheduling and WEKA as the high-performance data platform.
+- [Avoid conflicting CPU allocations](https://docs.weka.io/4.3/best-practice-guides/weka-and-slurm-integration/avoid-conflicting-cpu-allocations)
+- [Storage expansion best practice](https://docs.weka.io/4.3/best-practice-guides/storage-expansion-best-practice): Explore the best practices for expanding WEKA clusters, focusing on maintaining optimal performance in heterogeneous environments.
+- [WEKApod Data Platform Appliance overview](https://docs.weka.io/4.3/wekapod/overview): Get all the benefits of the WEKA Data Platform in a validated, turnkey data platform appliance certified for NVIDIA DGX SuperPOD™️ on NVIDIA DGX H100 Systems.
+- [WEKApod servers overview](https://docs.weka.io/4.3/wekapod/server-overview)
+- [Rack installation](https://docs.weka.io/4.3/wekapod/rack-installation)
+- [WEKApod initial system setup and configuration](https://docs.weka.io/4.3/wekapod/setup): This section outlines the initial setup and configuration tasks for the WEKApod system performed by the WEKA support team.
+- [WEKApod support process](https://docs.weka.io/4.3/wekapod/support)
+- [WEKA CSI Plugin](https://docs.weka.io/4.3/appendices/weka-csi-plugin): Connect Kubernetes worker nodes to the WEKA data platform to leverage its capabilities.
+- [Deployment](https://docs.weka.io/4.3/appendices/weka-csi-plugin/deployment)
+- [Storage class configurations](https://docs.weka.io/4.3/appendices/weka-csi-plugin/storage-class-configurations)
+- [Tailor your storage class configuration with mount options](https://docs.weka.io/4.3/appendices/weka-csi-plugin/tailor-your-storage-class-configuration-with-mount-options): Leverage mount options for tailored storage control with the CSI Plugin.
+- [Dynamic and static provisioning](https://docs.weka.io/4.3/appendices/weka-csi-plugin/dynamic-and-static-provisioning)
+- [Launch an application using WEKA as the POD's storage](https://docs.weka.io/4.3/appendices/weka-csi-plugin/launch-an-application-using-weka-as-the-pods-storage)
+- [Add SELinux support](https://docs.weka.io/4.3/appendices/weka-csi-plugin/add-selinux-support)
+- [NFS transport failback](https://docs.weka.io/4.3/appendices/weka-csi-plugin/nfs-transport-failback): Learn how to use the WEKA CSI Plugin with NFS transport failback in scenarios where the WEKA client cannot be installed on a Kubernetes node.
+- [Upgrade legacy persistent volumes for capacity enforcement](https://docs.weka.io/4.3/appendices/weka-csi-plugin/upgrade-legacy-persistent-volumes-for-capacity-enforcement)
+- [Troubleshooting](https://docs.weka.io/4.3/appendices/weka-csi-plugin/troubleshooting)
+- [Convert cluster to multi-container backend](https://docs.weka.io/4.3/appendices/convert-the-cluster-architecture-from-a-single-container-backend-to-a-multi-container-backend): Professional services workflow for converting the cluster architecture from a single-container backend to a multi-container backend.
+- [Create a client image](https://docs.weka.io/4.3/appendices/create-a-client-image)
+- [Update WMS and WSA](https://docs.weka.io/4.3/appendices/update-wms-and-wsa): Learn to manually update the WEKA Management Station (WMS) and WEKA Software Appliance (WSA) on sites with Internet access and dark sites to maintain system security and functionality.
+- [BIOS tool](https://docs.weka.io/4.3/appendices/bios-tool): This tool simplifies managing BIOS settings across multiple servers, ensuring consistency and reducing manual configuration efforts.
+
+## 4.2
+
+- [WEKA v4.2 documentation](https://docs.weka.io/4.2/readme)
+- [Documentation revision history](https://docs.weka.io/4.2/readme/documentation-revision-history)
+- [Introduction](https://docs.weka.io/4.2/overview/about): WEKA is a software solution that enables the implementation of a shareable, scalable, distributed filesystem storage.
+- [WEKA system functionality features](https://docs.weka.io/4.2/overview/about/weka-system-functionality-features)
+- [Converged WEKA system deployment](https://docs.weka.io/4.2/overview/about/converged-weka-system-deployment)
+- [Optimize redundancy in WEKA deployments](https://docs.weka.io/4.2/overview/about/optimize-redundancy-in-weka-deployments)
+- [SSD capacity management](https://docs.weka.io/4.2/overview/ssd-capacity-management): Understand the key terms of WEKA system capacity management and the formula for calculating the net data storage capacity.
+- [Filesystems, object stores, and filesystem groups](https://docs.weka.io/4.2/overview/filesystems): This page describes the three entity types relevant to data storage in the WEKA system.
+- [WEKA networking](https://docs.weka.io/4.2/overview/networking-in-wekaio): This page reviews the theory of operation for WEKA networking.
+- [Data lifecycle management](https://docs.weka.io/4.2/overview/data-storage): Explore the principles for data lifecycle management and how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [WEKA client and mount modes](https://docs.weka.io/4.2/overview/weka-client-and-mount-modes): Understanding the WEKA system client and possible mount modes of operation in relation to the page cache.
+- [WEKA containers architecture overview](https://docs.weka.io/4.2/overview/weka-containers-architecture-overview): Overview of WEKA's container-based architecture, where interconnected processes within server-hosted containers provide scalable and resilient storage services in a cluster.
+- [Glossary](https://docs.weka.io/4.2/overview/glossary)
+- [Prerequisites and compatibility](https://docs.weka.io/4.2/install/prerequisites-and-compatibility): This page describes the prerequisites and compatibility for the installation of the WEKA system.
+- [WEKA cluster installation on bare metal servers](https://docs.weka.io/4.2/install/bare-metal): This topic provides an overview of the automated tools and workflow paths for installing and configuring the WEKA software on a group of bare metal servers (on-premises environment).
+- [Plan the WEKA system hardware requirements](https://docs.weka.io/4.2/install/bare-metal/planning-a-weka-system-installation)
+- [Obtain the WEKA installation packages](https://docs.weka.io/4.2/install/bare-metal/obtaining-the-weka-install-file): This page describes registering to get.weka.io and obtaining the WEKA installation packages: WMS, WSA, and WEKA software release.
+- [Install the WEKA cluster using the WMS with WSA](https://docs.weka.io/4.2/install/bare-metal/install-the-weka-cluster-using-the-wms-with-wsa)
+- [Install the WEKA cluster using the WSA](https://docs.weka.io/4.2/install/bare-metal/install-the-weka-cluster-using-the-wsa): The WSA (WEKA Software Appliance) is an alternative method to install WEKA software on bare-metal servers. The WSA simplifies and accelerates the installation.
+- [Manually install OS and WEKA on servers](https://docs.weka.io/4.2/install/bare-metal/manually-install-os-and-weka-on-servers): This requirement only applies when manually preparing and installing the WEKA cluster on bare metal servers.
+- [Manually prepare the system for WEKA configuration](https://docs.weka.io/4.2/install/bare-metal/setting-up-the-hosts): If the system is not prepared using the WMS, perform this procedure to set the networking and other tasks before configuring the WEKA cluster.
+- [Broadcom adapter setup for WEKA system](https://docs.weka.io/4.2/install/bare-metal/setting-up-the-hosts/broadcom-adapter-setup-for-weka-system)
+- [Enable the SR-IOV](https://docs.weka.io/4.2/install/bare-metal/setting-up-the-hosts/sr-iov-enablement)
+- [Configure the WEKA cluster using the WEKA Configurator](https://docs.weka.io/4.2/install/bare-metal/configure-the-weka-cluster-using-the-weka-configurator): Detailed workflow for WEKA cluster installation in a multi-container backend architecture using the Weka Configurator.
+- [Manually configure the WEKA cluster using the resource generator](https://docs.weka.io/4.2/install/bare-metal/manually-configure-the-weka-cluster-using-the-resource-generator): Detailed workflow for manually configuring the WEKA cluster using the resource generator in a multi-container backend architecture.
+- [Perform post-configuration procedures](https://docs.weka.io/4.2/install/bare-metal/perform-post-configuration-procedures)
+- [Add clients](https://docs.weka.io/4.2/install/bare-metal/adding-clients-bare-metal): This page describes how to add clients to a bare-metal cluster.
+- [WEKA installation on AWS](https://docs.weka.io/4.2/install/aws): This section provides detailed instructions on installing a WEKA system on AWS.
+- [WEKA installation on AWS using Terraform](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform)
+- [Terraform-AWS-WEKA module description](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform/aws-weka-terraform-deployment-module-description)
+- [Deployment on AWS using Terraform](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform/deployment-on-aws-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform/required-services-and-supported-regions)
+- [Supported EC2 instance types using Terraform](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform/supported-ec2-instance-types)
+- [WEKA cluster auto-scaling in AWS](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform/weka-cluster-auto-scaling-in-aws)
+- [Detailed deployment tutorial: WEKA on AWS using Terraform](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-terraform/detailed-deployment-tutorial-weka-on-aws-using-terraform)
+- [WEKA installation on AWS using the Cloud Formation](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation)
+- [Self-service portal](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/self-service-portal): This page presents working with the WEKA Self-Service Portal when installing the WEKA system in AWS.
+- [CloudFormation template generator](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/cloudformation): This page shows how to create CloudFormation templates using an API call. The same API calls are used by the Self-Service Portal to generate the CloudFormation template before redirecting to AWS.
+- [Deployment types](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/deployment-types): This page describes the types of cluster deployments in AWS, which depend on the instance types being used and their configuration.
+- [AWS Outposts deployment](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/aws-outposts-deployment): This page describes how to install WEKA on AWS Outposts
+- [Supported EC2 instance types using Cloud Formation](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/supported-ec2-instance-types-using-cloud-formation): This page lists all instance types available in the Cloud Formation template generator.
+- [Add clients](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/adding-clients): This page describes the process for adding clients to an already-installed WEKA system cluster.
+- [Auto scaling group](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/auto-scaling-group)
+- [Troubleshooting](https://docs.weka.io/4.2/install/aws/weka-installation-on-aws-using-the-cloud-formation/troubleshooting): This page details common errors that can occur when deploying WEKA in AWS using CloudFormation and what can be done to resolve them.
+- [WEKA installation on Azure](https://docs.weka.io/4.2/install/weka-installation-on-azure)
+- [WEKA installation on GCP](https://docs.weka.io/4.2/install/weka-installation-on-gcp): This section aims at a system engineer familiar with the GCP concepts and experienced in using Terraform to deploy a system on GCP.
+- [WEKA project description](https://docs.weka.io/4.2/install/weka-installation-on-gcp/weka-project-description)
+- [GCP-WEKA deployment Terraform package description](https://docs.weka.io/4.2/install/weka-installation-on-gcp/gcp-terraform-package-description)
+- [Deployment on GCP using Terraform](https://docs.weka.io/4.2/install/weka-installation-on-gcp/deployment-on-gcp-using-terraform)
+- [Required services and supported regions](https://docs.weka.io/4.2/install/weka-installation-on-gcp/required-services-and-supported-regions)
+- [Supported machine types and storage](https://docs.weka.io/4.2/install/weka-installation-on-gcp/supported-machine-types-and-storage)
+- [Auto-scale instances in GCP](https://docs.weka.io/4.2/install/weka-installation-on-gcp/auto-scale-instances-in-gcp)
+- [Add clients](https://docs.weka.io/4.2/install/weka-installation-on-gcp/add-clients)
+- [Troubleshooting](https://docs.weka.io/4.2/install/weka-installation-on-gcp/troubleshooting)
+- [Manage the system using the WEKA GUI](https://docs.weka.io/4.2/getting-started-with-weka/manage-the-system-using-weka-gui): WEKA GUI application enables you to configure, administer, and monitor the WEKA system. This page provides an overview of the primary operations, access to the GUI, and system dashboard.
+- [Manage the system using the WEKA CLI](https://docs.weka.io/4.2/getting-started-with-weka/manage-the-system-using-weka-cli): This page provides an overview for WEKA CLI, including the top-level commands, command hierarchy, how to connect to another server, auto-completion, and how to check the status of the cluster.
+- [WEKA CLI hierarchy](https://docs.weka.io/4.2/getting-started-with-weka/manage-the-system-using-weka-cli/weka-cli-hierarchy): Explore the hierarchical structure of WEKA Command-Line Interface (CLI) commands for convenient reference.
+- [CLI reference guide](https://docs.weka.io/4.2/getting-started-with-weka/manage-the-system-using-weka-cli/cli-reference-guide): This CLI reference guide is generated from the output of running the weka command with the help option. It provides detailed descriptions of available commands, arguments, and options.
+- [Run first IOs with WEKA filesystem](https://docs.weka.io/4.2/getting-started-with-weka/performing-the-first-io): This is a quick reference guide using the CLI to perform the first IO in the WEKA filesystem.
+- [Getting started with WEKA REST API](https://docs.weka.io/4.2/getting-started-with-weka/getting-started-with-weka-rest-api)
+- [WEKA REST API and equivalent CLI commands](https://docs.weka.io/4.2/getting-started-with-weka/weka-rest-api-and-equivalent-cli-commands): Explore the tasks you can program using the WEKA REST API, equivalent CLI commands, and the related information to learn the theory.
+- [WEKA performance tests](https://docs.weka.io/4.2/testing-and-troubleshooting/testing-weka-system-performance): This page describes a series of tests for measuring performance after the installation of the WEKA system. The same tests can be used to test the performance of any other storage solution.
+- [Test environment details](https://docs.weka.io/4.2/testing-and-troubleshooting/testing-weka-system-performance/test-environment-details): The page described specific configuration of the performance tests environments.
+- [Manage object stores](https://docs.weka.io/4.2/fs/managing-object-stores): This page provides an overview about managing object stores.
+- [Manage object stores using the GUI](https://docs.weka.io/4.2/fs/managing-object-stores/managing-object-stores): This page describes how to view and manage object stores using the GUI.
+- [Manage object stores using the CLI](https://docs.weka.io/4.2/fs/managing-object-stores/managing-object-stores-1): This page describes how to view and manage object stores using the CLI.
+- [Manage filesystem groups](https://docs.weka.io/4.2/fs/managing-filesystem-groups): This page provides an overview about managing filesystem groups.
+- [Manage filesystem groups using the GUI](https://docs.weka.io/4.2/fs/managing-filesystem-groups/managing-filesystem-groups): This page describes how to view and manage filesystem groups using the GUI.
+- [Manage filesystem groups using the CLI](https://docs.weka.io/4.2/fs/managing-filesystem-groups/manage-filesystem-groups-using-the-cli): This page describes how to view and manage filesystem groups using the CLI.
+- [Manage filesystems](https://docs.weka.io/4.2/fs/managing-filesystems): This page provides an overview about managing filesystems.
+- [Manage filesystems using the GUI](https://docs.weka.io/4.2/fs/managing-filesystems/managing-filesystems): This page describes how to view and manage filesystems using the GUI.
+- [Manage filesystems using the CLI](https://docs.weka.io/4.2/fs/managing-filesystems/managing-filesystems-1): This page describes how to view and manage filesystems using the CLI.
+- [Attach or detach object store buckets](https://docs.weka.io/4.2/fs/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems.
+- [Attach or detach object store bucket using the GUI](https://docs.weka.io/4.2/fs/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems using the GUI.
+- [Attach or detach object store buckets using the CLI](https://docs.weka.io/4.2/fs/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems-1): This page describes how to attach or detach object store buckets to or from filesystems using the CLI.
+- [Advanced data lifecycle management](https://docs.weka.io/4.2/fs/tiering): This page provides a detailed description of how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [Advanced time-based policies for data storage location](https://docs.weka.io/4.2/fs/tiering/advanced-time-based-policies-for-data-storage-location): This page provides a detailed description of how data storage is managed in tiered WEKA system configurations.
+- [Data management in tiered filesystems](https://docs.weka.io/4.2/fs/tiering/data-management-in-tiered-filesystems): This page describes the system behavior when tiering, accessing or deleting data in tiered filesystems.
+- [Transition between tiered and SSD-only filesystems](https://docs.weka.io/4.2/fs/tiering/transition-between-tiered-and-ssd-only-filesystems): This page describes how to transition from an SSD-only to a tiered filesystem, and vice versa.
+- [Manual fetch and release of data](https://docs.weka.io/4.2/fs/tiering/pre-fetching-from-object-store): How to manually force fetching tiered data back to the SSDs, and force releasing SSD data to object-store regardless of the retention policy. Also, how to find the location of the data.
+- [Mount filesystems](https://docs.weka.io/4.2/fs/mounting-filesystems): Explore the methods for mounting a filesystem on a client host using the WEKA filesystem driver, including the stateful client and stateless client methods.
+- [Mount filesystems from Single Client to Multiple Clusters (SCMC)](https://docs.weka.io/4.2/fs/mounting-filesystems/mount-filesystems-from-multiple-clusters-on-a-single-client): Mount a single WEKA client to multiple clusters simultaneously, optimizing data access and workload distribution.
+- [Manage authentication across multiple clusters with connection profiles](https://docs.weka.io/4.2/fs/mounting-filesystems/manage-authentication-across-multiple-clusters-with-connection-profiles): Learn how to manage authentication across multiple clusters in the WEKA CLI using connection profiles, enabling seamless switching between clusters without re-authentication.
+- [Snapshots](https://docs.weka.io/4.2/fs/snapshots): Snapshots enable the saving of a filesystem state to a directory and can be used for backup, archiving and testing purposes.
+- [Manage snapshots using the GUI](https://docs.weka.io/4.2/fs/snapshots/snapshots): This page describes how to manage snapshots using the GUI.
+- [Manage snapshots using the CLI](https://docs.weka.io/4.2/fs/snapshots/snapshots-1): This page describes how to manage snapshots using the CLI.
+- [Snap-To-Object](https://docs.weka.io/4.2/fs/snap-to-obj): Explore the Snap-To-Object feature, a capability facilitating the seamless data transfer from a designated snapshot to an object store.
+- [Manage Snap-To-Object using the GUI](https://docs.weka.io/4.2/fs/snap-to-obj/snap-to-obj): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the CLI](https://docs.weka.io/4.2/fs/snap-to-obj/snap-to-obj-1): The Snap-To-Object feature enables the committing of all the data of a specific snapshot to an object store.
+- [Quota management](https://docs.weka.io/4.2/fs/quota-management): This page describes how to manage quotas to alert or restrict usage of the WEKA filesystem.
+- [Manage quotas using the GUI](https://docs.weka.io/4.2/fs/quota-management/manage-quotas-using-the-gui): This page describes how to manage quotas using the GUI.
+- [Manage quotas using the CLI](https://docs.weka.io/4.2/fs/quota-management/quota-management): This page describes how to manage quotas using the CLI.
+- [Additional protocol containers](https://docs.weka.io/4.2/additional-protocols/additional-protocols-overview)
+- [Manage the NFS protocol](https://docs.weka.io/4.2/additional-protocols/nfs-support): The WEKA system enables file access through the NFS protocol instead of the WEKA client.
+- [Supported NFS client mount parameters](https://docs.weka.io/4.2/additional-protocols/nfs-support/supported-nfs-client-mount-options)
+- [Manage NFS networking using the GUI](https://docs.weka.io/4.2/additional-protocols/nfs-support/nfs-support): This page describes how to configure the NFS networking using the GUI.
+- [Manage NFS networking using the CLI](https://docs.weka.io/4.2/additional-protocols/nfs-support/nfs-support-1): This page describes how to configure the NFS networking using the CLI.
+- [Manage the S3 protocol](https://docs.weka.io/4.2/additional-protocols/s3): The WEKA configuration of the S3 protocol.
+- [S3 cluster management](https://docs.weka.io/4.2/additional-protocols/s3/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster.
+- [Manage the S3 service using the GUI](https://docs.weka.io/4.2/additional-protocols/s3/s3-cluster-management/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [Manage the S3 service using the CLI](https://docs.weka.io/4.2/additional-protocols/s3/s3-cluster-management/s3-cluster-management-1): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [S3 buckets management](https://docs.weka.io/4.2/additional-protocols/s3/s3-buckets-management): Explore managing your buckets in WEKA using S3 API, GUI, CLI, or API, with flexible permissions through IAM or bucket policies for anonymous access.
+- [Manage S3 buckets using the GUI](https://docs.weka.io/4.2/additional-protocols/s3/s3-buckets-management/s3-buckets-management): This page describes how to manage S3 buckets using the GUI.
+- [Manage S3 buckets using the CLI](https://docs.weka.io/4.2/additional-protocols/s3/s3-buckets-management/s3-buckets-management-1): This page describes how to manage S3 buckets using the CLI.
+- [S3 users and authentication](https://docs.weka.io/4.2/additional-protocols/s3/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol.
+- [Manage S3 users and authentication using the CLI](https://docs.weka.io/4.2/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol using the CLI.
+- [Manage S3 service accounts using the CLI](https://docs.weka.io/4.2/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication-1): This page describes how to add and control S3 service accounts using the CLI.
+- [S3 rules information lifecycle management (ILM)](https://docs.weka.io/4.2/additional-protocols/s3/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets.
+- [Manage S3 lifecycle rules using the GUI](https://docs.weka.io/4.2/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the GUI.
+- [Manage S3 lifecycle rules using the CLI](https://docs.weka.io/4.2/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management-1): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the CLI.
+- [Audit S3 APIs](https://docs.weka.io/4.2/additional-protocols/s3/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes.
+- [Configure audit webhook using the GUI](https://docs.weka.io/4.2/additional-protocols/s3/audit-s3-apis/configure-audit-webhook-using-the-gui)
+- [Configure audit webhook using the CLI](https://docs.weka.io/4.2/additional-protocols/s3/audit-s3-apis/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes using the CLI.
+- [Example: How to use Splunk to audit S3](https://docs.weka.io/4.2/additional-protocols/s3/audit-s3-apis/audit-s3-apis-1): This page describes an example for using Splunk to audit S3.
+- [S3 supported APIs and limitations](https://docs.weka.io/4.2/additional-protocols/s3/s3-limitations): This page describes limitations concerning the S3 service and protocol implementation.
+- [S3 examples using boto3](https://docs.weka.io/4.2/additional-protocols/s3/s3-examples-using-boto3): This page provides some examples of using the S3 API.
+- [Manage the SMB protocol](https://docs.weka.io/4.2/additional-protocols/smb-support): The WEKA configuration of the SMB protocol for shared Windows clients.
+- [Manage SMB using the GUI](https://docs.weka.io/4.2/additional-protocols/smb-support/smb-management-using-the-gui): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the GUI.
+- [Manage SMB using the CLI](https://docs.weka.io/4.2/additional-protocols/smb-support/smb-management-using-the-cli): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the CLI.
+- [Alerts](https://docs.weka.io/4.2/usage/alerts): This page describes the alerts that can be received in this version of the WEKA system.
+- [Manage alerts using the GUI](https://docs.weka.io/4.2/usage/alerts/alerts): This page describes how to manage alerts using the GUI.
+- [Manage alerts using the CLI](https://docs.weka.io/4.2/usage/alerts/alerts-1): This page describes how to manage alerts using the CLI.
+- [List of alerts and corrective actions](https://docs.weka.io/4.2/usage/alerts/list-of-alerts): Check WEKA system alerts and take necessary actions based on severity and nature.
+- [Events](https://docs.weka.io/4.2/usage/events): This page describes the events available in the WEKA system and how to work with them.
+- [Manage events using the GUI](https://docs.weka.io/4.2/usage/events/events): This page describes how to manage events using the GUI.
+- [Manage events using the CLI](https://docs.weka.io/4.2/usage/events/events-1): This page describes how to manage events using the CLI.
+- [List of events](https://docs.weka.io/4.2/usage/events/list-of-events): Explore the events the WEKA system generates organized by categories.
+- [Statistics](https://docs.weka.io/4.2/usage/statistics): This page describes the statistics available in the WEKA system and how to work with them.
+- [Manage statistics using the GUI](https://docs.weka.io/4.2/usage/statistics/statistics): This page describes how to manage the statistics using the GUI.
+- [Manage statistics using the CLI](https://docs.weka.io/4.2/usage/statistics/statistics-1): This page describes how to manage the statistics using the CLI.
+- [List of statistics](https://docs.weka.io/4.2/usage/statistics/list-of-statistics): Explore the statistics the WEKA system generates organized by categories.
+- [Insights](https://docs.weka.io/4.2/usage/insights)
+- [System congestion](https://docs.weka.io/4.2/usage/system-congestion): This page describes possible congestion issues in the WEKA system.
+- [Security management](https://docs.weka.io/4.2/usage/security): This page describes important security considerations for WEKA cluster management.
+- [Obtain authentication tokens](https://docs.weka.io/4.2/usage/security/obtain-authentication-tokens)
+- [KMS management](https://docs.weka.io/4.2/usage/security/kms-management): Efficiently manage and safeguard WEKA system keys through strategic KMS configurations and best practices. Optimize security and operational resilience.
+- [Manage KMS using the GUI](https://docs.weka.io/4.2/usage/security/kms-management/kms-management): Explore procedures for managing Key Management System (KMS) integration with the WEKA system using the GUI.
+- [Manage KMS using the CLI](https://docs.weka.io/4.2/usage/security/kms-management/kms-management-1): Explore commands for managing Key Management System (KMS) integration with the WEKA system using the CLI.
+- [TLS certificate management](https://docs.weka.io/4.2/usage/security/tls-certificate-management): This page describes how manage the TLS certificate.
+- [Manage the TLS certificate using the GUI](https://docs.weka.io/4.2/usage/security/tls-certificate-management/manage-the-tls-certificate-using-the-gui): This page describes how to deploy and replace the TLS certificate using the GUI.
+- [Manage the TLS certificate using the CLI](https://docs.weka.io/4.2/usage/security/tls-certificate-management/manage-the-tls-certificate-using-the-cli): This page describes how to deploy and replace the TLS certificate using the CLI.
+- [CA certificate management](https://docs.weka.io/4.2/usage/security/ca-certificate-management): This page describes how manage the CA certificate.
+- [Manage the CA certificate using the GUI](https://docs.weka.io/4.2/usage/security/ca-certificate-management/manage-the-ca-certificate-using-the-gui)
+- [Manage the CA certificate using the CLI](https://docs.weka.io/4.2/usage/security/ca-certificate-management/manage-the-ca-certificate-using-the-cli)
+- [Account lockout threshold policy management](https://docs.weka.io/4.2/usage/security/account-lockout-threshold-policy-management)
+- [Manage the account lockout threshold policy using GUI](https://docs.weka.io/4.2/usage/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-gui)
+- [Manage the account lockout threshold policy using CLI](https://docs.weka.io/4.2/usage/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-cli)
+- [Manage the login banner](https://docs.weka.io/4.2/usage/security/manage-the-login-banner): This page describes how to set a login banner displayed on the sign-in page.
+- [Manage the login banner using the GUI](https://docs.weka.io/4.2/usage/security/manage-the-login-banner/manage-the-login-banner-using-the-gui)
+- [Manage the login banner using the CLI](https://docs.weka.io/4.2/usage/security/manage-the-login-banner/manage-the-login-banner-using-the-cli)
+- [User management](https://docs.weka.io/4.2/usage/user-management): This page describes the management of users licensed to work with the WEKA system.
+- [Manage users using the GUI](https://docs.weka.io/4.2/usage/user-management/user-management): Explore the management of users licensed to work with the WEKA system using the GUI.
+- [Manage users using the CLI](https://docs.weka.io/4.2/usage/user-management/user-management-1): Explore the management of users licensed to work with the WEKA system using the CLI.
+- [Organizations management](https://docs.weka.io/4.2/usage/organizations): Gain insights into the conceptual framework of organizations and the operation of various WEKA system features within this context.
+- [Manage organizations using the GUI](https://docs.weka.io/4.2/usage/organizations/organizations): Explore how to manage organizations using the GUI.
+- [Manage organizations using the CLI](https://docs.weka.io/4.2/usage/organizations/organizations-1): Explore how to manage organizations using the CLI.
+- [Mount authentication for organization filesystems](https://docs.weka.io/4.2/usage/organizations/organizations-2): Explore the authentication process for users mounting organization filesystems.
+- [Expand and shrink cluster resources](https://docs.weka.io/4.2/usage/expanding-and-shrinking-cluster-resources): Expand and shrink a cluster in a homogeneous WEKA system configuration.
+- [Add a backend server](https://docs.weka.io/4.2/usage/expanding-and-shrinking-cluster-resources/add-a-backend-server)
+- [Expand specific resources of a container](https://docs.weka.io/4.2/usage/expanding-and-shrinking-cluster-resources/expansion-of-specific-resources): Guidelines for expansion processes that only involve the addition of a specific resource.
+- [Shrink a cluster](https://docs.weka.io/4.2/usage/expanding-and-shrinking-cluster-resources/shrinking-a-cluster)
+- [Background tasks](https://docs.weka.io/4.2/usage/background-tasks): This page describes the management of background tasks running on the WEKA system.‌
+- [Manage background tasks using the GUI](https://docs.weka.io/4.2/usage/background-tasks/manage-background-tasks-using-the-gui)
+- [Manage background tasks using the CLI](https://docs.weka.io/4.2/usage/background-tasks/manage-background-tasks-using-the-cli)
+- [Upgrade WEKA versions](https://docs.weka.io/4.2/usage/upgrading-weka-versions): This page describes how to upgrade to the latest Weka software version.
+- [License overview](https://docs.weka.io/4.2/licensing/overview): This page describes how licensing works in a WEKA cluster.
+- [Classic license](https://docs.weka.io/4.2/licensing/classic-licensing): Learn how to obtain and apply a classic WEKA license, a time-based license purchased for a predetermined period, to your WEKA cluster.
+- [Deploy monitoring tools using the WEKA Management Station (WMS)](https://docs.weka.io/4.2/monitor-the-weka-cluster/deploy-monitoring-tools-using-the-weka-management-station-wms): Deploy the monitoring tools, LWH, WEKAmon, and SnapTool, using the WEKA Management Station (WMS) in an on-premises environment.
+- [WEKA Home - The WEKA support cloud](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud): Improve the WEKA support process with WEKA Home.
+- [Local WEKA Home overview](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/local-weka-home-overview): Local WEKA Home is a private instance of WEKA Home deployed with a WEKA cluster in a private network.
+- [Deploy Local WEKA Home v3.0 or higher](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/local-weka-home-deployment): Explore procedures for deploying the Local WEKA Home v3.0 or higher, upgrading, modifying the configuration, and troubleshooting.
+- [Deploy Local WEKA Home v2.x](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/deploy-local-weka-home-v2.x): Explore procedures for deploying the Local WEKA Home v2.x, upgrading, modifying the configuration, and troubleshooting.
+- [Explore cluster insights and statistics](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/explore-cluster-insights-and-statistics)
+- [Manage alerts and integrations](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/manage-alerts-and-integrations)
+- [Enforce security and compliance](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/enforce-security-and-compliance)
+- [Optimize support and data management](https://docs.weka.io/4.2/monitor-the-weka-cluster/the-wekaio-support-cloud/optimize-support-and-data-management)
+- [Set up the WEKAmon external monitoring](https://docs.weka.io/4.2/monitor-the-weka-cluster/external-monitoring): The WEKAmon is an external monitoring package that provides enriched monitoring capabilities using the Grafana and Prometheus tools.
+- [Set up the SnapTool external snapshots manager](https://docs.weka.io/4.2/monitor-the-weka-cluster/snapshot-management): The SnapTool is an external snapshots manager that enables scheduled snapshots and automatic operations
+- [Get support for your WEKA system](https://docs.weka.io/4.2/support/getting-support-for-your-weka-system): Discover WEKA's support policies, proactive approach, and helpful tips for a seamless start.
+- [Diagnostics management](https://docs.weka.io/4.2/support/diagnostics-management)
+- [Traces management](https://docs.weka.io/4.2/support/diagnostics-management/traces-management): This page describes how to manage traces generated by the WEKA processes.
+- [Manage traces using the GUI](https://docs.weka.io/4.2/support/diagnostics-management/traces-management/manage-traces-using-the-gui)
+- [Manage traces using the CLI](https://docs.weka.io/4.2/support/diagnostics-management/traces-management/manage-traces-using-the-cli)
+- [Protocols debug level management](https://docs.weka.io/4.2/support/diagnostics-management/protocols-debug-level-management): This page describes the S3, NFS, and SMB protocols debug level management. A higher debug level provides more details for investigating issues.
+- [Manage protocols debug level using the GUI](https://docs.weka.io/4.2/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-gui)
+- [Manage protocols debug level using the CLI](https://docs.weka.io/4.2/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-cli)
+- [Diagnostics data management](https://docs.weka.io/4.2/support/diagnostics-management/diagnostics-utility): Manage diagnostics data for clusters, servers, and containers with CLI commands.
+- [WEKA and Slurm integration](https://docs.weka.io/4.2/best-practice-guides/weka-and-slurm-integration): Explore the architecture and configuration of an HPC cluster using the Slurm workload manager for job scheduling and WEKA as the high-performance data platform.
+- [Avoid conflicting CPU allocations](https://docs.weka.io/4.2/best-practice-guides/weka-and-slurm-integration/avoid-conflicting-cpu-allocations)
+- [Storage expansion best practice](https://docs.weka.io/4.2/best-practice-guides/storage-expansion-best-practice): Explore the best practices for expanding WEKA clusters, focusing on maintaining optimal performance in heterogeneous environments.
+- [WEKA CSI Plugin](https://docs.weka.io/4.2/appendices/weka-csi-plugin): Connect Kubernetes worker nodes to the WEKA data platform to leverage its capabilities.
+- [Deployment](https://docs.weka.io/4.2/appendices/weka-csi-plugin/deployment)
+- [Storage class configurations](https://docs.weka.io/4.2/appendices/weka-csi-plugin/storage-class-configurations)
+- [Tailor your storage class configuration with mount options](https://docs.weka.io/4.2/appendices/weka-csi-plugin/tailor-your-storage-class-configuration-with-mount-options): Leverage mount options for tailored storage control with the CSI Plugin.
+- [Dynamic and static provisioning](https://docs.weka.io/4.2/appendices/weka-csi-plugin/dynamic-and-static-provisioning)
+- [Launch an application using WEKA as the POD's storage](https://docs.weka.io/4.2/appendices/weka-csi-plugin/launch-an-application-using-weka-as-the-pods-storage)
+- [Add SELinux support](https://docs.weka.io/4.2/appendices/weka-csi-plugin/add-selinux-support)
+- [NFS transport failback](https://docs.weka.io/4.2/appendices/weka-csi-plugin/nfs-transport-failback): Learn how to use the WEKA CSI Plugin with NFS transport failback in scenarios where the WEKA client cannot be installed on a Kubernetes node.
+- [Upgrade legacy persistent volumes for capacity enforcement](https://docs.weka.io/4.2/appendices/weka-csi-plugin/upgrade-legacy-persistent-volumes-for-capacity-enforcement)
+- [Troubleshooting](https://docs.weka.io/4.2/appendices/weka-csi-plugin/troubleshooting)
+- [Convert cluster to multi-container backend](https://docs.weka.io/4.2/appendices/convert-the-cluster-architecture-from-a-single-container-backend-to-a-multi-container-backend): Professional services workflow to convert the cluster architecture from a single-container backend to a multi-container backend.
+- [Create a client image](https://docs.weka.io/4.2/appendices/create-a-client-image)
+
+## 4.1
+
+- [WEKA v4.1 documentation](https://docs.weka.io/4.1/readme)
+- [About the WEKA system](https://docs.weka.io/4.1/overview/about): Weka is a software solution that enables the implementation of a shareable, scalable, distributed file storage system.
+- [SSD capacity management](https://docs.weka.io/4.1/overview/ssd-capacity-management): Understand the key terminologies relating to WEKA system capacity management and the formula for calculating the WEKA system net data storage capacity.
+- [Filesystems, object stores, and filesystem groups](https://docs.weka.io/4.1/overview/filesystems): This page describes the three types of entities relevant to data storage in the WEKA system: filesystems, object stores and filesystem groups.
+- [WEKA networking](https://docs.weka.io/4.1/overview/networking-in-wekaio): This page reviews the theory of operation for WEKA networking.
+- [Data lifecycle management](https://docs.weka.io/4.1/overview/data-storage): This page covers the principles for data lifecycle management and how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [WEKA client and mount modes](https://docs.weka.io/4.1/overview/weka-client-and-mount-modes): Understanding the WEKA system client and possible mount modes of operation in relation to the page cache.
+- [WEKA containers architecture overview](https://docs.weka.io/4.1/overview/weka-containers-architecture-overview)
+- [Glossary](https://docs.weka.io/4.1/overview/glossary)
+- [Quick installation guide](https://docs.weka.io/4.1/getting-started-with-weka/quick-install-guide)
+- [Manage the system using the WEKA CLI](https://docs.weka.io/4.1/getting-started-with-weka/manage-the-system-using-weka-cli): This page provides an overview for WEKA CLI, including the top-level commands, command hierarchy, how to connect to another server, auto-completion, and how to check the status of the cluster.
+- [Manage the system using the WEKA GUI](https://docs.weka.io/4.1/getting-started-with-weka/manage-the-system-using-weka-gui): WEKA GUI application enables you to configure, administer, and monitor the WEKA system. This page provides an overview of the primary operations, access to the GUI, and system dashboard.
+- [Run first IOs with WEKA filesystem](https://docs.weka.io/4.1/getting-started-with-weka/performing-the-first-io): This is a quick reference guide using the CLI to perform the first IO in the WEKA filesystem.
+- [Getting started with WEKA REST API](https://docs.weka.io/4.1/getting-started-with-weka/getting-started-with-weka-rest-api)
+- [Prerequisites for installation](https://docs.weka.io/4.1/install/prerequisites-for-installation-of-weka-dedicated-hosts)
+- [WEKA installation on bare metal](https://docs.weka.io/4.1/install/bare-metal): These pages describe the stages required for installing the WEKA system in a bare metal environment (on-premises).
+- [Plan the WEKA system Installation](https://docs.weka.io/4.1/install/bare-metal/planning-a-weka-system-installation)
+- [Prepare the system for WEKA software installation](https://docs.weka.io/4.1/install/bare-metal/setting-up-the-hosts): This page describes the procedures required to system for the WEKA software installation.
+- [Enable the SR-IOV](https://docs.weka.io/4.1/install/bare-metal/setting-up-the-hosts/sr-iov-enablement)
+- [Obtain the WEKA software installation package](https://docs.weka.io/4.1/install/bare-metal/obtaining-the-weka-install-file): This page describes registering to get.weka.io and obtaining the WEKA software installation file.
+- [WEKA cluster installation](https://docs.weka.io/4.1/install/bare-metal/weka-system-installation-with-multiple-containers-using-the-cli): This page provides a detailed workflow for WEKA cluster installation with multiple containers using the CLI. These are complementary details for the quick installation guide.
+- [WEKA legacy system installation process](https://docs.weka.io/4.1/install/bare-metal/weka-system-installation-with-multiple-containers-using-the-cli/using-cli): This page describes the stages in the installation process for the WEKA legacy system (single container architecture) using the CLI.
+- [Add clients](https://docs.weka.io/4.1/install/bare-metal/adding-clients-bare-metal): This page describes how to add clients to a bare-metal cluster.
+- [WEKA installation on AWS](https://docs.weka.io/4.1/install/aws): This section provides detailed instructions on installing a WEKA system on AWS.
+- [Self-service portal](https://docs.weka.io/4.1/install/aws/self-service-portal): This page presents working with the WEKA Self-Service Portal when installing the WEKA system in AWS.
+- [CloudFormation template generator](https://docs.weka.io/4.1/install/aws/cloudformation): This page shows how to create CloudFormation templates using an API call. The same API calls are used by the Self-Service Portal to generate the CloudFormation template before redirecting to AWS.
+- [Deployment types](https://docs.weka.io/4.1/install/aws/deployment-types): This page describes the types of cluster deployments in AWS, which depend on the instance types being used and their configuration.
+- [AWS outposts deployment](https://docs.weka.io/4.1/install/aws/aws-outposts-deployment): This page describes how to install WEKA on AWS Outposts
+- [Supported EC2 instance types](https://docs.weka.io/4.1/install/aws/supported-ec2-instance-types): This page lists all instance types supported by the WEKA system version.
+- [Add clients](https://docs.weka.io/4.1/install/aws/adding-clients): This page describes the process for adding clients to an already-installed WEKA system cluster.
+- [Auto scaling group](https://docs.weka.io/4.1/install/aws/auto-scaling-group)
+- [Troubleshooting](https://docs.weka.io/4.1/install/aws/troubleshooting): This page details common errors that can occur when deploying WEKA in AWS using CloudFormation and what can be done to resolve them.
+- [WEKA installation on Azure](https://docs.weka.io/4.1/install/weka-installation-on-azure)
+- [WEKA installation on GCP](https://docs.weka.io/4.1/install/weka-installation-on-gcp): This section aims at a system engineer who is familiar with the GCP concepts and experienced with using Terraform to deploy a system on GCP.
+- [WEKA project description](https://docs.weka.io/4.1/install/weka-installation-on-gcp/weka-project-description)
+- [Deployment on GCP using Terraform](https://docs.weka.io/4.1/install/weka-installation-on-gcp/deployment-on-gcp-using-terraform)
+- [GCP Terraform package description](https://docs.weka.io/4.1/install/weka-installation-on-gcp/gcp-terraform-package-description)
+- [Required services and supported regions](https://docs.weka.io/4.1/install/weka-installation-on-gcp/required-services-and-supported-regions)
+- [Supported machine types and storage](https://docs.weka.io/4.1/install/weka-installation-on-gcp/supported-machine-types-and-storage)
+- [Auto-scale instances in GCP](https://docs.weka.io/4.1/install/weka-installation-on-gcp/auto-scale-instances-in-gcp)
+- [Add clients](https://docs.weka.io/4.1/install/weka-installation-on-gcp/add-clients)
+- [Troubleshooting](https://docs.weka.io/4.1/install/weka-installation-on-gcp/troubleshooting)
+- [WEKA performance tests](https://docs.weka.io/4.1/testing-and-troubleshooting/testing-weka-system-performance): This page describes a series of tests for measuring performance after the installation of the WEKA system. The same tests can be used to test the performance of any other storage solution.
+- [Test environment details](https://docs.weka.io/4.1/testing-and-troubleshooting/testing-weka-system-performance/test-environment-details): The page described specific configuration of the performance tests environments.
+- [Manage object stores](https://docs.weka.io/4.1/fs/managing-object-stores): This page provides an overview about managing object stores.
+- [Manage object stores using the GUI](https://docs.weka.io/4.1/fs/managing-object-stores/managing-object-stores): This page describes how to view and manage object stores using the GUI.
+- [Manage object stores using the CLI](https://docs.weka.io/4.1/fs/managing-object-stores/managing-object-stores-1): This page describes how to view and manage object stores using the CLI.
+- [Manage filesystem groups](https://docs.weka.io/4.1/fs/managing-filesystem-groups): This page provides an overview about managing filesystem groups.
+- [Manage filesystem groups using the GUI](https://docs.weka.io/4.1/fs/managing-filesystem-groups/managing-filesystem-groups): This page describes how to view and manage filesystem groups using the GUI.
+- [Manage filesystem groups using the CLI](https://docs.weka.io/4.1/fs/managing-filesystem-groups/manage-filesystem-groups-using-the-cli): This page describes how to view and manage filesystem groups using the CLI.
+- [Manage filesystems](https://docs.weka.io/4.1/fs/managing-filesystems): This page provides an overview about managing filesystems.
+- [Manage filesystems using the GUI](https://docs.weka.io/4.1/fs/managing-filesystems/managing-filesystems): This page describes how to view and manage filesystems using the GUI.
+- [Manage filesystems using the CLI](https://docs.weka.io/4.1/fs/managing-filesystems/managing-filesystems-1): This page describes how to view and manage filesystems using the CLI.
+- [Attach or detach object store buckets](https://docs.weka.io/4.1/fs/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems.
+- [Attach or detach object store bucket using the GUI](https://docs.weka.io/4.1/fs/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems using the GUI.
+- [Attach or detach object store buckets using the CLI](https://docs.weka.io/4.1/fs/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems-1): This page describes how to attach or detach object store buckets to or from filesystems using the CLI.
+- [Advanced data lifecycle management](https://docs.weka.io/4.1/fs/tiering): This page provides a detailed description of how data storage is managed in SSD-only and tiered WEKA system configurations.
+- [Advanced time-based policies for data storage location](https://docs.weka.io/4.1/fs/tiering/advanced-time-based-policies-for-data-storage-location): This page provides a detailed description of how data storage is managed in tiered WEKA system configurations.
+- [Data management in tiered filesystems](https://docs.weka.io/4.1/fs/tiering/data-management-in-tiered-filesystems): This page describes the system behavior when tiering, accessing or deleting data in tiered filesystems.
+- [Transition between tiered and SSD-only filesystems](https://docs.weka.io/4.1/fs/tiering/transition-between-tiered-and-ssd-only-filesystems): This page describes how to transition from an SSD-only to a tiered filesystem, and vice versa.
+- [Manual fetch and release of data](https://docs.weka.io/4.1/fs/tiering/pre-fetching-from-object-store): This page describes how to manually force-fetching tiered data back to SSDs, and force-releasing SSD data to object-store
+- [Mount filesystems](https://docs.weka.io/4.1/fs/mounting-filesystems): To use a filesystem via the WEKA filesystem driver, it has to be mounted on one of the cluster servers. This page describes how this is performed.
+- [Snapshots](https://docs.weka.io/4.1/fs/snapshots): Snapshots enable the saving of a filesystem state to a directory and can be used for backup, archiving and testing purposes.
+- [Manage snapshots using the GUI](https://docs.weka.io/4.1/fs/snapshots/snapshots): This page describes how to manage snapshots using the GUI.
+- [Manage snapshots using the CLI](https://docs.weka.io/4.1/fs/snapshots/snapshots-1): This page describes how to manage snapshots using the CLI.
+- [Snap-To-Object](https://docs.weka.io/4.1/fs/snap-to-obj): This page describes the Snap-To-Object feature, which enables the movement of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the GUI](https://docs.weka.io/4.1/fs/snap-to-obj/snap-to-obj): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the CLI](https://docs.weka.io/4.1/fs/snap-to-obj/snap-to-obj-1): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Quota management](https://docs.weka.io/4.1/fs/quota-management): This page describes how to manage quotas to alert or restrict usage of the WEKA filesystem.
+- [Manage quotas using the GUI](https://docs.weka.io/4.1/fs/quota-management/manage-quotas-using-the-gui): This page describes how to manage quotas using the GUI.
+- [Manage quotas using the CLI](https://docs.weka.io/4.1/fs/quota-management/quota-management): This page describes how to manage quotas using the CLI.
+- [Manage the NFS protocol](https://docs.weka.io/4.1/additional-protocols/nfs-support): This page describes how the WEKA system enables file access through the NFS protocol instead of the WEKA client.
+- [Supported NFS client mount options](https://docs.weka.io/4.1/additional-protocols/nfs-support/supported-nfs-client-mount-options)
+- [Manage NFS networking using the GUI](https://docs.weka.io/4.1/additional-protocols/nfs-support/nfs-support): This page describes how to configure the NFS networking using the GUI.
+- [Manage NFS networking using the CLI](https://docs.weka.io/4.1/additional-protocols/nfs-support/nfs-support-1): This page describes how to configure the NFS networking using the CLI.
+- [Manage the SMB protocol](https://docs.weka.io/4.1/additional-protocols/smb-support): This page describes the WEKA configuration of the SMB protocol for shared Windows clients.
+- [Manage SMB using the GUI](https://docs.weka.io/4.1/additional-protocols/smb-support/smb-management-using-the-gui): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the GUI.
+- [Manage SMB using the CLI](https://docs.weka.io/4.1/additional-protocols/smb-support/smb-management-using-the-cli): This page provides procedures for setting up an SMB cluster over WEKA filesystems and managing the cluster itself, using the CLI.
+- [Manage the S3 protocol](https://docs.weka.io/4.1/additional-protocols/s3): This page describes the WEKA implementation of the S3 protocol.
+- [S3 cluster management](https://docs.weka.io/4.1/additional-protocols/s3/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster.
+- [Manage the S3 service using the GUI](https://docs.weka.io/4.1/additional-protocols/s3/s3-cluster-management/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [Manage the S3 service using the CLI](https://docs.weka.io/4.1/additional-protocols/s3/s3-cluster-management/s3-cluster-management-1): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [S3 buckets management](https://docs.weka.io/4.1/additional-protocols/s3/s3-buckets-management): This page describes how to manage S3 buckets.
+- [Manage S3 buckets using the GUI](https://docs.weka.io/4.1/additional-protocols/s3/s3-buckets-management/s3-buckets-management): This page describes how to manage S3 buckets using the GUI.
+- [Manage S3 buckets using the CLI](https://docs.weka.io/4.1/additional-protocols/s3/s3-buckets-management/s3-buckets-management-1): This page describes how to manage S3 buckets using the CLI.
+- [S3 users and authentication](https://docs.weka.io/4.1/additional-protocols/s3/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol.
+- [Manage S3 users and authentication using the CLI](https://docs.weka.io/4.1/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol using the CLI.
+- [Manage S3 service accounts using the CLI](https://docs.weka.io/4.1/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication-1): This page describes how to add and control S3 service accounts using the CLI.
+- [S3 rules information lifecycle management (ILM)](https://docs.weka.io/4.1/additional-protocols/s3/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets.
+- [Manage S3 lifecycle rules using the GUI](https://docs.weka.io/4.1/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the GUI.
+- [Manage S3 lifecycle rules using the CLI](https://docs.weka.io/4.1/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management-1): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the CLI.
+- [Audit S3 APIs](https://docs.weka.io/4.1/additional-protocols/s3/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes.
+- [Configure audit webhook using the GUI](https://docs.weka.io/4.1/additional-protocols/s3/audit-s3-apis/configure-audit-webhook-using-the-gui)
+- [Configure audit webhook using the CLI](https://docs.weka.io/4.1/additional-protocols/s3/audit-s3-apis/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes using the CLI.
+- [Example: How to use Splunk to audit S3](https://docs.weka.io/4.1/additional-protocols/s3/audit-s3-apis/audit-s3-apis-1): This page describes an example for using Splunk to audit S3.
+- [S3 supported APIs and limitations](https://docs.weka.io/4.1/additional-protocols/s3/s3-limitations): This page describes limitations concerning the S3 service and protocol implementation.
+- [S3 examples using boto3](https://docs.weka.io/4.1/additional-protocols/s3/s3-examples-using-boto3): This page provides some examples of using the S3 API.
+- [Alerts](https://docs.weka.io/4.1/usage/alerts): This page describes the alerts that can be received in this version of the WEKA system.
+- [Manage alerts using the GUI](https://docs.weka.io/4.1/usage/alerts/alerts): This page describes how to manage alerts using the GUI.
+- [Manage alerts using the CLI](https://docs.weka.io/4.1/usage/alerts/alerts-1): This page describes how to manage alerts using the CLI.
+- [List of alerts and corrective actions](https://docs.weka.io/4.1/usage/alerts/list-of-alerts): This page lists all the alerts generated by the WEKA system and possible actions to take.
+- [Events](https://docs.weka.io/4.1/usage/events): This page describes the events available in the WEKA system and how to work with them.
+- [Manage events using the GUI](https://docs.weka.io/4.1/usage/events/events): This page describes how to manage events using the GUI.
+- [Manage events using the CLI](https://docs.weka.io/4.1/usage/events/events-1): This page describes how to manage events using the CLI.
+- [List of events](https://docs.weka.io/4.1/usage/events/list-of-events): This page lists all the events generated by the WEKA system, according to category.
+- [Statistics](https://docs.weka.io/4.1/usage/statistics): This page describes the statistics available in the WEKA system and how to work with them.
+- [Manage statistics using the GUI](https://docs.weka.io/4.1/usage/statistics/statistics): This page describes how to manage the statistics using the GUI.
+- [Manage statistics using the CLI](https://docs.weka.io/4.1/usage/statistics/statistics-1): This page describes how to manage the statistics using the CLI.
+- [List of statistics](https://docs.weka.io/4.1/usage/statistics/list-of-statistics): This page lists all the statistics the WEKA system generates according to their category.
+- [System congestion](https://docs.weka.io/4.1/usage/system-congestion): This page describes possible congestion issues in the WEKA system.
+- [Security management](https://docs.weka.io/4.1/usage/security): This page describes important security considerations for WEKA cluster management.
+- [Obtain authentication tokens](https://docs.weka.io/4.1/usage/security/obtain-authentication-tokens)
+- [KMS management](https://docs.weka.io/4.1/usage/security/kms-management): This page describes the management of a Key Management System (KMS) within the WEKA system.
+- [Manage KMS using the GUI](https://docs.weka.io/4.1/usage/security/kms-management/kms-management): This page describes how to manage the Key Management System (KMS) using the GUI.
+- [Manage KMS using the CLI](https://docs.weka.io/4.1/usage/security/kms-management/kms-management-1): This page describes how to manage the Key Management System (KMS) using the CLI.
+- [TLS certificate management](https://docs.weka.io/4.1/usage/security/tls-certificate-management): This page describes how manage the TLS certificate.
+- [Manage the TLS certificate using the GUI](https://docs.weka.io/4.1/usage/security/tls-certificate-management/manage-the-tls-certificate-using-the-gui): This page describes how to deploy and replace the TLS certificate using the GUI.
+- [Manage the TLS certificate using the CLI](https://docs.weka.io/4.1/usage/security/tls-certificate-management/manage-the-tls-certificate-using-the-cli): This page describes how to deploy and replace the TLS certificate using the CLI.
+- [CA certificate management](https://docs.weka.io/4.1/usage/security/ca-certificate-management): This page describes how manage the CA certificate.
+- [Manage the CA certificate using the GUI](https://docs.weka.io/4.1/usage/security/ca-certificate-management/manage-the-ca-certificate-using-the-gui)
+- [Manage the CA certificate using the CLI](https://docs.weka.io/4.1/usage/security/ca-certificate-management/manage-the-ca-certificate-using-the-cli)
+- [Account lockout threshold policy management](https://docs.weka.io/4.1/usage/security/account-lockout-threshold-policy-management)
+- [Manage the account lockout threshold policy using GUI](https://docs.weka.io/4.1/usage/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-gui)
+- [Manage the account lockout threshold policy using CLI](https://docs.weka.io/4.1/usage/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-cli)
+- [Manage the login banner](https://docs.weka.io/4.1/usage/security/manage-the-login-banner): This page describes how to set a login banner displayed on the sign-in page.
+- [Manage the login banner using the GUI](https://docs.weka.io/4.1/usage/security/manage-the-login-banner/manage-the-login-banner-using-the-gui)
+- [Manage the login banner using the CLI](https://docs.weka.io/4.1/usage/security/manage-the-login-banner/manage-the-login-banner-using-the-cli)
+- [User management](https://docs.weka.io/4.1/usage/user-management): This page describes the management of users licensed to work with the WEKA system.
+- [Manage users using the GUI](https://docs.weka.io/4.1/usage/user-management/user-management): This page describes the management of users licensed to work with the WEKA system.
+- [Manage users using the CLI](https://docs.weka.io/4.1/usage/user-management/user-management-1): This page describes the management of users licensed to work with the WEKA system.
+- [Organizations management](https://docs.weka.io/4.1/usage/organizations): This page describes the concept of organizations and how different WEKA system features operate within an organizational context.
+- [Manage organizations using the GUI](https://docs.weka.io/4.1/usage/organizations/organizations): This page describes how to manage organizations using the GUI.
+- [Manage organizations using the CLI](https://docs.weka.io/4.1/usage/organizations/organizations-1): This page describes how to manage organizations using the CLI.
+- [Mount authentication for organization filesystems](https://docs.weka.io/4.1/usage/organizations/organizations-2): This page describes how uses that mount the organization filesystems are authenticated.
+- [Expand and shrink cluster resources](https://docs.weka.io/4.1/usage/expanding-and-shrinking-cluster-resources): Expand and shrink a cluster in a homogeneous WEKA system configuration.
+- [Add a backend server in a multiple containers architecture](https://docs.weka.io/4.1/usage/expanding-and-shrinking-cluster-resources/add-a-backend-server-in-a-multiple-containers-architecture)
+- [Add a backend server in a legacy architecture](https://docs.weka.io/4.1/usage/expanding-and-shrinking-cluster-resources/stages-in-adding-a-backend-host)
+- [Expand specific resources of a container](https://docs.weka.io/4.1/usage/expanding-and-shrinking-cluster-resources/expansion-of-specific-resources): Guidelines for expansion processes that only involve the addition of a specific resource.
+- [Shrink a cluster](https://docs.weka.io/4.1/usage/expanding-and-shrinking-cluster-resources/shrinking-a-cluster)
+- [Background tasks](https://docs.weka.io/4.1/usage/background-tasks): This page describes the management of background tasks running on the WEKA system.‌
+- [Upgrade WEKA versions](https://docs.weka.io/4.1/usage/upgrading-weka-versions): This page describes how to upgrade to the latest Weka software version.
+- [License overview](https://docs.weka.io/4.1/licensing/overview): This page describes how licensing works in a WEKA cluster.
+- [Classic license](https://docs.weka.io/4.1/licensing/classic-licensing): This page describes how to obtain a classic WEKA license (payment for a predetermined period of time) and apply it to the WEKA cluster.
+- [Pay-As-You-Go license](https://docs.weka.io/4.1/licensing/pay-as-you-go): This page describes Pay-As-You-Go (PAYG) licenses which allow cluster payment on an hourly basis, as part of your AWS bill.
+- [Prerequisites and compatibility](https://docs.weka.io/4.1/support/prerequisites-and-compatibility): This page describes the prerequisites and compatibility for the installation of the WEKA system.
+- [Get support for your WEKA system](https://docs.weka.io/4.1/support/getting-support-for-your-weka-system): This page describes WEKA policy and approach for responsive and proactive technical support, together with some recommended helpful steps when starting to work with WEKA.
+- [Diagnostics management](https://docs.weka.io/4.1/support/diagnostics-management)
+- [Traces management](https://docs.weka.io/4.1/support/diagnostics-management/traces-management): This page describes how to manage traces generated by the WEKA processes.
+- [Manage traces using the GUI](https://docs.weka.io/4.1/support/diagnostics-management/traces-management/manage-traces-using-the-gui)
+- [Manage traces using the CLI](https://docs.weka.io/4.1/support/diagnostics-management/traces-management/manage-traces-using-the-cli)
+- [Protocols debug level management](https://docs.weka.io/4.1/support/diagnostics-management/protocols-debug-level-management): This page describes the S3, NFS, and SMB protocols debug level management. A higher debug level provides more details for investigating issues.
+- [Manage protocols debug level using the GUI](https://docs.weka.io/4.1/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-gui)
+- [Manage protocols debug level using the CLI](https://docs.weka.io/4.1/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-cli)
+- [Diagnostics data management](https://docs.weka.io/4.1/support/diagnostics-management/diagnostics-utility): This page describes the diagnostics CLI commands used for collecting and uploading the diagnostics data.
+- [Weka Home - The WEKA support cloud](https://docs.weka.io/4.1/support/the-wekaio-support-cloud): Improve the WEKA support process with Weka Home.
+- [Local Weka Home overview](https://docs.weka.io/4.1/support/the-wekaio-support-cloud/local-weka-home-overview): Local Weka Home is a private instance of Weka Home deployed with a Weka cluster in a private network.
+- [Local Weka Home deployment](https://docs.weka.io/4.1/support/the-wekaio-support-cloud/local-weka-home-deployment): This topic provides procedures for deploying the Local Weka Home on a Minikube infrastructure, upgrading, modifying the configuration, and troubleshooting.
+- [Set the Local Weka Home to send alerts or events](https://docs.weka.io/4.1/support/the-wekaio-support-cloud/set-the-local-weka-home-to-send-alerts-or-events)
+- [Download the Usage Report or Analytics](https://docs.weka.io/4.1/support/the-wekaio-support-cloud/download-the-usage-report-or-analytics)
+- [WEKA CSI Plugin](https://docs.weka.io/4.1/appendix/weka-csi-plugin): This page describes the WEKA CSI Plugin prerequisites, capabilities, deployment, and usage.
+- [Set up the WEKAmon external monitoring](https://docs.weka.io/4.1/appendix/external-monitoring): The WEKAmon is an external monitoring package that provides enriched monitoring capabilities using the Grafana and Prometheus tools.
+- [Set up the SnapTool external snapshots manager](https://docs.weka.io/4.1/appendix/snapshot-management): The SnapTool is an external snapshots manager that enables scheduled snapshots and automatic operations
+
+## 4.0
+
+- [WEKA v4.0 documentation](https://docs.weka.io/4.0/readme)
+- [About the WEKA system](https://docs.weka.io/4.0/overview/about): WEKA is a software solution that enables the implementation of a shareable, scalable, distributed file storage system.
+- [SSD capacity management](https://docs.weka.io/4.0/overview/ssd-capacity-management): Understand the key terminologies relating to Weka system capacity management and the formula for calculating the Weka system net data storage capacity.
+- [Filesystems, object stores, and filesystem groups](https://docs.weka.io/4.0/overview/filesystems): This page describes the three types of entities relevant to data storage in the Weka system: filesystems, object stores and filesystem groups.
+- [Weka networking](https://docs.weka.io/4.0/overview/networking-in-wekaio): This page reviews the theory of operation for Weka networking.
+- [Data lifecycle management](https://docs.weka.io/4.0/overview/data-storage): This page covers the principles for data lifecycle management and how data storage is managed in SSD-only and tiered Weka system configurations.
+- [Weka client and mount modes](https://docs.weka.io/4.0/overview/weka-client-and-mount-modes): Understanding the Weka system client and possible mount modes of operation in relation to the page cache.
+- [Weka containers architecture overview](https://docs.weka.io/4.0/overview/weka-containers-architecture-overview)
+- [Glossary](https://docs.weka.io/4.0/overview/glossary)
+- [Quick installation guide](https://docs.weka.io/4.0/getting-started-with-weka/quick-install-guide)
+- [Manage the system using the Weka CLI](https://docs.weka.io/4.0/getting-started-with-weka/manage-the-system-using-weka-cli): This page provides an overview for Weka CLI, including the top-level commands, command hierarchy, how to connect to another host, auto-completion, and how to check the status of the cluster.
+- [Manage the system using the Weka GUI](https://docs.weka.io/4.0/getting-started-with-weka/manage-the-system-using-weka-gui): Weka GUI application enables you to configure, administer, and monitor the Weka system. This page provides an overview of the primary operations, access to the GUI, and system dashboard.
+- [Run first IOs with WekaFS](https://docs.weka.io/4.0/getting-started-with-weka/performing-the-first-io): This page describes a quick guide using the CLI towards performing the first IO in a WekaFS filesystem.
+- [Getting started with Weka REST API](https://docs.weka.io/4.0/getting-started-with-weka/getting-started-with-weka-rest-api)
+- [Prerequisites for installation](https://docs.weka.io/4.0/install/prerequisites-for-installation-of-weka-dedicated-hosts)
+- [Weka installation on bare metal](https://docs.weka.io/4.0/install/bare-metal): These pages describe the stages required for installing the Weka system, which are system planning, prerequisites, obtaining the Weka installation file, and the installation stages.
+- [Planning a Weka System Installation](https://docs.weka.io/4.0/install/bare-metal/planning-a-weka-system-installation)
+- [Prepare the system for Weka installation](https://docs.weka.io/4.0/install/bare-metal/setting-up-the-hosts): This page describes the procedures required to system for the Weka software installation.
+- [SR-IOV enablement](https://docs.weka.io/4.0/install/bare-metal/setting-up-the-hosts/sr-iov-enablement): This page describes the procedure required in order to set up SR-IOV.
+- [Obtain the Weka software installation package](https://docs.weka.io/4.0/install/bare-metal/obtaining-the-weka-install-file): This page describes registering to get.weka.io and obtaining the Weka software installation file.
+- [Weka cluster installation](https://docs.weka.io/4.0/install/bare-metal/using-cli): This page provides a detailed workflow for WEKA cluster installation with multiple containers using the CLI. These are complementary details for the quick installation guide.
+- [WEKA legacy system installation process](https://docs.weka.io/4.0/install/bare-metal/weka-legacy-system-installation-process): This page describes the stages in the installation process for the WEKA legacy system (single container architecture) using the CLI.
+- [Add clients](https://docs.weka.io/4.0/install/bare-metal/adding-clients-bare-metal): This page describes how to add clients to a bare-metal cluster.
+- [Weka installation on AWS](https://docs.weka.io/4.0/install/aws): This section provides the detailed instructions on how to install a Weka system on AWS.
+- [Self-service portal](https://docs.weka.io/4.0/install/aws/self-service-portal): This page presents working with the Weka Self-Service Portal when installing the Weka system in AWS.
+- [CloudFormation template generator](https://docs.weka.io/4.0/install/aws/cloudformation): This page shows how to create CloudFormation templates using an API call. The same API calls are used by the Self-Service Portal to generate the CloudFormation template before redirecting to AWS.
+- [Deployment types](https://docs.weka.io/4.0/install/aws/deployment-types): This page describes the types of cluster deployments in AWS, which depend on the instance types being used and their configuration.
+- [AWS outposts deployment](https://docs.weka.io/4.0/install/aws/aws-outposts-deployment): This page describes how to install Weka on AWS Outposts
+- [Supported EC2 instance types](https://docs.weka.io/4.0/install/aws/supported-ec2-instance-types): This page lists all instance types supported by the Weka system version.
+- [Add clients](https://docs.weka.io/4.0/install/aws/adding-clients): This page describes the process for adding clients to an already-installed Weka system cluster.
+- [Auto scaling group](https://docs.weka.io/4.0/install/aws/auto-scaling-group)
+- [Troubleshooting](https://docs.weka.io/4.0/install/aws/troubleshooting): This page details common errors that can occur when deploying Weka in AWS using CloudFormation and what can be done to resolve them.
+- [Weka performance tests](https://docs.weka.io/4.0/testing-and-troubleshooting/testing-weka-system-performance): This page describes a series of tests for measuring performance after the installation of the Weka system. The same tests can be used to test the performance of any other storage solution.
+- [Test environment details](https://docs.weka.io/4.0/testing-and-troubleshooting/testing-weka-system-performance/test-environment-details): The page described specific configuration of the performance tests environments.
+- [Manage object stores](https://docs.weka.io/4.0/fs/managing-object-stores): This page provides an overview about managing object stores.
+- [Manage object stores using the GUI](https://docs.weka.io/4.0/fs/managing-object-stores/managing-object-stores): This page describes how to view and manage object stores using the GUI.
+- [Manage object stores using the CLI](https://docs.weka.io/4.0/fs/managing-object-stores/managing-object-stores-1): This page describes how to view and manage object stores using the CLI.
+- [Manage filesystem groups](https://docs.weka.io/4.0/fs/managing-filesystem-groups): This pages provides an overview about managing filesystem groups.
+- [Manage filesystem groups using the GUI](https://docs.weka.io/4.0/fs/managing-filesystem-groups/managing-filesystem-groups): This pages describes how to view and manage filesystem groups using the GUI.
+- [Manage filesystem groups using the CLI](https://docs.weka.io/4.0/fs/managing-filesystem-groups/manage-filesystem-groups-using-the-cli): This pages describes how to view and manage filesystem groups using the CLI.
+- [Manage filesystems](https://docs.weka.io/4.0/fs/managing-filesystems): This pages provides an overview about managing filesystems.
+- [Manage filesystems using the GUI](https://docs.weka.io/4.0/fs/managing-filesystems/managing-filesystems): This page describes how to view and manage filesystems using the GUI.
+- [Manage filesystems using the CLI](https://docs.weka.io/4.0/fs/managing-filesystems/managing-filesystems-1): This page describes how to view and manage filesystems using the CLI.
+- [Attach or detach object store buckets](https://docs.weka.io/4.0/fs/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems.
+- [Attach or detach object store bucket using the GUI](https://docs.weka.io/4.0/fs/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach or detach object stores buckets to or from filesystems using the GUI.
+- [Attach or detach object store buckets using the CLI](https://docs.weka.io/4.0/fs/attaching-detaching-object-stores-to-from-filesystems/attaching-detaching-object-stores-to-from-filesystems-1): This page describes how to attach or detach object store buckets to or from filesystems using the CLI.
+- [Advanced data lifecycle management](https://docs.weka.io/4.0/fs/tiering): This page provides a detailed description of how data storage is managed in SSD-only and tiered Weka system configurations.
+- [Advanced time-based policies for data storage location](https://docs.weka.io/4.0/fs/tiering/advanced-time-based-policies-for-data-storage-location): This page provides a detailed description of how data storage is managed in tiered Weka system configurations.
+- [Data management in tiered filesystems](https://docs.weka.io/4.0/fs/tiering/data-management-in-tiered-filesystems): This page describes the system behavior when tiering, accessing or deleting data in tiered filesystems.
+- [Transition between tiered and SSD-only filesystems](https://docs.weka.io/4.0/fs/tiering/transition-between-tiered-and-ssd-only-filesystems): This page describes how to transition from an SSD-only to a tiered filesystem, and vice versa.
+- [Manual fetch and release of data](https://docs.weka.io/4.0/fs/tiering/pre-fetching-from-object-store): This page describes how to manually force-fetching tiered data back to SSDs, and force-releasing SSD data to object-store
+- [Mount filesystems](https://docs.weka.io/4.0/fs/mounting-filesystems): To use a filesystem via the Weka filesystem driver, it has to be mounted on one of the cluster hosts. This page describes how this is performed.
+- [Snapshots](https://docs.weka.io/4.0/fs/snapshots): Snapshots enable the saving of a filesystem state to a directory and can be used for backup, archiving and testing purposes.
+- [Manage snapshots using the GUI](https://docs.weka.io/4.0/fs/snapshots/snapshots): This page describes how to manage snapshots using the GUI.
+- [Manage snapshots using the CLI](https://docs.weka.io/4.0/fs/snapshots/snapshots-1): This page describes how to manage snapshots using the CLI.
+- [Snap-To-Object](https://docs.weka.io/4.0/fs/snap-to-obj): This page describes the Snap-To-Object feature, which enables the movement of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the GUI](https://docs.weka.io/4.0/fs/snap-to-obj/snap-to-obj): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Manage Snap-To-Object using the CLI](https://docs.weka.io/4.0/fs/snap-to-obj/snap-to-obj-1): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object store.
+- [Quota management](https://docs.weka.io/4.0/fs/quota-management): This page describes how to manage quotas to alert or restrict usage of the WekaFS filesystem.
+- [NFS](https://docs.weka.io/4.0/additional-protocols/nfs-support): This page describes how the Weka system enables file access through the NFS protocol instead of the Weka client.
+- [Manage NFS networking using the GUI](https://docs.weka.io/4.0/additional-protocols/nfs-support/nfs-support): This page describes how to configure the NFS networking using the GUI.
+- [Manage NFS networking using the CLI](https://docs.weka.io/4.0/additional-protocols/nfs-support/nfs-support-1): This page describes how to configure the NFS networking using the CLI.
+- [SMB](https://docs.weka.io/4.0/additional-protocols/smb-support): This page describes the Weka configuration of the SMB protocol for shared Windows clients.
+- [Manage SMB using the GUI](https://docs.weka.io/4.0/additional-protocols/smb-support/smb-management-using-the-gui): This page provides procedures for setting up an SMB cluster over Weka filesystems and managing the cluster itself, using the GUI.
+- [Manage SMB using the CLI](https://docs.weka.io/4.0/additional-protocols/smb-support/smb-management-using-the-cli): This page provides procedures for setting up an SMB cluster over Weka filesystems and managing the cluster itself, using the CLI.
+- [S3](https://docs.weka.io/4.0/additional-protocols/s3): This page describes the Weka implementation of the S3 protocol.
+- [S3 cluster management](https://docs.weka.io/4.0/additional-protocols/s3/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster.
+- [Manage the S3 service using the GUI](https://docs.weka.io/4.0/additional-protocols/s3/s3-cluster-management/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [Manage the S3 service using the CLI](https://docs.weka.io/4.0/additional-protocols/s3/s3-cluster-management/s3-cluster-management-1): This page describes how to set up, update, monitor, and delete an S3 cluster using the GUI.
+- [S3 buckets management](https://docs.weka.io/4.0/additional-protocols/s3/s3-buckets-management): This page describes how to manage S3 buckets.
+- [Manage S3 buckets using the GUI](https://docs.weka.io/4.0/additional-protocols/s3/s3-buckets-management/s3-buckets-management): This page describes how to manage S3 buckets using the GUI.
+- [Manage S3 buckets using the CLI](https://docs.weka.io/4.0/additional-protocols/s3/s3-buckets-management/s3-buckets-management-1): This page describes how to manage S3 buckets using the CLI.
+- [S3 users and authentication](https://docs.weka.io/4.0/additional-protocols/s3/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol.
+- [Manage S3 users and authentication using the CLI](https://docs.weka.io/4.0/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol using the CLI.
+- [Manage S3 service accounts using the CLI](https://docs.weka.io/4.0/additional-protocols/s3/s3-users-and-authentication/s3-users-and-authentication-1): This page describes how to add and control S3 service accounts using the CLI.
+- [S3 rules information lifecycle management (ILM)](https://docs.weka.io/4.0/additional-protocols/s3/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets.
+- [Manage S3 rules using the CLI](https://docs.weka.io/4.0/additional-protocols/s3/s3-information-lifecycle-management/s3-information-lifecycle-management): This page describes how to manage information lifecycle (ILM) rules for S3 buckets using the CLI.
+- [Audit S3 APIs](https://docs.weka.io/4.0/additional-protocols/s3/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes.
+- [Configure audit webhook using the GUI](https://docs.weka.io/4.0/additional-protocols/s3/audit-s3-apis/configure-audit-webhook-using-the-gui)
+- [Configure audit webhook using the CLI](https://docs.weka.io/4.0/additional-protocols/s3/audit-s3-apis/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes using the CLI.
+- [Example: How to use Splunk to audit S3](https://docs.weka.io/4.0/additional-protocols/s3/audit-s3-apis/audit-s3-apis-1): This page describes an example for using Splunk to audit S3.
+- [S3 supported APIs and limitations](https://docs.weka.io/4.0/additional-protocols/s3/s3-limitations): This page describes limitations concerning the S3 service and protocol implementation.
+- [S3 examples using boto3](https://docs.weka.io/4.0/additional-protocols/s3/s3-examples-using-boto3): This page provides some examples of using the S3 API.
+- [Alerts](https://docs.weka.io/4.0/usage/alerts): This page describes the alerts that can be received in this version of the Weka system.
+- [Manage alerts using the GUI](https://docs.weka.io/4.0/usage/alerts/alerts): This page describes how to manage alerts using the GUI.
+- [Manage alerts using the CLI](https://docs.weka.io/4.0/usage/alerts/alerts-1): This page describes how to manage alerts using the CLI.
+- [List of alerts and corrective actions](https://docs.weka.io/4.0/usage/alerts/list-of-alerts): This page lists all the alerts generated by the Weka system, along with possible actions to take.
+- [Events](https://docs.weka.io/4.0/usage/events): This page describes the events available in the Weka system and how to work with them.
+- [Manage events using the GUI](https://docs.weka.io/4.0/usage/events/events): This page describes how to manage events using the GUI.
+- [Manage events using the CLI](https://docs.weka.io/4.0/usage/events/events-1): This page describes how to manage events using the CLI.
+- [List of events](https://docs.weka.io/4.0/usage/events/list-of-events): This page lists all the events generated by the Weka system, according to category.
+- [Statistics](https://docs.weka.io/4.0/usage/statistics): This page describes the statistics available in the Weka system and how to work with them.
+- [Manage statistics using the GUI](https://docs.weka.io/4.0/usage/statistics/statistics): This page describes how to manage the statistics using the GUI.
+- [Manage statistics using the CLI](https://docs.weka.io/4.0/usage/statistics/statistics-1): This page describes how to manage the statistics using the GUI.
+- [List of statistics](https://docs.weka.io/4.0/usage/statistics/list-of-statistics): This page lists all the statistics generated by the Weka system, according to category.
+- [System congestion](https://docs.weka.io/4.0/usage/system-congestion): This page describes possible congestion issues in the Weka system.
+- [Security management](https://docs.weka.io/4.0/usage/security): This page describes important security consideration for the Weka cluster management.
+- [Obtain authentication tokens](https://docs.weka.io/4.0/usage/security/obtain-authentication-tokens)
+- [KMS management](https://docs.weka.io/4.0/usage/security/kms-management): This page describes the management of a Key Management System (KMS) within the Weka system.
+- [Manage KMS using the GUI](https://docs.weka.io/4.0/usage/security/kms-management/kms-management): This page describes thow to manage the Key Management System (KMS) using the GUI.
+- [Manage KMS using the CLI](https://docs.weka.io/4.0/usage/security/kms-management/kms-management-1): This page describes how to manage the Key Management System (KMS) using the CLI.
+- [TLS certificate management](https://docs.weka.io/4.0/usage/security/tls-certificate-management): This page describes how manage the TLS certificate.
+- [Manage the TLS certificate using the GUI](https://docs.weka.io/4.0/usage/security/tls-certificate-management/manage-the-tls-certificate-using-the-gui): This page describes how to deploy and replace the TLS certificate using the GUI.
+- [Manage the TLS certificate using the CLI](https://docs.weka.io/4.0/usage/security/tls-certificate-management/manage-the-tls-certificate-using-the-cli): This page describes how to deploy and replace the TLS certificate using the CLI.
+- [CA certificate management](https://docs.weka.io/4.0/usage/security/ca-certificate-management): This page describes how manage the CA certificate.
+- [Manage the CA certificate using the GUI](https://docs.weka.io/4.0/usage/security/ca-certificate-management/manage-the-ca-certificate-using-the-gui)
+- [Manage the CA certificate using the CLI](https://docs.weka.io/4.0/usage/security/ca-certificate-management/manage-the-ca-certificate-using-the-cli)
+- [Account lockout threshold policy management](https://docs.weka.io/4.0/usage/security/account-lockout-threshold-policy-management)
+- [Manage the account lockout threshold policy using GUI](https://docs.weka.io/4.0/usage/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-gui)
+- [Manage the account lockout threshold policy using CLI](https://docs.weka.io/4.0/usage/security/account-lockout-threshold-policy-management/manage-the-account-lockout-threshold-policy-using-cli)
+- [Manage the login banner](https://docs.weka.io/4.0/usage/security/manage-the-login-banner): This page describes how to set a login banner displayed on the sign-in page.
+- [Manage the login banner using the GUI](https://docs.weka.io/4.0/usage/security/manage-the-login-banner/manage-the-login-banner-using-the-gui)
+- [Manage the login banner using the CLI](https://docs.weka.io/4.0/usage/security/manage-the-login-banner/manage-the-login-banner-using-the-cli)
+- [User management](https://docs.weka.io/4.0/usage/user-management): This page describes the management of users licensed to work with the Weka system.
+- [Manage users using the GUI](https://docs.weka.io/4.0/usage/user-management/user-management): This page describes the management of users licensed to work with the Weka system.
+- [Manage users using the CLI](https://docs.weka.io/4.0/usage/user-management/user-management-1): This page describes the management of users licensed to work with the Weka system.
+- [Organizations management](https://docs.weka.io/4.0/usage/organizations): This page describes the concept of organizations and how different Weka system features operate within an organizational context.
+- [Manage organizations using the GUI](https://docs.weka.io/4.0/usage/organizations/organizations): This page describes how to manage organizations using the GUI.
+- [Manage organizations using the CLI](https://docs.weka.io/4.0/usage/organizations/organizations-1): This page describes how to manage organizations using the CLI.
+- [Mount authentication for organization filesystems](https://docs.weka.io/4.0/usage/organizations/organizations-2): This page describes how uses that mount the organization filesystems are authenticated.
+- [Expand and shrink cluster resources](https://docs.weka.io/4.0/usage/expanding-and-shrinking-cluster-resources): These pages present how to expand and shrink a cluster in a homogeneous Weka system configuration.
+- [Expand and shrink overview](https://docs.weka.io/4.0/usage/expanding-and-shrinking-cluster-resources/expand-and-shrink-overview): This page presents an overview of the cluster expand and shrink process in a homogeneous Weka system configuration.
+- [Workflow: Add a backend host](https://docs.weka.io/4.0/usage/expanding-and-shrinking-cluster-resources/stages-in-adding-a-backend-host)
+- [Expansion of specific resources](https://docs.weka.io/4.0/usage/expanding-and-shrinking-cluster-resources/expansion-of-specific-resources): This page provides the guidelines for expansion processes that only involve the addition of specific resources.
+- [Shrink a Cluster](https://docs.weka.io/4.0/usage/expanding-and-shrinking-cluster-resources/shrinking-a-cluster): This page describes the procedures involved in the shrinking of a cluster, which may be required when it is necessary to reallocate cluster hardware.
+- [Background tasks](https://docs.weka.io/4.0/usage/background-tasks): This page describes the management of background tasks running on the Weka system.‌
+- [Upgrade Weka versions](https://docs.weka.io/4.0/usage/upgrading-weka-versions): This page describes how to upgrade to the latest Weka software version.
+- [License overview](https://docs.weka.io/4.0/licensing/overview): This page describes how licensing works in a Weka cluster.
+- [Classic license](https://docs.weka.io/4.0/licensing/classic-licensing): This page describes how to obtain a classic Weka license (payment for a predetermined period of time) and apply it to the Weka cluster.
+- [Pay-As-You-Go license](https://docs.weka.io/4.0/licensing/pay-as-you-go): This page describes Pay-As-You-Go (PAYG) licenses which allow cluster payment on an hourly basis, as part of your AWS bill.
+- [Prerequisites and compatibility](https://docs.weka.io/4.0/support/prerequisites-and-compatibility): This page describes the prerequisites and compatibility for the installation and upgrade of the Weka system.
+- [Get support for your Weka system](https://docs.weka.io/4.0/support/getting-support-for-your-weka-system): This page describes Weka policy and approach for responsive and proactive technical support, together with some recommended helpful steps when starting to work with Weka.
+- [Diagnostics management](https://docs.weka.io/4.0/support/diagnostics-management)
+- [Traces management](https://docs.weka.io/4.0/support/diagnostics-management/traces-management): This page describes how to manage traces generated by the Weka processes.
+- [Manage traces using the GUI](https://docs.weka.io/4.0/support/diagnostics-management/traces-management/manage-traces-using-the-gui)
+- [Manage traces using the CLI](https://docs.weka.io/4.0/support/diagnostics-management/traces-management/manage-traces-using-the-cli)
+- [Protocols debug level management](https://docs.weka.io/4.0/support/diagnostics-management/protocols-debug-level-management): This page describes the S3, NFS, and SMB protocols debug level management. A higher debug level provides more details for investigating issues.
+- [Manage protocols debug level using the GUI](https://docs.weka.io/4.0/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-gui)
+- [Manage protocols debug level using the CLI](https://docs.weka.io/4.0/support/diagnostics-management/protocols-debug-level-management/manage-protocols-debug-level-using-the-cli)
+- [Collect and upload diagnostics data](https://docs.weka.io/4.0/support/diagnostics-management/diagnostics-utility): This page describes the diagnostics CLI commands used for collecting and uploading the diagnostics data.
+- [Weka Home - The Weka support cloud](https://docs.weka.io/4.0/support/the-wekaio-support-cloud): Improve the Weka support process with Weka Home.
+- [Local Weka Home overview](https://docs.weka.io/4.0/support/the-wekaio-support-cloud/local-weka-home-overview): Local Weka Home is a private instance of Weka Home deployed with a Weka cluster in a private network.
+- [Local Weka Home deployment](https://docs.weka.io/4.0/support/the-wekaio-support-cloud/local-weka-home-deployment): This topic provides procedures for deploying the Local Weka Home on a Minikube infrastructure, upgrading, modifying the configuration, and troubleshooting.
+- [Set the Local Weka Home to send alerts or events](https://docs.weka.io/4.0/support/the-wekaio-support-cloud/set-the-local-weka-home-to-send-alerts-or-events)
+- [Download the Usage Report or Analytics](https://docs.weka.io/4.0/support/the-wekaio-support-cloud/download-the-usage-report-or-analytics)
+- [Weka CSI Plugin](https://docs.weka.io/4.0/appendix/weka-csi-plugin): This page describes the Weka CSI Plugin prerequisites, capabilities, deployment, and usage.
+- [Set up the Weka-mon external monitoring](https://docs.weka.io/4.0/appendix/external-monitoring): The Weka-mon is an external monitoring package, which provides enriched monitoring capabilities using the Grafana and Prometheus tools.
+- [Set up the SnapTool external snapshots manager](https://docs.weka.io/4.0/appendix/snapshot-management): The SnapTool is an external snapshots manager that enables scheduled snapshots and automatic operations
+
+## 3.14
+
+- [WEKA v3.14 Documentation](https://docs.weka.io/3.14/readme)
+- [About the WEKA System](https://docs.weka.io/3.14/overview/about): Weka is a software solution that enables the implementation of a shareable, scalable, distributed file storage system.
+- [SSD Capacity Management](https://docs.weka.io/3.14/overview/ssd-capacity-management): Understand the key terminologies relating to Weka system capacity management and the formula for calculating the Weka system net data storage capacity.
+- [Filesystems, Object Stores & Filesystem Groups](https://docs.weka.io/3.14/overview/filesystems): This page describes the three types of entities relevant to data storage in the Weka system: filesystems, object stores and filesystem groups.
+- [Weka Networking](https://docs.weka.io/3.14/overview/networking-in-wekaio): This page reviews the theory of operation for Weka networking.
+- [Data Lifecycle Management](https://docs.weka.io/3.14/overview/data-storage): This page covers the principles for data lifecycle management and how data storage is managed in SSD-only and tiered Weka system configurations.
+- [Weka Client & Mount Modes](https://docs.weka.io/3.14/overview/weka-client-and-mount-modes): Understanding the Weka system client and possible mount modes of operation in relation to the page cache.
+- [Glossary](https://docs.weka.io/3.14/overview/glossary)
+- [Quick Install Guide](https://docs.weka.io/3.14/getting-started-with-weka/quick-install-guide)
+- [Managing the Weka System](https://docs.weka.io/3.14/getting-started-with-weka/managing-wekaio-system): This page describes the various ways to manage Weka system.
+- [CLI Overview](https://docs.weka.io/3.14/getting-started-with-weka/cli-overview): This page provides an overview of the Weka system CLI.
+- [GUI Overview](https://docs.weka.io/3.14/getting-started-with-weka/gui): This page provides an overview of the Weka system GUI.
+- [Serving IOs with WekaFS](https://docs.weka.io/3.14/getting-started-with-weka/performing-the-first-io): This page describes a quick guide using the CLI towards performing the first IO in a WekaFS filesystem.
+- [Prerequisites for Installation](https://docs.weka.io/3.14/install/prerequisites-for-installation-of-weka-dedicated-hosts)
+- [Bare Metal Installation](https://docs.weka.io/3.14/install/bare-metal): These pages describe the stages necessary for installing the Weka system, which are system planning, prerequisites, obtaining the Weka installation file and the actual stages of installation.
+- [Planning a Weka System Installation](https://docs.weka.io/3.14/install/bare-metal/planning-a-weka-system-installation)
+- [Setting Up the Hosts](https://docs.weka.io/3.14/install/bare-metal/setting-up-the-hosts): This page describes the procedures required to set up backend and client machines for the first time.
+- [SR-IOV Enablement](https://docs.weka.io/3.14/install/bare-metal/setting-up-the-hosts/sr-iov-enablement): This page describes the procedure required in order to set up SR-IOV.
+- [Obtaining the Weka Install File](https://docs.weka.io/3.14/install/bare-metal/obtaining-the-weka-install-file): This page describes the process for obtaining the Weka software tar install file.
+- [Weka System Installation Process Using the CLI](https://docs.weka.io/3.14/install/bare-metal/using-cli): This page describes the stages in the installation process when using the CLI.
+- [Adding Clients](https://docs.weka.io/3.14/install/bare-metal/adding-clients-bare-metal): This page describes how to add clients to a bare-metal cluster.
+- [AWS Installation](https://docs.weka.io/3.14/install/aws): This section provides the detailed instructions on how to install a Weka filesystem in AWS.
+- [Self-Service Portal](https://docs.weka.io/3.14/install/aws/self-service-portal): This page presents working with the Weka Self-Service Portal when installing the Weka system in AWS.
+- [CloudFormation Template Generator](https://docs.weka.io/3.14/install/aws/cloudformation): This page shows how to create CloudFormation templates using an API call. The same API calls are used by the Self-Service Portal to generate the CloudFormation template before redirecting to AWS.
+- [Deployment Types](https://docs.weka.io/3.14/install/aws/deployment-types): This page describes the types of cluster deployments in AWS, which depend on the instance types being used and their configuration.
+- [AWS Outposts Deployment](https://docs.weka.io/3.14/install/aws/aws-outposts-deployment): This page describes how to install Weka on AWS Outposts
+- [Supported EC2 Instance Types](https://docs.weka.io/3.14/install/aws/supported-ec2-instance-types): This page lists all instance types supported by the Weka system version.
+- [Adding Clients](https://docs.weka.io/3.14/install/aws/adding-clients): This page describes the process for adding clients to an already-installed Weka system cluster.
+- [Auto Scaling Group](https://docs.weka.io/3.14/install/aws/auto-scaling-group)
+- [Troubleshooting](https://docs.weka.io/3.14/install/aws/troubleshooting): This page details common errors that can occur when deploying Weka in AWS using CloudFormation and what can be done to resolve them.
+- [Testing Weka Performance](https://docs.weka.io/3.14/testing-and-troubleshooting/testing-weka-system-performance): This page describes a series of tests for measuring performance after the installation of the Weka system. The same tests can be used to test the performance of any other storage solution.
+- [Test Environment Details](https://docs.weka.io/3.14/testing-and-troubleshooting/testing-weka-system-performance/test-environment-details): The page described specific configuration of the performance tests environments.
+- [Managing Filesystems, Object Stores & Filesystem Groups](https://docs.weka.io/3.14/fs/managing-filesystems): This page describes how to view and manage filesystems, filesystem groups, and object stores using the GUI and the CLI.
+- [Managing Object Stores](https://docs.weka.io/3.14/fs/managing-filesystems/managing-object-stores): This page describes how to view and manage object stores using the GUI and the CLI.
+- [Managing Filesystem Groups](https://docs.weka.io/3.14/fs/managing-filesystems/managing-filesystem-groups): This pages describes how to view and manage filesystem groups using the GUI and the CLI.
+- [Managing Filesystems](https://docs.weka.io/3.14/fs/managing-filesystems/managing-filesystems): This page describes how to view and manage filesystems using the GUI and the CLI.
+- [Attaching/Detaching Object Stores to/from Filesystems](https://docs.weka.io/3.14/fs/managing-filesystems/attaching-detaching-object-stores-to-from-filesystems): This page describes how to attach/detach object stores to filesystems using the GUI and the CLI.
+- [KMS Management](https://docs.weka.io/3.14/fs/managing-filesystems/kms-management): This page describes the management of a Key Management System (KMS) within the Weka system.
+- [Advanced Data Lifecycle Management](https://docs.weka.io/3.14/fs/tiering): This page provides a detailed description of how data storage is managed in SSD-only and tiered Weka system configurations.
+- [Advanced Time-based Policies for Data Storage Location](https://docs.weka.io/3.14/fs/tiering/advanced-time-based-policies-for-data-storage-location): This page provides a detailed description of how data storage is managed in tiered Weka system configurations.
+- [Data Management in Tiered Filesystems](https://docs.weka.io/3.14/fs/tiering/data-management-in-tiered-filesystems): This page describes the system behavior when tiering, accessing or deleting data in tiered filesystems.
+- [Transition Between Tiered and SSD-Only Filesystems](https://docs.weka.io/3.14/fs/tiering/transition-between-tiered-and-ssd-only-filesystems): This page describes how to transition from an SSD-only to a tiered filesystem, and vice versa.
+- [Manual fetch and release of data](https://docs.weka.io/3.14/fs/tiering/pre-fetching-from-object-store): This page describes how to manually force-fetching tiered data back to SSDs, and force-releasing SSD data to object-store
+- [Mounting Filesystems](https://docs.weka.io/3.14/fs/mounting-filesystems): To use a filesystem via the Weka filesystem driver, it has to be mounted on one of the cluster hosts. This page describes how this is performed.
+- [Snapshots](https://docs.weka.io/3.14/fs/snapshots): Snapshots enable the saving of a filesystem state to a directory and can be used for backup, archiving and testing purposes.
+- [Snap-To-Object](https://docs.weka.io/3.14/fs/snap-to-obj): This page describes the Snap-To-Object feature, which enables the committing of all the data of a specific snapshot to an object-store.
+- [Quota Management](https://docs.weka.io/3.14/fs/quota-management): This page describes how to manage quotas to alert or restrict usage of the WekaFS filesystem.
+- [NFS](https://docs.weka.io/3.14/additional-protocols/nfs-support): This page describes how the Weka system enables file access through the NFS protocol, instead of the Weka client. The Weka system supports NFSv3.
+- [SMB](https://docs.weka.io/3.14/additional-protocols/smb-support): This page describes the Weka implementation of the SMB protocol for shared Windows clients.
+- [SMB Management Using CLIs](https://docs.weka.io/3.14/additional-protocols/smb-support/smb-management-using-the-cli): This page details SMB management - setting up an SMB cluster over Weka filesystems and managing the cluster itself - using CLIs.
+- [SMB Management Using the GUI](https://docs.weka.io/3.14/additional-protocols/smb-support/smb-management-using-the-gui): This page details SMB management - setting up an SMB cluster over Weka filesystems and managing the cluster itself - using the GUI.
+- [S3](https://docs.weka.io/3.14/additional-protocols/s3): This page describes the Weka implementation of the S3 protocol.
+- [S3 Cluster Management](https://docs.weka.io/3.14/additional-protocols/s3/s3-cluster-management): This page describes how to set up, update, monitor, and delete an S3 cluster.
+- [S3 Buckets Management](https://docs.weka.io/3.14/additional-protocols/s3/s3-buckets-management): This page describes how to manage S3 buckets.
+- [S3 Users and Authentication](https://docs.weka.io/3.14/additional-protocols/s3/s3-users-and-authentication): This page describes how to gain and obtain access permissions to the S3 protocol.
+- [S3 Information Lifecycle Management](https://docs.weka.io/3.14/additional-protocols/s3/s3-information-lifecycle-management): This page describes how to define information lifecycle rules for S3 buckets.
+- [Audit S3 APIs](https://docs.weka.io/3.14/additional-protocols/s3/audit-s3-apis): This page describes how to set up an HTTP webhook for S3  audit purposes.
+- [S3 Limitations](https://docs.weka.io/3.14/additional-protocols/s3/s3-limitations): This page describes limitations concerning the S3 service and protocol implementation.
+- [S3 Examples using boto3](https://docs.weka.io/3.14/additional-protocols/s3/s3-examples-using-boto3): This page provides some examples of using the S3 API.
+- [Alerts](https://docs.weka.io/3.14/usage/alerts): This page describes the alerts that can be received in this version of the Weka system.
+- [List of Alerts](https://docs.weka.io/3.14/usage/alerts/list-of-alerts): This page lists all the alerts generated by the Weka system, along with possible actions to take.
+- [Events](https://docs.weka.io/3.14/usage/events): This page describes the events available in the Weka system and how to work with them.
+- [List of Events](https://docs.weka.io/3.14/usage/events/list-of-events): This page lists all the events generated by the Weka system, according to category.
+- [Statistics](https://docs.weka.io/3.14/usage/statistics): This page describes the statistics available in the Weka system and how to work with them.
+- [List of Statistics](https://docs.weka.io/3.14/usage/statistics/list-of-statistics): This page lists all the statistics generated by the Weka system, according to category.
+- [System Congestion](https://docs.weka.io/3.14/usage/system-congestion): This page describes possible congestion issues in the Weka system.
+- [Security](https://docs.weka.io/3.14/usage/security): This page describes important security consideration for the Weka cluster management.
+- [User Management](https://docs.weka.io/3.14/usage/security/user-management): This page describes the management of users licensed to work with the Weka system.
+- [Organizations](https://docs.weka.io/3.14/usage/security/organizations): This page describes the concept of organizations and how different Weka system features operate within an organizational context.
+- [Expanding & Shrinking Cluster Resources](https://docs.weka.io/3.14/usage/expanding-and-shrinking-cluster-resources): These pages present how to expand and shrink a cluster in a homogeneous Weka system configuration.
+- [Expand & Shrink Overview](https://docs.weka.io/3.14/usage/expanding-and-shrinking-cluster-resources/expand-and-shrink-overview): This page presents an overview of the cluster expand and shrink process in a homogeneous Weka system configuration.
+- [Stages in Adding a Backend Host](https://docs.weka.io/3.14/usage/expanding-and-shrinking-cluster-resources/stages-in-adding-a-backend-host)
+- [Expansion of Specific Resources](https://docs.weka.io/3.14/usage/expanding-and-shrinking-cluster-resources/expansion-of-specific-resources): This page provides the guidelines for expansion processes that only involve the addition of specific resources.
+- [Shrinking a Cluster](https://docs.weka.io/3.14/usage/expanding-and-shrinking-cluster-resources/shrinking-a-cluster): This page describes the procedures involved in the shrinking of a cluster, which may be required when it is necessary to reallocate cluster hardware.
+- [Background Tasks](https://docs.weka.io/3.14/usage/background-tasks): This page describes the management of background tasks running on Weka clusters.‌
+- [Upgrading Weka Versions](https://docs.weka.io/3.14/usage/upgrading-weka-versions): This page describes how to upgrade to the latest Weka software version.
+- [License Overview](https://docs.weka.io/3.14/licensing/overview): This page describes how licensing works in a Weka system cluster.
+- [Classic License](https://docs.weka.io/3.14/licensing/classic-licensing): This page describes how to obtain a classic Weka license (payment for a predetermined period of time) and apply it to the Weka system cluster.
+- [Pay-As-You-Go License](https://docs.weka.io/3.14/licensing/pay-as-you-go): This page describes Pay-As-You-Go (PAYG) licenses which allow cluster payment on an hourly basis, as part of your AWS bill.
+- [Prerequisites and Compatibility](https://docs.weka.io/3.14/support/prerequisites-and-compatibility): This page describes the prerequisites and compatibility for the installation of the Weka system.
+- [Getting Support for Your Weka System](https://docs.weka.io/3.14/support/getting-support-for-your-weka-system): This page describes Weka policy and approach for responsive and proactive technical support, together with some recommended helpful steps when starting to work with Weka.
+- [The Weka Support Cloud](https://docs.weka.io/3.14/support/the-wekaio-support-cloud): This page describes the Weka support cloud which is provided to improve the Weka support process.
+- [Diagnostics CLI Command](https://docs.weka.io/3.14/support/diagnostics-utility): This page describes the diagnostics CLI command which is used for running cluster diagnostics.
+- [Weka CSI Plugin](https://docs.weka.io/3.14/appendix/weka-csi-plugin): This page describes the Weka CSI Plugin prerequisites, capabilities, deployment, and usage.
+- [External Monitoring](https://docs.weka.io/3.14/appendix/external-monitoring): This page describes how to set up external monitoring using Prometheus and Grafana
+- [Snapshot Management](https://docs.weka.io/3.14/appendix/snapshot-management): This page describes how to set up automatic snapshot mangement

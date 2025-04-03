@@ -1,0 +1,368 @@
+# Cal.com Docs
+
+## Docs
+
+- [Creates a new attendee](https://cal.com/docs/api-reference/v1/attendees/creates-a-new-attendee.md)
+- [Edit an existing attendee](https://cal.com/docs/api-reference/v1/attendees/edit-an-existing-attendee.md)
+- [Find all attendees](https://cal.com/docs/api-reference/v1/attendees/find-all-attendees.md)
+- [Find an attendee](https://cal.com/docs/api-reference/v1/attendees/find-an-attendee.md)
+- [Remove an existing attendee](https://cal.com/docs/api-reference/v1/attendees/remove-an-existing-attendee.md)
+- [Authentication](https://cal.com/docs/api-reference/v1/authentication.md)
+- [Creates a new availability](https://cal.com/docs/api-reference/v1/availabilities/creates-a-new-availability.md)
+- [Edit an existing availability](https://cal.com/docs/api-reference/v1/availabilities/edit-an-existing-availability.md)
+- [Find an availability](https://cal.com/docs/api-reference/v1/availabilities/find-an-availability.md)
+- [Remove an existing availability](https://cal.com/docs/api-reference/v1/availabilities/remove-an-existing-availability.md)
+- [Creates a new  booking reference](https://cal.com/docs/api-reference/v1/booking-references/creates-a-new-booking-reference.md)
+- [Edit an existing booking reference](https://cal.com/docs/api-reference/v1/booking-references/edit-an-existing-booking-reference.md)
+- [Find a booking reference](https://cal.com/docs/api-reference/v1/booking-references/find-a-booking-reference.md)
+- [Find all booking references](https://cal.com/docs/api-reference/v1/booking-references/find-all-booking-references.md)
+- [Remove an existing booking reference](https://cal.com/docs/api-reference/v1/booking-references/remove-an-existing-booking-reference.md)
+- [Booking cancellation](https://cal.com/docs/api-reference/v1/bookings/booking-cancellation.md)
+- [Creates a new booking](https://cal.com/docs/api-reference/v1/bookings/creates-a-new-booking.md)
+- [Edit an existing booking](https://cal.com/docs/api-reference/v1/bookings/edit-an-existing-booking.md)
+- [Find a booking](https://cal.com/docs/api-reference/v1/bookings/find-a-booking.md)
+- [Find all Cal video recordings of that booking](https://cal.com/docs/api-reference/v1/bookings/find-all-cal-video-recordings-of-that-booking.md)
+- [Find all Cal video transcripts of that booking](https://cal.com/docs/api-reference/v1/bookings/find-all-cal-video-transcripts-of-that-booking.md)
+- [Find all Cal video transcripts of that recording](https://cal.com/docs/api-reference/v1/bookings/find-all-cal-video-transcripts-of-that-recording.md)
+- [Create a credential record for a user](https://cal.com/docs/api-reference/v1/credentials/create-a-credential-record-for-a-user.md)
+- [Delete a credential record for a user](https://cal.com/docs/api-reference/v1/credentials/delete-a-credential-record-for-a-user.md)
+- [Get all app credentials for a user](https://cal.com/docs/api-reference/v1/credentials/get-all-app-credentials-for-a-user.md)
+- [Update a credential record for a user](https://cal.com/docs/api-reference/v1/credentials/update-a-credential-record-for-a-user.md)
+- [Creates a new destination calendar](https://cal.com/docs/api-reference/v1/destination-calendars/creates-a-new-destination-calendar.md)
+- [Edit an existing destination calendar](https://cal.com/docs/api-reference/v1/destination-calendars/edit-an-existing-destination-calendar.md)
+- [Find a destination calendar](https://cal.com/docs/api-reference/v1/destination-calendars/find-a-destination-calendar.md)
+- [Find all destination calendars](https://cal.com/docs/api-reference/v1/destination-calendars/find-all-destination-calendars.md)
+- [Remove an existing destination calendar](https://cal.com/docs/api-reference/v1/destination-calendars/remove-an-existing-destination-calendar.md)
+- [Errors](https://cal.com/docs/api-reference/v1/errors.md)
+- [Creates a new event type](https://cal.com/docs/api-reference/v1/event-types/creates-a-new-event-type.md)
+- [Edit an existing eventType](https://cal.com/docs/api-reference/v1/event-types/edit-an-existing-eventtype.md)
+- [Find a eventType](https://cal.com/docs/api-reference/v1/event-types/find-a-eventtype.md)
+- [Find all event types](https://cal.com/docs/api-reference/v1/event-types/find-all-event-types.md)
+- [Find all event types that belong to teamId](https://cal.com/docs/api-reference/v1/event-types/find-all-event-types-that-belong-to-teamid.md)
+- [Remove an existing eventType](https://cal.com/docs/api-reference/v1/event-types/remove-an-existing-eventtype.md)
+- [Quick start](https://cal.com/docs/api-reference/v1/introduction.md)
+- [Creates a new membership](https://cal.com/docs/api-reference/v1/memberships/creates-a-new-membership.md)
+- [Edit an existing membership](https://cal.com/docs/api-reference/v1/memberships/edit-an-existing-membership.md)
+- [Find a membership by userID and teamID](https://cal.com/docs/api-reference/v1/memberships/find-a-membership-by-userid-and-teamid.md)
+- [Find all memberships](https://cal.com/docs/api-reference/v1/memberships/find-all-memberships.md)
+- [Remove an existing membership](https://cal.com/docs/api-reference/v1/memberships/remove-an-existing-membership.md)
+- [Find a payment](https://cal.com/docs/api-reference/v1/payments/find-a-payment.md)
+- [Find all payments](https://cal.com/docs/api-reference/v1/payments/find-all-payments.md)
+- [Rate limits](https://cal.com/docs/api-reference/v1/rate-limit.md)
+- [Creates a new schedule](https://cal.com/docs/api-reference/v1/schedules/creates-a-new-schedule.md)
+- [Edit an existing schedule](https://cal.com/docs/api-reference/v1/schedules/edit-an-existing-schedule.md)
+- [Find a schedule](https://cal.com/docs/api-reference/v1/schedules/find-a-schedule.md)
+- [Find all schedules](https://cal.com/docs/api-reference/v1/schedules/find-all-schedules.md)
+- [Remove an existing schedule](https://cal.com/docs/api-reference/v1/schedules/remove-an-existing-schedule.md)
+- [Creates a new selected calendar](https://cal.com/docs/api-reference/v1/selected-calendars/creates-a-new-selected-calendar.md)
+- [Edit a selected calendar](https://cal.com/docs/api-reference/v1/selected-calendars/edit-a-selected-calendar.md)
+- [Find a selected calendar by providing the compoundId(userId_integration_externalId) separated by `_`](https://cal.com/docs/api-reference/v1/selected-calendars/find-a-selected-calendar-by-providing-the-compoundiduserid_integration_externalid-separated-by-`_`.md)
+- [Find all selected calendars](https://cal.com/docs/api-reference/v1/selected-calendars/find-all-selected-calendars.md)
+- [Remove a selected calendar](https://cal.com/docs/api-reference/v1/selected-calendars/remove-a-selected-calendar.md)
+- [Get all bookable slots between a datetime range](https://cal.com/docs/api-reference/v1/slots/get-all-bookable-slots-between-a-datetime-range.md)
+- [Creates a new team](https://cal.com/docs/api-reference/v1/teams/creates-a-new-team.md)
+- [Edit an existing team](https://cal.com/docs/api-reference/v1/teams/edit-an-existing-team.md)
+- [Find a team](https://cal.com/docs/api-reference/v1/teams/find-a-team.md)
+- [Find all teams](https://cal.com/docs/api-reference/v1/teams/find-all-teams.md)
+- [Remove an existing team](https://cal.com/docs/api-reference/v1/teams/remove-an-existing-team.md)
+- [Creates a new user](https://cal.com/docs/api-reference/v1/users/creates-a-new-user.md)
+- [Edit an existing user](https://cal.com/docs/api-reference/v1/users/edit-an-existing-user.md)
+- [Find a user, returns your user if regular user.](https://cal.com/docs/api-reference/v1/users/find-a-user-returns-your-user-if-regular-user.md)
+- [Find all users](https://cal.com/docs/api-reference/v1/users/find-all-users.md)
+- [Remove an existing user](https://cal.com/docs/api-reference/v1/users/remove-an-existing-user.md)
+- [Creates a new webhook](https://cal.com/docs/api-reference/v1/webhooks/creates-a-new-webhook.md)
+- [Edit an existing webhook](https://cal.com/docs/api-reference/v1/webhooks/edit-an-existing-webhook.md)
+- [Find a webhook](https://cal.com/docs/api-reference/v1/webhooks/find-a-webhook.md)
+- [Find all webhooks](https://cal.com/docs/api-reference/v1/webhooks/find-all-webhooks.md)
+- [Remove an existing hook](https://cal.com/docs/api-reference/v1/webhooks/remove-an-existing-hook.md)
+- [Refresh API Key](https://cal.com/docs/api-reference/v2/api-keys/refresh-api-key.md): Generate a new API key and delete the current one. Provide API key to refresh as a Bearer token in the Authorization header (e.g. "Authorization: Bearer <apiKey>").
+- [Automatically reassign booking to a new host automatically - provided authorization header refers to person who reassigned the booking.](https://cal.com/docs/api-reference/v2/bookings/automatically-reassign-booking-to-a-new-host-automatically--provided-authorization-header-refers-to-person-who-reassigned-the-booking.md)
+- [Cancel a booking](https://cal.com/docs/api-reference/v2/bookings/cancel-a-booking.md): :bookingUid can be :bookingUid of an usual booking, individual recurrence or recurring booking to cancel all recurrences.
+    For seated bookings to cancel one individual booking provide :bookingUid and :seatUid in the request body. For recurring seated bookings it is not possible to cancel all of them with 1 call
+    like with non-seated recurring bookings by providing recurring bookind uid - you have to cancel each recurrence booking by its bookingUid + seatUid.
+- [Confirm booking that requires a confirmation - provided authorization header refers to owner of the booking.](https://cal.com/docs/api-reference/v2/bookings/confirm-booking-that-requires-a-confirmation--provided-authorization-header-refers-to-owner-of-the-booking.md)
+- [Create a booking](https://cal.com/docs/api-reference/v2/bookings/create-a-booking.md): 
+      POST /v2/bookings is used to create regular bookings, recurring bookings and instant bookings. The request bodies for all 3 are almost the same except:
+      If eventTypeId in the request body is id of a regular event, then regular booking is created.
+
+      If it is an id of a recurring event type, then recurring booking is created.
+
+      Meaning that the request bodies are equal but the outcome depends on what kind of event type it is with the goal of making it as seamless for developers as possible.
+
+      For team event types it is possible to create instant meeting. To do that just pass `"instant": true` to the request body.
+
+      The start needs to be in UTC aka if the timezone is GMT+2 in Rome and meeting should start at 11, then UTC time should have hours 09:00 aka without time zone.
+      
+- [Decline booking that requires a confirmation - provided authorization header refers to owner of the booking.](https://cal.com/docs/api-reference/v2/bookings/decline-booking-that-requires-a-confirmation--provided-authorization-header-refers-to-owner-of-the-booking.md)
+- [Get a booking](https://cal.com/docs/api-reference/v2/bookings/get-a-booking.md): `:bookingUid` can be
+
+      1. uid of a normal booking
+
+      2. uid of one of the recurring booking recurrences
+
+      3. uid of recurring booking which will return an array of all recurring booking recurrences (stored as recurringBookingUid on one of the individual recurrences).
+- [Get 'Add to Calendar' links for a booking](https://cal.com/docs/api-reference/v2/bookings/get-add-to-calendar-links-for-a-booking.md): Retrieve calendar links for a booking that can be used to add the event to various calendar services. Returns links for Google Calendar, Microsoft Office, Microsoft Outlook, and a downloadable ICS file.
+- [Get all bookings](https://cal.com/docs/api-reference/v2/bookings/get-all-bookings.md)
+- [Mark a booking absence - provided authorization header refers to owner of the booking.](https://cal.com/docs/api-reference/v2/bookings/mark-a-booking-absence--provided-authorization-header-refers-to-owner-of-the-booking.md)
+- [Reassign a booking to a specific user specified by the :userId - provided authorization header refers to person who reassigned the booking.](https://cal.com/docs/api-reference/v2/bookings/reassign-a-booking-to-a-specific-user-specified-by-the-:userid--provided-authorization-header-refers-to-person-who-reassigned-the-booking.md)
+- [Reschedule a booking](https://cal.com/docs/api-reference/v2/bookings/reschedule-a-booking.md): Reschedule a booking or seated booking
+- [Check a calendar connection](https://cal.com/docs/api-reference/v2/calendars/check-a-calendar-connection.md)
+- [Check an ICS feed](https://cal.com/docs/api-reference/v2/calendars/check-an-ics-feed.md)
+- [Disconnect a calendar](https://cal.com/docs/api-reference/v2/calendars/disconnect-a-calendar.md)
+- [Get all calendars](https://cal.com/docs/api-reference/v2/calendars/get-all-calendars.md)
+- [Get busy times](https://cal.com/docs/api-reference/v2/calendars/get-busy-times.md): Get busy times from a calendar. Example request URL is `https://api.cal.com/v2/calendars/busy-times?loggedInUsersTz=Europe%2FMadrid&dateFrom=2024-12-18&dateTo=2024-12-18&calendarsToLoad[0][credentialId]=135&calendarsToLoad[0][externalId]=skrauciz%40gmail.com`
+- [Get oAuth connect URL](https://cal.com/docs/api-reference/v2/calendars/get-oauth-connect-url.md)
+- [Save an ICS feed](https://cal.com/docs/api-reference/v2/calendars/save-an-ics-feed.md)
+- [Save an oAuth calendar credentials](https://cal.com/docs/api-reference/v2/calendars/save-an-oauth-calendar-credentials.md)
+- [Sync credentials](https://cal.com/docs/api-reference/v2/calendars/sync-credentials.md)
+- [conferencing apps oauths callback](https://cal.com/docs/api-reference/v2/conferencing/conferencing-apps-oauths-callback.md)
+- [Connect your conferencing application](https://cal.com/docs/api-reference/v2/conferencing/connect-your-conferencing-application.md)
+- [Disconnect your conferencing application](https://cal.com/docs/api-reference/v2/conferencing/disconnect-your-conferencing-application.md)
+- [Get OAuth conferencing app auth url](https://cal.com/docs/api-reference/v2/conferencing/get-oauth-conferencing-app-auth-url.md)
+- [Get your default conferencing application](https://cal.com/docs/api-reference/v2/conferencing/get-your-default-conferencing-application.md)
+- [List your conferencing applications](https://cal.com/docs/api-reference/v2/conferencing/list-your-conferencing-applications.md)
+- [Set your default conferencing application](https://cal.com/docs/api-reference/v2/conferencing/set-your-default-conferencing-application.md)
+- [Update destination calendars](https://cal.com/docs/api-reference/v2/destination-calendars/update-destination-calendars.md)
+- [Create a webhook](https://cal.com/docs/api-reference/v2/event-types-webhooks/create-a-webhook.md)
+- [Delete a webhook](https://cal.com/docs/api-reference/v2/event-types-webhooks/delete-a-webhook.md)
+- [Delete all webhooks](https://cal.com/docs/api-reference/v2/event-types-webhooks/delete-all-webhooks.md)
+- [Get a webhook](https://cal.com/docs/api-reference/v2/event-types-webhooks/get-a-webhook.md)
+- [Get all webhooks](https://cal.com/docs/api-reference/v2/event-types-webhooks/get-all-webhooks.md)
+- [Update a webhook](https://cal.com/docs/api-reference/v2/event-types-webhooks/update-a-webhook.md)
+- [Create an event type](https://cal.com/docs/api-reference/v2/event-types/create-an-event-type.md)
+- [Delete an event type](https://cal.com/docs/api-reference/v2/event-types/delete-an-event-type.md)
+- [Get all event types](https://cal.com/docs/api-reference/v2/event-types/get-all-event-types.md)
+- [Get an event type](https://cal.com/docs/api-reference/v2/event-types/get-an-event-type.md)
+- [Update an event type](https://cal.com/docs/api-reference/v2/event-types/update-an-event-type.md)
+- [Introduction to API v2](https://cal.com/docs/api-reference/v2/introduction.md): Introduction to Cal.com API v2 endpoints
+- [Get my profile](https://cal.com/docs/api-reference/v2/me/get-my-profile.md)
+- [Update my profile](https://cal.com/docs/api-reference/v2/me/update-my-profile.md)
+- [Create an OAuth client](https://cal.com/docs/api-reference/v2/oauth-clients/create-an-oauth-client.md)
+- [Delete an OAuth client](https://cal.com/docs/api-reference/v2/oauth-clients/delete-an-oauth-client.md)
+- [Get all OAuth clients](https://cal.com/docs/api-reference/v2/oauth-clients/get-all-oauth-clients.md)
+- [Get an OAuth client](https://cal.com/docs/api-reference/v2/oauth-clients/get-an-oauth-client.md)
+- [Update an OAuth client](https://cal.com/docs/api-reference/v2/oauth-clients/update-an-oauth-client.md)
+- [Connect your conferencing application to a team](https://cal.com/docs/api-reference/v2/organizationsteams-conferencing/connect-your-conferencing-application-to-a-team.md)
+- [Disconnect team conferencing application](https://cal.com/docs/api-reference/v2/organizationsteams-conferencing/disconnect-team-conferencing-application.md)
+- [Get OAuth conferencing app's auth url for a team](https://cal.com/docs/api-reference/v2/organizationsteams-conferencing/get-oauth-conferencing-apps-auth-url-for-a-team.md)
+- [Get team default conferencing application](https://cal.com/docs/api-reference/v2/organizationsteams-conferencing/get-team-default-conferencing-application.md)
+- [List team conferencing applications](https://cal.com/docs/api-reference/v2/organizationsteams-conferencing/list-team-conferencing-applications.md)
+- [Set team default conferencing application](https://cal.com/docs/api-reference/v2/organizationsteams-conferencing/set-team-default-conferencing-application.md)
+- [Assign an attribute to a user](https://cal.com/docs/api-reference/v2/orgs-attributes-options/assign-an-attribute-to-a-user.md)
+- [Create an attribute option](https://cal.com/docs/api-reference/v2/orgs-attributes-options/create-an-attribute-option.md)
+- [Delete an attribute option](https://cal.com/docs/api-reference/v2/orgs-attributes-options/delete-an-attribute-option.md)
+- [Get all attribute options](https://cal.com/docs/api-reference/v2/orgs-attributes-options/get-all-attribute-options.md)
+- [Get all attribute options for a user](https://cal.com/docs/api-reference/v2/orgs-attributes-options/get-all-attribute-options-for-a-user.md)
+- [Unassign an attribute from a user](https://cal.com/docs/api-reference/v2/orgs-attributes-options/unassign-an-attribute-from-a-user.md)
+- [Update an attribute option](https://cal.com/docs/api-reference/v2/orgs-attributes-options/update-an-attribute-option.md)
+- [Create an attribute](https://cal.com/docs/api-reference/v2/orgs-attributes/create-an-attribute.md)
+- [Delete an attribute](https://cal.com/docs/api-reference/v2/orgs-attributes/delete-an-attribute.md)
+- [Get all attributes](https://cal.com/docs/api-reference/v2/orgs-attributes/get-all-attributes.md)
+- [Get an attribute](https://cal.com/docs/api-reference/v2/orgs-attributes/get-an-attribute.md)
+- [Update an attribute](https://cal.com/docs/api-reference/v2/orgs-attributes/update-an-attribute.md)
+- [Save delegation credentials for your organization.](https://cal.com/docs/api-reference/v2/orgs-delegation-credentials/save-delegation-credentials-for-your-organization.md)
+- [Update delegation credentials of your organization.](https://cal.com/docs/api-reference/v2/orgs-delegation-credentials/update-delegation-credentials-of-your-organization.md)
+- [Create a membership](https://cal.com/docs/api-reference/v2/orgs-memberships/create-a-membership.md)
+- [Delete a membership](https://cal.com/docs/api-reference/v2/orgs-memberships/delete-a-membership.md)
+- [Get a membership](https://cal.com/docs/api-reference/v2/orgs-memberships/get-a-membership.md)
+- [Get all memberships](https://cal.com/docs/api-reference/v2/orgs-memberships/get-all-memberships.md)
+- [Update a membership](https://cal.com/docs/api-reference/v2/orgs-memberships/update-a-membership.md)
+- [Create an organization within an organization](https://cal.com/docs/api-reference/v2/orgs-orgs/create-an-organization-within-an-organization.md): Requires the user to have at least the 'ORG_ADMIN' role within the organization. Additionally, for platform, the plan must be 'SCALE' or higher to access this endpoint.
+- [Delete an organization within an organization](https://cal.com/docs/api-reference/v2/orgs-orgs/delete-an-organization-within-an-organization.md): Requires the user to have at least the 'ORG_ADMIN' role within the organization. Additionally, for platform, the plan must be 'SCALE' or higher to access this endpoint.
+- [Get all organizations within an organization](https://cal.com/docs/api-reference/v2/orgs-orgs/get-all-organizations-within-an-organization.md): Requires the user to have at least the 'ORG_ADMIN' role within the organization. Additionally, for platform, the plan must be 'SCALE' or higher to access this endpoint.
+- [Get an organization within an organization](https://cal.com/docs/api-reference/v2/orgs-orgs/get-an-organization-within-an-organization.md): Requires the user to have at least the 'ORG_ADMIN' role within the organization. Additionally, for platform, the plan must be 'SCALE' or higher to access this endpoint.
+- [Update an organization within an organization](https://cal.com/docs/api-reference/v2/orgs-orgs/update-an-organization-within-an-organization.md): Requires the user to have at least the 'ORG_ADMIN' role within the organization. Additionally, for platform, the plan must be 'SCALE' or higher to access this endpoint.
+- [Get all schedules](https://cal.com/docs/api-reference/v2/orgs-schedules/get-all-schedules.md)
+- [Get organization team bookings](https://cal.com/docs/api-reference/v2/orgs-teams-bookings/get-organization-team-bookings.md)
+- [Create a phone call](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/create-a-phone-call.md)
+- [Create an event type](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/create-an-event-type.md)
+- [Delete a team event type](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/delete-a-team-event-type.md)
+- [Get a team event type](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/get-a-team-event-type.md)
+- [Get all team event types](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/get-all-team-event-types.md)
+- [Get an event type](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/get-an-event-type.md)
+- [Update a team event type](https://cal.com/docs/api-reference/v2/orgs-teams-event-types/update-a-team-event-type.md)
+- [Create a membership](https://cal.com/docs/api-reference/v2/orgs-teams-memberships/create-a-membership.md)
+- [Delete a membership](https://cal.com/docs/api-reference/v2/orgs-teams-memberships/delete-a-membership.md)
+- [Get a membership](https://cal.com/docs/api-reference/v2/orgs-teams-memberships/get-a-membership.md)
+- [Get all memberships](https://cal.com/docs/api-reference/v2/orgs-teams-memberships/get-all-memberships.md)
+- [Update a membership](https://cal.com/docs/api-reference/v2/orgs-teams-memberships/update-a-membership.md)
+- [Get routing form responses](https://cal.com/docs/api-reference/v2/orgs-teams-routing-forms-responses/get-routing-form-responses.md)
+- [Get schedules of a team member](https://cal.com/docs/api-reference/v2/orgs-teams-users-schedules/get-schedules-of-a-team-member.md)
+- [Create a team](https://cal.com/docs/api-reference/v2/orgs-teams/create-a-team.md)
+- [Delete a team](https://cal.com/docs/api-reference/v2/orgs-teams/delete-a-team.md)
+- [Get a team](https://cal.com/docs/api-reference/v2/orgs-teams/get-a-team.md)
+- [Get all teams](https://cal.com/docs/api-reference/v2/orgs-teams/get-all-teams.md)
+- [Get teams membership for user](https://cal.com/docs/api-reference/v2/orgs-teams/get-teams-membership-for-user.md)
+- [Update a team](https://cal.com/docs/api-reference/v2/orgs-teams/update-a-team.md)
+- [Create an ooo entry for user](https://cal.com/docs/api-reference/v2/orgs-users-ooo/create-an-ooo-entry-for-user.md)
+- [Delete ooo entry of a user](https://cal.com/docs/api-reference/v2/orgs-users-ooo/delete-ooo-entry-of-a-user.md)
+- [Get all ooo entries of a user](https://cal.com/docs/api-reference/v2/orgs-users-ooo/get-all-ooo-entries-of-a-user.md)
+- [Get all OOO entries of org users](https://cal.com/docs/api-reference/v2/orgs-users-ooo/get-all-ooo-entries-of-org-users.md)
+- [Update ooo entry of a user](https://cal.com/docs/api-reference/v2/orgs-users-ooo/update-ooo-entry-of-a-user.md)
+- [Create a schedule](https://cal.com/docs/api-reference/v2/orgs-users-schedules/create-a-schedule.md)
+- [Delete a schedule](https://cal.com/docs/api-reference/v2/orgs-users-schedules/delete-a-schedule.md)
+- [Get a schedule](https://cal.com/docs/api-reference/v2/orgs-users-schedules/get-a-schedule.md)
+- [Get all schedules](https://cal.com/docs/api-reference/v2/orgs-users-schedules/get-all-schedules.md)
+- [Update a schedule](https://cal.com/docs/api-reference/v2/orgs-users-schedules/update-a-schedule.md)
+- [Create a user](https://cal.com/docs/api-reference/v2/orgs-users/create-a-user.md)
+- [Delete a user](https://cal.com/docs/api-reference/v2/orgs-users/delete-a-user.md)
+- [Get all users](https://cal.com/docs/api-reference/v2/orgs-users/get-all-users.md)
+- [Update a user](https://cal.com/docs/api-reference/v2/orgs-users/update-a-user.md)
+- [Create a webhook](https://cal.com/docs/api-reference/v2/orgs-webhooks/create-a-webhook.md)
+- [Delete a webhook](https://cal.com/docs/api-reference/v2/orgs-webhooks/delete-a-webhook.md)
+- [Get a webhook](https://cal.com/docs/api-reference/v2/orgs-webhooks/get-a-webhook.md)
+- [Get all webhooks](https://cal.com/docs/api-reference/v2/orgs-webhooks/get-all-webhooks.md)
+- [Update a webhook](https://cal.com/docs/api-reference/v2/orgs-webhooks/update-a-webhook.md)
+- [Create a managed user](https://cal.com/docs/api-reference/v2/platform-managed-users/create-a-managed-user.md)
+- [Delete a managed user](https://cal.com/docs/api-reference/v2/platform-managed-users/delete-a-managed-user.md)
+- [Force refresh tokens](https://cal.com/docs/api-reference/v2/platform-managed-users/force-refresh-tokens.md): If you have lost managed user access or refresh token, then you can get new ones by using OAuth credentials. Access token is valid for 60 minutes and refresh token for 1 year. Make sure to store them in your database, for example, in your User database model `calAccessToken` and `calRefreshToken` fields.
+Response also contains `accessTokenExpiresAt` and `refreshTokenExpiresAt` fields, but if you decode the jwt token the payload will contain `clientId` (OAuth client ID), `ownerId` (user to whom token belongs ID), `iat` (issued at time) and `expiresAt` (when does the token expire) fields.
+- [Get a managed user](https://cal.com/docs/api-reference/v2/platform-managed-users/get-a-managed-user.md)
+- [Get all managed users](https://cal.com/docs/api-reference/v2/platform-managed-users/get-all-managed-users.md)
+- [Refresh managed user tokens](https://cal.com/docs/api-reference/v2/platform-managed-users/refresh-managed-user-tokens.md): If managed user access token is expired then get a new one using this endpoint - it will also refresh the refresh token, because we use
+    "refresh token rotation" mechanism. Access token is valid for 60 minutes and refresh token for 1 year. Make sure to store them in your database, for example, in your User database model `calAccessToken` and `calRefreshToken` fields.
+Response also contains `accessTokenExpiresAt` and `refreshTokenExpiresAt` fields, but if you decode the jwt token the payload will contain `clientId` (OAuth client ID), `ownerId` (user to whom token belongs ID), `iat` (issued at time) and `expiresAt` (when does the token expire) fields.
+- [Update a managed user](https://cal.com/docs/api-reference/v2/platform-managed-users/update-a-managed-user.md)
+- [Create a webhook](https://cal.com/docs/api-reference/v2/platform-webhooks/create-a-webhook.md)
+- [Delete a webhook](https://cal.com/docs/api-reference/v2/platform-webhooks/delete-a-webhook.md)
+- [Delete all webhooks](https://cal.com/docs/api-reference/v2/platform-webhooks/delete-all-webhooks.md)
+- [Get a webhook](https://cal.com/docs/api-reference/v2/platform-webhooks/get-a-webhook.md)
+- [Get all webhooks](https://cal.com/docs/api-reference/v2/platform-webhooks/get-all-webhooks.md)
+- [Update a webhook](https://cal.com/docs/api-reference/v2/platform-webhooks/update-a-webhook.md)
+- [Create a schedule](https://cal.com/docs/api-reference/v2/schedules/create-a-schedule.md): 
+      Create a schedule for the authenticated user.
+
+      The point of creating schedules is for event types to be available at specific times.
+
+      The first goal of schedules is to have a default schedule. If you are platform customer and created managed users, then it is important to note that each managed user should have a default schedule.
+      1. If you passed `timeZone` when creating managed user, then the default schedule from Monday to Friday from 9AM to 5PM will be created with that timezone. The managed user can then change the default schedule via the `AvailabilitySettings` atom.
+      2. If you did not, then we assume you want the user to have this specific schedule right away. You should create a default schedule by specifying
+      `"isDefault": true` in the request body. Until the user has a default schedule the user can't be booked nor manage their schedule via the AvailabilitySettings atom.
+
+      The second goal of schedules is to create another schedule that event types can point to. This is useful for when an event is booked because availability is not checked against the default schedule but instead against that specific schedule.
+      After creating a non-default schedule, you can update an event type to point to that schedule via the PATCH `event-types/{eventTypeId}` endpoint.
+
+      When specifying start time and end time for each day use the 24 hour format e.g. 08:00, 15:00 etc.
+      
+- [Delete a schedule](https://cal.com/docs/api-reference/v2/schedules/delete-a-schedule.md)
+- [Get a schedule](https://cal.com/docs/api-reference/v2/schedules/get-a-schedule.md)
+- [Get all schedules](https://cal.com/docs/api-reference/v2/schedules/get-all-schedules.md): Get all schedules of the authenticated user.
+- [Get default schedule](https://cal.com/docs/api-reference/v2/schedules/get-default-schedule.md): Get the default schedule of the authenticated user.
+- [Update a schedule](https://cal.com/docs/api-reference/v2/schedules/update-a-schedule.md)
+- [Add a selected calendar](https://cal.com/docs/api-reference/v2/selected-calendars/add-a-selected-calendar.md)
+- [Delete a selected calendar](https://cal.com/docs/api-reference/v2/selected-calendars/delete-a-selected-calendar.md)
+- [Delete v2slotsreservations](https://cal.com/docs/api-reference/v2/slots/delete-v2slotsreservations.md)
+- [Find out when is an event type ready to be booked.](https://cal.com/docs/api-reference/v2/slots/find-out-when-is-an-event-type-ready-to-be-booked.md): 
+      There are 4 ways to get available slots:
+      
+      1. By event type id. Event type id can be of user and team event types. Example '/v2/slots?eventTypeId=10&start=2050-09-05&end=2050-09-06&timeZone=Europe/Rome'
+
+      2. By event type slug + username. Example '/v2/slots?eventTypeSlug=intro&username=bob&start=2050-09-05&end=2050-09-06'
+
+      3. By event type slug + username + organization slug when searching within an organization. Example '/v2/slots?organizationSlug=org-slug&eventTypeSlug=intro&username=bob&start=2050-09-05&end=2050-09-06'
+
+      4. By usernames only (used for dynamic event type - there is no specific event but you want to know when 2 or more people are available). Example '/v2/slots?usernames=alice,bob&username=bob&organizationSlug=org-slug&start=2050-09-05&end=2050-09-06'. As you see you also need to provide the slug of the organization to which each user in the 'usernames' array belongs.
+
+      All of them require "start" and "end" query parameters which define the time range for which available slots should be checked.
+      Optional parameters are:
+      - timeZone: Time zone in which the available slots should be returned. Defaults to UTC.
+      - duration: Only use for event types that allow multiple durations or for dynamic event types. If not passed for multiple duration event types defaults to default duration. For dynamic event types defaults to 30 aka each returned slot is 30 minutes long. So duration=60 means that returned slots will be each 60 minutes long.
+      - slotFormat: Format of the slots. By default return is an object where each key is date and value is array of slots as string. If you want to get start and end of each slot use "range" as value.
+      
+- [Get reserved slot](https://cal.com/docs/api-reference/v2/slots/get-reserved-slot.md)
+- [Reserve a slot](https://cal.com/docs/api-reference/v2/slots/reserve-a-slot.md): Make a slot not available for others to book for a certain period of time. If you authenticate using oAuth credentials, api key or access token
+    then you can also specify custom duration for how long the slot should be reserved for (defaults to 5 minutes).
+- [Updated reserved a slot](https://cal.com/docs/api-reference/v2/slots/updated-reserved-a-slot.md)
+- [Check stripe connection](https://cal.com/docs/api-reference/v2/stripe/check-stripe-connection.md)
+- [Check team stripe connection](https://cal.com/docs/api-reference/v2/stripe/check-team-stripe-connection.md)
+- [Get stripe connect URL](https://cal.com/docs/api-reference/v2/stripe/get-stripe-connect-url.md)
+- [Save stripe credentials](https://cal.com/docs/api-reference/v2/stripe/save-stripe-credentials.md)
+- [Create a phone call](https://cal.com/docs/api-reference/v2/teams-event-types/create-a-phone-call.md)
+- [Create an event type](https://cal.com/docs/api-reference/v2/teams-event-types/create-an-event-type.md)
+- [Delete a team event type](https://cal.com/docs/api-reference/v2/teams-event-types/delete-a-team-event-type.md)
+- [Get a team event type](https://cal.com/docs/api-reference/v2/teams-event-types/get-a-team-event-type.md)
+- [Get an event type](https://cal.com/docs/api-reference/v2/teams-event-types/get-an-event-type.md)
+- [Update a team event type](https://cal.com/docs/api-reference/v2/teams-event-types/update-a-team-event-type.md)
+- [Create a membership](https://cal.com/docs/api-reference/v2/teams-memberships/create-a-membership.md)
+- [Create a membership](https://cal.com/docs/api-reference/v2/teams-memberships/create-a-membership-1.md)
+- [Delete a membership](https://cal.com/docs/api-reference/v2/teams-memberships/delete-a-membership.md)
+- [Get a membership](https://cal.com/docs/api-reference/v2/teams-memberships/get-a-membership.md)
+- [Get all memberships](https://cal.com/docs/api-reference/v2/teams-memberships/get-all-memberships.md)
+- [Create a team](https://cal.com/docs/api-reference/v2/teams/create-a-team.md)
+- [Delete a team](https://cal.com/docs/api-reference/v2/teams/delete-a-team.md)
+- [Get a team](https://cal.com/docs/api-reference/v2/teams/get-a-team.md)
+- [Get teams](https://cal.com/docs/api-reference/v2/teams/get-teams.md)
+- [Update a team](https://cal.com/docs/api-reference/v2/teams/update-a-team.md)
+- [Differences between v1 and v2](https://cal.com/docs/api-reference/v2/v1-v2-differences.md)
+- [Create a webhook](https://cal.com/docs/api-reference/v2/webhooks/create-a-webhook.md)
+- [Delete a webhook](https://cal.com/docs/api-reference/v2/webhooks/delete-a-webhook.md)
+- [Get a webhook](https://cal.com/docs/api-reference/v2/webhooks/get-a-webhook.md)
+- [Get all webooks](https://cal.com/docs/api-reference/v2/webhooks/get-all-webooks.md): Gets a paginated list of webhooks for the authenticated user.
+- [Update a webhook](https://cal.com/docs/api-reference/v2/webhooks/update-a-webhook.md)
+- [How to setup API in a local instance](https://cal.com/docs/developing/guides/api/how-to-setup-api-in-a-local-instance.md)
+- [Build a greeter app](https://cal.com/docs/developing/guides/appstore-and-integration/build-a-greeter-app.md)
+- [How to build an app](https://cal.com/docs/developing/guides/appstore-and-integration/build-an-app.md)
+- [Assign people to a call from a CRM or database](https://cal.com/docs/developing/guides/appstore-and-integration/how-to-show-assigned-people-from-a-crm.md)
+- [How to use OAuth to authorize apps with Cal.com accounts](https://cal.com/docs/developing/guides/appstore-and-integration/oauth.md)
+- [Setting up OIDC with okta](https://cal.com/docs/developing/guides/auth-and-provision/how-to-setup-oidc-with-okta.md)
+- [null](https://cal.com/docs/developing/guides/auth-and-provision/how-to-setup-scim-with-okta.md)
+- [SSO setup](https://cal.com/docs/developing/guides/auth-and-provision/sso-setup.md)
+- [Webhooks](https://cal.com/docs/developing/guides/automation/webhooks.md)
+- [Setting up mailtrap for email testing](https://cal.com/docs/developing/guides/email/setup-mailtrap-for-email-testing.md)
+- [Embed Events](https://cal.com/docs/developing/guides/embeds/embed-events.md)
+- [Introduction](https://cal.com/docs/developing/introduction.md)
+- [Local Development](https://cal.com/docs/developing/local-development.md)
+- [Code styling](https://cal.com/docs/developing/open-source-contribution/code-styling.md)
+- [Contributor's Guide](https://cal.com/docs/developing/open-source-contribution/contributors-guide.md)
+- [Introduction](https://cal.com/docs/developing/open-source-contribution/introduction.md)
+- [Pull requests](https://cal.com/docs/developing/open-source-contribution/pull-requests.md)
+- [Apple calendar connect](https://cal.com/docs/platform/atoms/apple-calendar-connect.md)
+- [Availability settings](https://cal.com/docs/platform/atoms/availability-settings.md)
+- [Booker](https://cal.com/docs/platform/atoms/booker.md)
+- [Cal Provider](https://cal.com/docs/platform/atoms/cal-provider.md)
+- [Calendar settings](https://cal.com/docs/platform/atoms/calendar-settings.md)
+- [Conferencing Apps](https://cal.com/docs/platform/atoms/conferencing-apps.md)
+- [Event Type](https://cal.com/docs/platform/atoms/event-type.md)
+- [Google calendar connect](https://cal.com/docs/platform/atoms/google-calendar-connect.md)
+- [Outlook calendar connect](https://cal.com/docs/platform/atoms/outlook-calendar-connect.md)
+- [Payment form](https://cal.com/docs/platform/atoms/payment-form.md)
+- [Bookings hooks](https://cal.com/docs/platform/bookings-hooks.md): Overview of all the hooks associated with bookings.
+- [Calendars hooks](https://cal.com/docs/platform/calendars-hooks.md): Overview of all the hooks associated with calendars.
+- [Event types hooks](https://cal.com/docs/platform/event-types-hooks.md): Overview of all the hooks associated with event types.
+- [FAQ](https://cal.com/docs/platform/faq.md): Answers to the most common questions about the Platform API and atoms.
+- [Managing booking fields](https://cal.com/docs/platform/guides/booking-fields.md): Prefilling and / or making them read-only.
+- [Booking redirects](https://cal.com/docs/platform/guides/booking-redirects.md): Find out how to manage the booking flow.
+- [Custom toasts](https://cal.com/docs/platform/guides/replacing-toasts.md): Replace default cal.com toasts with your own
+- [Configuring your team](https://cal.com/docs/platform/guides/teams-setup.md): Learn about how to setup teams via API v2
+- [Introduction](https://cal.com/docs/platform/introduction.md)
+- [Quickstart](https://cal.com/docs/platform/quickstart.md): Find out how to use Cal "atoms" to integrate scheduling into your product.
+- [Setup](https://cal.com/docs/platform/setup.md): Get started with creating a platform account
+- [User / Teams hooks](https://cal.com/docs/platform/user-or-team-related-hooks.md): Overview of all the hooks associated with managed users or teams.
+- [Daily](https://cal.com/docs/self-hosting/apps/install-apps/daily.md)
+- [Google](https://cal.com/docs/self-hosting/apps/install-apps/google.md)
+- [HubSpot](https://cal.com/docs/self-hosting/apps/install-apps/hubspot.md)
+- [Introduction](https://cal.com/docs/self-hosting/apps/install-apps/introduction.md)
+- [Microsoft](https://cal.com/docs/self-hosting/apps/install-apps/microsoft.md)
+- [Sendgrid](https://cal.com/docs/self-hosting/apps/install-apps/sendgrid.md)
+- [Stripe](https://cal.com/docs/self-hosting/apps/install-apps/stripe.md)
+- [Twilio](https://cal.com/docs/self-hosting/apps/install-apps/twilio.md)
+- [Zoho](https://cal.com/docs/self-hosting/apps/install-apps/zoho.md)
+- [Zoom](https://cal.com/docs/self-hosting/apps/install-apps/zoom.md)
+- [Database migrations](https://cal.com/docs/self-hosting/database-migrations.md)
+- [AWS](https://cal.com/docs/self-hosting/deployments/aws.md)
+- [Azure](https://cal.com/docs/self-hosting/deployments/azure.md)
+- [Elestio](https://cal.com/docs/self-hosting/deployments/elestio.md)
+- [GCP](https://cal.com/docs/self-hosting/deployments/gcp.md)
+- [Railway](https://cal.com/docs/self-hosting/deployments/railway.md)
+- [Render](https://cal.com/docs/self-hosting/deployments/render.md)
+- [Vercel](https://cal.com/docs/self-hosting/deployments/vercel.md)
+- [Docker](https://cal.com/docs/self-hosting/docker.md)
+- [How to sync third party apps](https://cal.com/docs/self-hosting/guides/appstore-and-integration/syncing-third-party-apps.md)
+- [Can Cal.com sponsor my open source project?](https://cal.com/docs/self-hosting/guides/sponsorship/can-calcom-sponsor-my-open-source-project.md)
+- [Instance-wide theming using color tokens](https://cal.com/docs/self-hosting/guides/white-labeling/color-tokens.md)
+- [How to add custom CSS](https://cal.com/docs/self-hosting/guides/white-labeling/custom-css.md)
+- [How to white label the self hosted instance](https://cal.com/docs/self-hosting/guides/white-labeling/introduction.md)
+- [Installation](https://cal.com/docs/self-hosting/installation.md)
+- [License key](https://cal.com/docs/self-hosting/license-key.md)
+- [SSO setup](https://cal.com/docs/self-hosting/sso-setup.md)
+- [Upgrading](https://cal.com/docs/self-hosting/upgrading.md)

@@ -1,0 +1,82 @@
+# Analog Docs
+
+## Documentation
+
+- [Welcome](https://docs.analog.one/documentation/analog-network/readme): Welcome to Analog Docs—your comprehensive resource for everything Analog, whether you’re a user, developer, or node operator.
+- [Overview](https://docs.analog.one/documentation/analog-network/overview)
+- [Getting Started](https://docs.analog.one/documentation/analog-network/getting-started)
+- [Wallets & Accounts](https://docs.analog.one/documentation/analog-network/getting-started/wallets-and-accounts)
+- [Supported Wallets](https://docs.analog.one/documentation/analog-network/getting-started/supported-wallets)
+- [Multi-sig Accounts](https://docs.analog.one/documentation/analog-network/getting-started/multi-sig-accounts)
+- [Analog Testnet Faucet](https://docs.analog.one/documentation/analog-network/getting-started/analog-testnet-faucet)
+- [Staking](https://docs.analog.one/documentation/analog-network/staking)
+- [Network Parameters](https://docs.analog.one/documentation/analog-network/staking/network-parameters)
+- [Rewards](https://docs.analog.one/documentation/analog-network/staking/rewards)
+- [How to Stake ANLOG](https://docs.analog.one/documentation/analog-network/staking/how-to-stake-anlog)
+- [Staking Dashboard](https://docs.analog.one/documentation/analog-network/staking/how-to-stake-anlog/staking-dashboard)
+- [Third-Party Wallets](https://docs.analog.one/documentation/analog-network/staking/how-to-stake-anlog/third-party-wallets)
+- [Talisman](https://docs.analog.one/documentation/analog-network/staking/how-to-stake-anlog/third-party-wallets/talisman)
+- [Polkadot.js Console](https://docs.analog.one/documentation/analog-network/staking/how-to-stake-anlog/third-party-wallets/polkadot.js-console)
+- [SubWallet](https://docs.analog.one/documentation/analog-network/staking/how-to-stake-anlog/third-party-wallets/subwallet)
+- [FAQ](https://docs.analog.one/documentation/analog-network/staking/faq)
+- [Network Information](https://docs.analog.one/documentation/analog-network/network-information)
+- [Security & Audits](https://docs.analog.one/documentation/analog-network/security-and-audits)
+- [FAQ](https://docs.analog.one/documentation/analog-network/faq)
+- [Introduction](https://docs.analog.one/documentation/developers/introduction)
+- [Analog Watch](https://docs.analog.one/documentation/developers/analog-watch)
+- [Quickstart](https://docs.analog.one/documentation/developers/analog-watch/quickstart)
+- [Deployment Environments](https://docs.analog.one/documentation/developers/analog-watch/deployment-environments)
+- [Overview](https://docs.analog.one/documentation/developers/analog-watch/overview)
+- [Architecture](https://docs.analog.one/documentation/developers/analog-watch/overview/architecture)
+- [Supported Networks](https://docs.analog.one/documentation/developers/analog-watch/supported-networks)
+- [Developers' Guide](https://docs.analog.one/documentation/developers/analog-watch/developers-guide): A quick guide to getting started with Analog Watch.
+- [Setup Basics](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/setup-basics): Tools you need to get started with Analog Watch
+- [Listing Smart Contracts](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/listing-smart-contracts): Learn how to quickly list/deploy new Smart Contracts with the Watch Portal, Watch SDK, and GraphQL IDE.
+- [Deploying Views](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/deploying-views): Learn how to deploy Views with the Watch Portal.
+- [Funding Views](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/funding-views): Learn more about funding Views.
+- [Querying Data](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/querying-data): Learn how to query data with the Watch SDK.
+- [Rewards & Fees](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/rewards-and-fees)
+- [Supported Data Types](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/supported-data-types): Analog Watch data types are standard, with a few differences based on the onboarded blockchains, as outlined in this section.
+- [Best Practices for Smart Contract Listing](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/best-practices-for-smart-contract-listing): Guidelines for effectively listing smart contracts on Analog Watch.
+- [Best Practices for View Deployment](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/best-practices-for-view-deployment): Guidelines for effectively deploying Views on Analog Watch.
+- [Event Data Support](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/event-data-support)
+- [How to Use Mobile Wallets with Analog Watch](https://docs.analog.one/documentation/developers/analog-watch/developers-guide/how-to-use-mobile-wallets-with-analog-watch): The majority of the mobile wallets are third-party solutions for the Substrate ecosystem. This page provides general instructions for setting up and using mobile wallets with Analog Watch.
+- [FAQ](https://docs.analog.one/documentation/developers/analog-watch/faq): This section answers the most frequently asked questions and all things about Analog Watch.
+- [Analog GMP](https://docs.analog.one/documentation/developers/analog-gmp)
+- [Overview](https://docs.analog.one/documentation/developers/analog-gmp/overview)
+- [Architectural Components](https://docs.analog.one/documentation/developers/analog-gmp/overview/architectural-components)
+- [Transaction Lifecycle](https://docs.analog.one/documentation/developers/analog-gmp/overview/transaction-lifecycle)
+- [Time to Finality](https://docs.analog.one/documentation/developers/analog-gmp/overview/time-to-finality)
+- [Fee Management](https://docs.analog.one/documentation/developers/analog-gmp/overview/fee-management)
+- [Gateway Addresses & Network IDs](https://docs.analog.one/documentation/developers/analog-gmp/gateway-addresses-and-network-ids): A list of gateway addresses and network IDs for the supported chains.
+- [Developers' Guide](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide): Start building next-gen cross-chain DApps with Analog GMP.
+- [Getting Started](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/getting-started)
+- [Track GMP Messages](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/track-gmp-messages)
+- [Troubleshooting Messages](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/troubleshooting-messages)
+- [Tutorials](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/tutorials): This section offers detailed, step-by-step guides to help you become proficient in building on Analog GMP.
+- [Send a Message from Chain A to Chain B](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/tutorials/send-a-message-from-chain-a-to-chain-b)
+- [Teleport Tokens from Chain A to Chain B](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/tutorials/teleport-tokens-from-chain-a-to-chain-b)
+- [Setup Your Project with Foundry](https://docs.analog.one/documentation/developers/analog-gmp/developers-guide/tutorials/setup-your-project-with-foundry)
+- [FAQ](https://docs.analog.one/documentation/developers/analog-gmp/faq)
+- [Protocol Overview](https://docs.analog.one/documentation/developers/protocol-overview)
+- [Introduction](https://docs.analog.one/documentation/node-operators/introduction)
+- [Overview](https://docs.analog.one/documentation/node-operators/introduction/overview)
+- [Requirements](https://docs.analog.one/documentation/node-operators/introduction/technical-requirements)
+- [Decentralization Roadmap](https://docs.analog.one/documentation/node-operators/introduction/decentralization-roadmap)
+- [Infrastructure Setup](https://docs.analog.one/documentation/node-operators/infrastructure-setup)
+- [Running a Full Node on the Mainnet](https://docs.analog.one/documentation/node-operators/infrastructure-setup/running-a-full-node-on-the-mainnet)
+- [Running a Validator on the Mainnet](https://docs.analog.one/documentation/node-operators/infrastructure-setup/running-a-validator-on-the-mainnet)
+- [Running a Validator on the Testnet](https://docs.analog.one/documentation/node-operators/infrastructure-setup/running-a-validator-on-the-testnet)
+- [Security Best Practices](https://docs.analog.one/documentation/node-operators/security-best-practices)
+- [Troubleshooting](https://docs.analog.one/documentation/node-operators/troubleshooting): Here, we walk through common issues you might face when running a validator on the Analog Network.
+- [Convert Fjord Presale to $ANLOG](https://docs.analog.one/documentation/resources/convert-fjord-presale-to-usdanlog)
+- [Tooling](https://docs.analog.one/documentation/resources/tooling): Resources to get you build, launch, and scale your DApps with Analog.
+- [Timechain Explorer](https://docs.analog.one/documentation/resources/tooling/timechain-explorer)
+- [Polkadot.Js](https://docs.analog.one/documentation/resources/tooling/polkadot.js)
+- [Utilities](https://docs.analog.one/documentation/resources/tooling/utilities): Tools to simplify and expedite DApp development
+- [Session Key Generator](https://docs.analog.one/documentation/resources/tooling/utilities/session-key-generator): Session Key Generator helps you generate session keys for signing purposes when deploying and querying Views through the Watch SDK.
+- [Dmail](https://docs.analog.one/documentation/resources/tooling/utilities/dmail): Coming soon
+- [Tokenomics](https://docs.analog.one/documentation/resources/tokenomics)
+- [Where To Buy ANLOG](https://docs.analog.one/documentation/resources/tokenomics/where-to-buy-anlog)
+- [Timepaper](https://docs.analog.one/documentation/resources/timepaper)
+- [Glossary](https://docs.analog.one/documentation/resources/glossary): Here is a list of common terms used on the Analog Network:

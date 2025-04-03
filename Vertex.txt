@@ -1,0 +1,239 @@
+# Vertex Docs
+
+## Vertex
+
+- [Overview](https://docs.vertexprotocol.com/getting-started/overview): One orderbook. Multiple chains. Infinite potential.
+- [Table of Contents](https://docs.vertexprotocol.com/getting-started/table-of-contents): Defining the elements of Vertex Edge.
+- [Mission](https://docs.vertexprotocol.com/getting-started/mission): Trade like a CEX, self-custody like a DEX.
+- [Vertex Edge](https://docs.vertexprotocol.com/getting-started/vertex-edge): Mapping out the synchronous orderbook liquidity of Vertex Edge.
+- [Blitz on Blast](https://docs.vertexprotocol.com/getting-started/vertex-edge/blitz): Trade on Blitz, a blazing-fast on-chain deployment of Vertex to the Blast L2 network -- powered by Edge.
+- [Vertex on Mantle](https://docs.vertexprotocol.com/getting-started/vertex-edge/mantle): Discover the power of unified orderbook liquidity with the release of Vertex on Mantle.
+- [Trading Rewards](https://docs.vertexprotocol.com/getting-started/vertex-edge/mantle/trading-rewards): Trade & Earn VRTX & MNT rewards by trading on Vertex (Mantle).
+- [Perpetual & Spot Market Specifications](https://docs.vertexprotocol.com/getting-started/vertex-edge/mantle/perpetual-and-spot-market-specifications): Market parameters and specifications for the Vertex on Mantle instance.
+- [Open-Source Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/mantle/open-source-contracts): The Vertex on Mantle instance shares the same Github repository as Vertex (Arbitrum), since they both utilize Vertex Edge on the back-end.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/mantle/api): Vertex (Mantle) websocket & REST API.
+- [Vertex on Sei](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sei): Discover the power of unified orderbook liquidity with the release of Vertex on Sei Network.
+- [Trading Rewards](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sei/trading-rewards): Trade & Earn SEI & VRTX rewards by trading on Vertex Edge (Sei).
+- [Perpetual & Spot Market Specifications](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sei/perpetual-and-spot-market-specifications): Market parameters and specifications for the Vertex on Sei instance.
+- [On-Chain Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sei/on-chain-contracts): The Vertex on Sei instance  shares the same Github repository as Vertex (Arbitrum), since they both utilize Vertex Edge on the back-end.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sei/api): Vertex Edge (Sei) websocket and REST API.
+- [Vertex on Base](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-base): Discover the power of unified orderbook liquidity with the release of Vertex on Base.
+- [Trading Rewards](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-base/trading-rewards): Trade on Vertex Edge (Base) and earn VRTX rewards!
+- [Perpetual & Spot Market Specifications](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-base/perpetual-and-spot-market-specifications): Market parameters and specifications for Vertex on Base.
+- [Onchain Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-base/onchain-contracts): The Vertex on Base instance shares the same Github repository as Vertex (Arbitrum), since they both utilize Vertex Edge on the back-end.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-base/api): Vertex Edge (Base) websocket and REST API.
+- [Create a Coinbase Smart Wallet](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-base/create-a-coinbase-smart-wallet): Want to instantly onboard into the Base ecosystem? We got you. Smart Wallet is now integrated on the Vertex app!
+- [Vertex on Sonic](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sonic): Trade with unified orderbook liquidity on Sonic  -- powered by Vertex Edge.
+- [Trading Rewards](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sonic/trading-rewards): Earn $S tokens, Sonic Points, Sonic Gems & $VRTX by trading on Vertex Edge.
+- [Perpetual & Spot Market Specifications](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sonic/perpetual-and-spot-market-specifications): Market parameters and specifications for the Vertex on Sonic instance.
+- [On-Chain Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sonic/on-chain-contracts): List of on-chain contracts of the Vertex Edge deployment to Sonic.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-sonic/api): Vertex Edge (Sonic) websocket and REST API.
+- [Vertex on Abstract](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-abstract): Trade with unified orderbook liquidity on Abstract -- powered by Vertex Edge.
+- [Market Specifications](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-abstract/market-specifications): Perpetual and spot market specifications for Vertex on Abstract.
+- [On-Chain Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-abstract/on-chain-contracts): List of on-chain contracts of the Vertex Edge deployment to Abstract.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-abstract/api): Vertex Edge (Abstract) websocket and REST API.
+- [Bro.Trade on Berachain](https://docs.vertexprotocol.com/getting-started/vertex-edge/bro.trade-on-berachain): Trade with BroTrade on Berachain -- unleash the power of Vertex Edge.
+- [On-Chain Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/bro.trade-on-berachain/on-chain-contracts): List of on-chain contracts of the BroTrade deployment to Berachain.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/bro.trade-on-berachain/api): BroTrade on Berachain websocket and REST API.
+- [Vertex on Avalanche](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-avalanche): Trade with unified orderbook liquidity on Avalanche -- powered by Vertex Edge.
+- [Trading Rewards](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-avalanche/trading-rewards): Trade on Vertex (Avalanche) to earn $AVAX rewards!
+- [Market Specifications](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-avalanche/market-specifications): Market parameters and specifications for the Vertex on Avalanche instance.
+- [On-Chain Contracts](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-avalanche/on-chain-contracts): List of on-chain contracts of the Vertex Edge deployment to Avalanche.
+- [API](https://docs.vertexprotocol.com/getting-started/vertex-edge/vertex-on-avalanche/api): Vertex Edge (Avalanche) websocket and REST API.
+- [Products](https://docs.vertexprotocol.com/basics/products): Spot, Perpetuals, and Money Markets.
+- [Technical Architecture](https://docs.vertexprotocol.com/basics/technical-architecture): Examining Vertex's unique technical stack.
+- [Universal Cross Margin](https://docs.vertexprotocol.com/basics/universal-cross-margin): Tap into the capital efficiency of universally cross-margined accounts.
+- [Isolated Margin](https://docs.vertexprotocol.com/basics/isolated-margin): Unlock Precision Trading with Isolated Margin on Vertex
+- [Subaccounts & Health](https://docs.vertexprotocol.com/basics/subaccounts-and-health): Defining Vertex's subaccount design and weighted margin calculations.
+- [Liquidations & Insurance Fund](https://docs.vertexprotocol.com/basics/liquidations-and-insurance-fund): Learn about Vertex's liquidation model and how the insurance fund works.
+- [PnL Settlements](https://docs.vertexprotocol.com/basics/pnl-settlements): Open position settlement and account value calculations.
+- [Pricing (Oracles)](https://docs.vertexprotocol.com/basics/pricing-oracles): Reference and indexed price feeds for Vertex markets.
+- [Fees](https://docs.vertexprotocol.com/basics/fees): An overview of the trading and sequencer fees charged on Vertex.
+- [Funding Rates](https://docs.vertexprotocol.com/basics/funding-rates): Description and calculations of the perpetual contract funding rates on Vertex.
+- [Market Specifications](https://docs.vertexprotocol.com/basics/market-specifications): Asset specifications for spot + perpetual markets on Vertex.
+- [One-Click Trading](https://docs.vertexprotocol.com/basics/one-click-trading): Sign once and unleash the full performance of Vertex with near-instant trade execution. Welcome to one-click trading (1CT).
+- [Trigger Orders](https://docs.vertexprotocol.com/basics/trigger-orders): Learn about conditional order types like Stop-Loss (SL) and Take-Profit (TP) on Vertex.
+- [GMCI 30 & MEME Indices](https://docs.vertexprotocol.com/basics/gmci-30-and-meme-indices): Discover crypto-native index products on Vertex that allow traders to speculate on the performance of a specific cryptocurrency index directly on the Vertex app -- courtesy of GMCI.
+- [Trade & Earn](https://docs.vertexprotocol.com/basics/trade-and-earn): Earn VRTX  by trading. Unlock opportunities with every trade.
+- [Maker Program](https://docs.vertexprotocol.com/basics/trade-and-earn/maker-program): Learn about the maker program and tiered rebates structure.
+- [Cross-Chain VRTX Rewards](https://docs.vertexprotocol.com/basics/trade-and-earn/cross-chain-vrtx-rewards): Learn how the cross-chain VRTX rewards between supported Edge chains are calculated.
+- [Trading Rewards - FAQs](https://docs.vertexprotocol.com/basics/trade-and-earn/trading-rewards-faqs): Frequently asked questions for VRTX trading rewards.
+- [Referral Program](https://docs.vertexprotocol.com/basics/referrals): Introducing the New Vertex Referral Program. Refer More Volume. Climb the Tiers. Earn More Rewards.
+- [Resources & Links](https://docs.vertexprotocol.com/basics/resources): Get involved in the Vertex community.
+- [FAQs](https://docs.vertexprotocol.com/basics/faqs): Discover answers to the most frequently asked questions from Vertex users.
+- [VRTX Tokenomics](https://docs.vertexprotocol.com/vrtx-token/vrtx-tokenomics): Defining the utility of the VRTX token within the Vertex Edge ecosystem.
+- [Token Supply Distribution](https://docs.vertexprotocol.com/vrtx-token/token-supply-distribution): Comprehensive breakdown of the VRTX token supply allocations and emissions.
+- [Glossary](https://docs.vertexprotocol.com/more/glossary): Index of terminology and technical information related to the Vertex application.
+- [Contracts & Code Audits](https://docs.vertexprotocol.com/more/contracts-and-code-audits)
+- [Bug Bounties](https://docs.vertexprotocol.com/more/bug-bounties): Hunt for bugs on the Vertex Bounty Program with Hacken and earn up to $500K in rewards.
+- [Data & Research](https://docs.vertexprotocol.com/more/data-and-research): View data providers integrated with Vertex Protocol for insights into DEX metrics, including volumes, TVL, user activity, and more.
+- [Maintenance Windows](https://docs.vertexprotocol.com/more/maintenance-windows): View the schedule and information on Vertex maintenance windows for technical updates and optimizations.
+- [Terms of Use](https://docs.vertexprotocol.com/more/terms-of-use): PDF document containing Vertex's full Terms of Use.
+- [Statement of Risk](https://docs.vertexprotocol.com/more/statement-of-risk): Vertex users are strongly advised to acknowledge that they have read, understand, and accept the risks described in the Vertex Statement of Risk available in the PDF below.
+- [Restricted Territories](https://docs.vertexprotocol.com/more/restricted-territories): This page will be updated regularly to reflect any changes in the Restricted Territory list for the Vertex Protocol app domain (app.vertexprotocol.com) and website (www.vertexprotocol.com).
+- [Brand Assets](https://docs.vertexprotocol.com/more/brand-assets): Google Drive folder containing Vertex media assets and graphics for third parties.
+- [Quick Start](https://docs.vertexprotocol.com/tutorials/quick-start): Start trading on Vertex with ease.
+- [One-Click Trading](https://docs.vertexprotocol.com/tutorials/one-click-trading): Elevate your trading experience.
+- [Trading Basics](https://docs.vertexprotocol.com/tutorials/trading-basics): Learn the fundamentals and basics for trading on Vertex.
+- [Perpetuals](https://docs.vertexprotocol.com/tutorials/perpetuals): This tutorial will teach you about perpetuals trading on Vertex.
+- [Spot](https://docs.vertexprotocol.com/tutorials/spot): Trade spot markets with ease.
+- [Multiple Accounts](https://docs.vertexprotocol.com/tutorials/multiple-accounts): Learn how to create an manage multiple subaccounts with the same wallet on Vertex.
+- [TP/SL & Stop-Market](https://docs.vertexprotocol.com/tutorials/tp-sl-and-stop-market): Learn how to use trigger orders such as take profit, stop loss and stop-market.
+- [Withdrawals](https://docs.vertexprotocol.com/tutorials/withdrawals): Follow the steps to withdraw assets from Vertex.
+- [Fast Withdrawals](https://docs.vertexprotocol.com/tutorials/fast-withdrawals): Learn how to swiftly receive funds with the fast withdrawal feature, even during high gas periods on Arbitrum.
+- [Cross-Chain Deposits](https://docs.vertexprotocol.com/tutorials/cross-chain-deposits): Learn how to perform cross-chain deposits into Vertex from multiple chains using a native integration of Axelar's Squid Router on the Vertex app.
+- [Lend, Borrow & Repay](https://docs.vertexprotocol.com/tutorials/lend-borrow-and-repay): Learn about Vertex’s yield markets, how to earn interest, and how to borrow assets.
+- [Margin Health](https://docs.vertexprotocol.com/tutorials/margin-health): Risk management, simplified.
+- [Pools](https://docs.vertexprotocol.com/tutorials/pools): Learn how to provide liquidity.
+- [VRTX Staking](https://docs.vertexprotocol.com/tutorials/vrtx-staking): Learn how to acquire and stake VRTX tokens on Vertex.
+- [Switching Chains](https://docs.vertexprotocol.com/tutorials/switching-chains): Learn how to switch between the various chains supported by Vertex Edge.
+- [Trading Rewards](https://docs.vertexprotocol.com/tutorials/trading-rewards): Learn how to earn and claim trading rewards on Vertex from multiple chains.
+- [Shortcuts](https://docs.vertexprotocol.com/tutorials/shortcuts): Learn how to use the Command Center for quick access to markets and other tools.
+- [API](https://docs.vertexprotocol.com/developer-resources/api): Vertex Websocket and REST API
+- [Endpoints](https://docs.vertexprotocol.com/developer-resources/api/endpoints): List of latest live Vertex Endpoints
+- [Gateway](https://docs.vertexprotocol.com/developer-resources/api/gateway): Interactions with Vertex's offchain sequencer
+- [Executes](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes): Vertex Executes - Websocket and REST API
+- [Place Order](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/place-order): Places an order on Vertex's orderbook.
+- [Place Isolated Order](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/place-isolated-order): Create an isolated position with isolated margin for a provided market / product.
+- [Cancel Orders](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/cancel-orders): Removes specified orders from orderbook.
+- [Cancel Product Orders](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/cancel-product-orders): Removes all orders from orderbook for specified products for a given subaccount. Cancels all orders when no products provided.
+- [Cancel And Place](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/cancel-and-place): Performs an order cancellation + order placement in a single request
+- [Withdraw Collateral](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/withdraw-collateral): Withdraws specified amount of collateral from Vertex.
+- [Transfer Quote](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/transfer-quote): Transfer USDC between subaccounts under the same wallet.
+- [Liquidate Subaccount](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/liquidate-subaccount): Submits a transaction to liquidate a subaccount's balance for a specified liquidation amount.
+- [Mint LP](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/mint-lp): Mints specified amount of LP tokens.
+- [Burn LP](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/burn-lp): Burns specified amount of LP tokens.
+- [Link Signer](https://docs.vertexprotocol.com/developer-resources/api/gateway/executes/link-signer): Designates an address to be able to sign executes on behalf of a subaccount.
+- [Queries](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries): Vertex Queries - Websocket and REST API
+- [Status](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/status): Gets status of offchain sequencer.
+- [Contracts](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/contracts): Get information about deployed Vertex contracts.
+- [Nonces](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/nonces): Get execute nonces for a particular address.
+- [Order](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/order): Gets an order from the orderbook by digest.
+- [Orders](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/orders): Get all open orders associated with a subaccount.
+- [Subaccount Info](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/subaccount-info): Get balances associated with a specific subaccount and all products.
+- [Isolated Positions](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/isolated-positions): Get existing open isolated positions for a provided cross subaccount.
+- [Market Liquidity](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/market-liquidity): Gets the amount of liquidity at each price level.
+- [Symbols](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/symbols): Get info about available symbols and product configuration
+- [All Products](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/all-products): Gets info about all available products including: product id, oracle price, configuration, state, etc.
+- [Edge All Products](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/edge-all-products): Gets info about all available products across all chains including: product id, oracle price, configuration, state, etc.
+- [Market Prices](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/market-prices): Gets the highest bid and lowest ask price levels from the orderbook for provided products.
+- [Max Order Size](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/max-order-size): Gets the max order size possible of a given product for a given subaccount.
+- [Max Withdrawable](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/max-withdrawable): Gets the max amount withdrawable possible of a given spot product for a subaccount.
+- [Max LP Mintable](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/max-lp-mintable): Gets the max amount of base LP mintable possible for a given product and a given subaccount.
+- [Fee Rates](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/fee-rates): Gets all fee rates associated to a subaccount.
+- [Health Groups](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/health-groups): Gets all available health groups.
+- [Linked Signer](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/linked-signer): Retrieves current linked signer of a provided subaccount
+- [Insurance](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/insurance): Retrieve current value of Vertex's Insurance fund
+- [Min Deposit Rates](https://docs.vertexprotocol.com/developer-resources/api/gateway/queries/min-deposit-rates): Retrieve min deposit rates for Spot Products
+- [Signing](https://docs.vertexprotocol.com/developer-resources/api/gateway/signing): Signing Vertex executes
+- [Examples](https://docs.vertexprotocol.com/developer-resources/api/gateway/signing/examples): Vertex executes EIP712 typed data examples
+- [Q\&A](https://docs.vertexprotocol.com/developer-resources/api/gateway/signing/q-and-a): Common signing issues & questions
+- [Subscriptions](https://docs.vertexprotocol.com/developer-resources/api/subscriptions): Allows to subscribe to a number of live data feeds to receive real-time trading updates from Vertex.
+- [Authentication](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/authentication): Access Vertex's authenticated streams.
+- [Streams](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/streams): API to manage subscriptions to available streams via websocket.
+- [Events](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/events): Each subscription stream has a corresponding event that will be broadcasted over websocket.
+- [Rate limits](https://docs.vertexprotocol.com/developer-resources/api/subscriptions/rate-limits): Subscription rate limits
+- [Archive (indexer)](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer): Query Vertex's indexed historical data
+- [Orders](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/orders): Query historical orders by subaccount or order digests.
+- [Matches](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/matches): Query historical matches for a given subaccount or provided products.
+- [Events](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/events): Query Vertex events by subaccount, products, event types, etc.
+- [Summary](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/summary): Query historical summary for a given subaccount.
+- [Candlesticks](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/candlesticks): Query historical candlesticks by product and granularity / period.
+- [Edge Candlesticks](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/edge-candlesticks): Query historical candlesticks by product and granularity / period across all chains
+- [Funding Rate](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/funding-rate): Query perp products 24hr funding rate.
+- [Interest & funding payments](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/interest-and-funding-payments): Query historical interest and funding payments for a subaccount.
+- [Oracle Price](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/oracle-price): Query latest oracle price for provided product ids
+- [Perp Prices](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/perp-prices): Query latest index and mark prices for provided perp products.
+- [Product Snapshots](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/product-snapshots): Query historical product snapshots.
+- [Market Snapshots](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/market-snapshots): Query historical market snapshots.
+- [Edge Market Snapshots](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/edge-market-snapshots): Query historical market snapshots across all chains
+- [Maker Statistics](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/maker-statistics): Retrieves historical performance data of market makers (MMs) in Vertex for a specified product, epoch, and time range.
+- [Merkle Proofs](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/merkle-proofs): Retrieves merkle proofs for VRTX and ARB rewards
+- [Rewards](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/rewards): Query accrued $VRTX token rewards per epoch for a subaccount.
+- [Referral Code](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/referral-code): Query the referral code of a provided subaccount.
+- [Liquidation Feed](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/liquidation-feed): Query subaccounts that can be liquidated.
+- [Linked Signer Rate Limit](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/linked-signer-rate-limit): Query current linked signer and rate limit usage for a provided subaccount.
+- [Subaccounts](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/subaccounts): Query vertex subaccounts.
+- [Signatures](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/signatures): Query order signatures by digests
+- [USDC Price](https://docs.vertexprotocol.com/developer-resources/api/archive-indexer/usdc-price): Query USDC price in USD.
+- [Trigger](https://docs.vertexprotocol.com/developer-resources/api/trigger): Place orders to be triggered if a price criteria is met.
+- [Executes](https://docs.vertexprotocol.com/developer-resources/api/trigger/executes): Trigger Service - Executes
+- [Place Order](https://docs.vertexprotocol.com/developer-resources/api/trigger/executes/place-order): Places an order to be triggered if a provided price criteria is met.
+- [Cancel Orders](https://docs.vertexprotocol.com/developer-resources/api/trigger/executes/cancel-orders): Cancels specified orders from being triggered.
+- [Cancel Product Orders](https://docs.vertexprotocol.com/developer-resources/api/trigger/executes/cancel-product-orders): Cancels all orders from being triggered for specified products for a given subaccount. Cancels all orders when no products provided.
+- [Queries](https://docs.vertexprotocol.com/developer-resources/api/trigger/queries): Trigger Service - Queries
+- [List Trigger Orders](https://docs.vertexprotocol.com/developer-resources/api/trigger/queries/list-trigger-orders): Gets cancelled, pending or executed trigger orders for the provided subaccount and products.
+- [V2](https://docs.vertexprotocol.com/developer-resources/api/v2): Vertex V2 REST API: Gateway and Archive (indexer) Endpoints
+- [Assets](https://docs.vertexprotocol.com/developer-resources/api/v2/assets): Retrieve details of all available assets on Vertex, including trading fees and asset type.
+- [Pairs](https://docs.vertexprotocol.com/developer-resources/api/v2/pairs): Retrieve details of all available trading pairs on Vertex, including corresponding base and quote.
+- [APR](https://docs.vertexprotocol.com/developer-resources/api/v2/apr): Retrieve current deposit / borrow APRs of available spots on Vertex.
+- [Orderbook](https://docs.vertexprotocol.com/developer-resources/api/v2/orderbook): Retrieve amount of liquidity at each price level for a provided ticker.
+- [Tickers](https://docs.vertexprotocol.com/developer-resources/api/v2/tickers): Retrieve 24-hour pricing and volume information on each market pair available on Vertex.
+- [Contracts](https://docs.vertexprotocol.com/developer-resources/api/v2/contracts): Retrieve summary of perp contracts traded on Vertex.
+- [Trades](https://docs.vertexprotocol.com/developer-resources/api/v2/trades): Retrieve historical trades for a given market pair. Most recent trades at the top.
+- [VRTX Token](https://docs.vertexprotocol.com/developer-resources/api/v2/vrtx-token): Retrieve $VRTX token info
+- [Rate limits](https://docs.vertexprotocol.com/developer-resources/api/rate-limits): Vertex Websocket and REST API Rate limits.
+- [Errors](https://docs.vertexprotocol.com/developer-resources/api/errors): Vertex API errors.
+- [Symbols](https://docs.vertexprotocol.com/developer-resources/api/symbols): Retrieve symbols for all available products.
+- [Depositing](https://docs.vertexprotocol.com/developer-resources/api/depositing)
+- [Withdrawing (on-chain)](https://docs.vertexprotocol.com/developer-resources/api/withdrawing-on-chain): Withdrawing collateral from Vertex on-chain.
+- [Integrate via Smart Contracts](https://docs.vertexprotocol.com/developer-resources/api/integrate-via-smart-contracts): Integrating with Vertex via a Smart Contract
+- [Definitions / Formulas](https://docs.vertexprotocol.com/developer-resources/api/definitions-formulas): Useful definitions and formulas to better understand Vertex API.
+- [Vertex Typescript SDK](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk): Welcome to the Vertex Typescript SDK. This guide will help you navigate the Typescript SDK to interact with Vertex Protocol.
+- [Getting Started](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/getting-started)
+- [How To](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to): A number of examples that show you how to use our Typescript SDK to perform the most common actions on Vertex.
+- [Create a Vertex client](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to/create-a-vertex-client)
+- [Useful Common Functions](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to/useful-common-functions)
+- [Query Markets & Products](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to/query-markets-and-products)
+- [Deposit Funds](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to/deposit-funds)
+- [Withdraw Funds](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to/withdraw-funds)
+- [Manage Orders](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/how-to/manage-orders)
+- [User Guide](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide): Vertex Typescript SDK User Guide
+- [Client](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client): The top level client containing a number of sub-modules for the most common actions on Vertex.
+- [Market](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market): The Market API houses the most basic actions for trading.
+- [Place Order](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/place-order): Places an order through the engine.
+- [Cancel Orders](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/cancel-orders): Cancels specified orders through the engine.
+- [Cancel Product Orders](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/cancel-product-orders): Cancels all orders for provided products through the engine. Cancels all orders for the subaccount, when no products provided.
+- [Mint LP](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/mint-lp): Mints LP tokens through the engine.
+- [Burn LP](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/burn-lp): Burns LP tokens through the engine.
+- [Get All Markets](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-all-markets): Retrieves all market state. Can be done via the engine (off-chain) or from on-chain contracts.
+- [Get Latest Market Price](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-latest-market-price): Retrieves the latest off-chain orderbook price from the engine.
+- [Get Market Liquidity](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-market-liquidity): Retrieves liquidity per price tick from the engine. The engine will skip price levels that have no liquidity, so it is not guaranteed that the bids/asks are evenly spaced.
+- [Get Open Subaccount orders](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-open-subaccount-orders): Queries the offchain engine to retrieve status of any open orders for the given subaccount.
+- [Get Historical Orders](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-historical-orders): Queries indexer to fetch historical orders.
+- [Get Max Order Size](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-max-order-size): Queries engine to determine maximum order size.
+- [Get Max Mint LP](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-max-mint-lp): Queries engine to determine maximum base amount contribution for minting LPs.
+- [Get Candlesticks](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-candlesticks): Historical candlesticks from the indexer, use getLatestMarketPrice for the latest orderbook prices.
+- [Get Funding Rate](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-funding-rate): Retrieves the latest funding rate for perp products
+- [Get Product Snapshots](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/market/get-product-snapshots): Retrieves the historical snapshots for a product from the indexer
+- [Spot](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot): The Spot API contains utilities to manage collaterals in Vertex.
+- [Approve Allowance](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/approve-allowance): Approves allowance of a provided amount to the on-chain Endpoint contract. Required to be able to deposit collateral.
+- [Deposit](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/deposit): Deposits Spot collateral onto Vertex.
+- [Withdraw](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/withdraw): Withdraws Spot collateral through the engine.
+- [Get Max Withdrawable](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/get-max-withdrawable): Gets the estimated max withdrawable amount for a product.
+- [Get Token Contract for Product](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/get-token-contract-for-product): Helper utility to retrieve the ERC20 token contract for a spot product
+- [Get Token Wallet Balance](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/get-token-wallet-balance): Helper utility to get current token balance of a provided wallet (i.e. not in a Vertex subaccount).
+- [Get Token Allowance](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/spot/get-token-allowance): Helper utility to get a wallet's token allowance for a given product
+- [Perp](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/perp): The Perp API contains useful Perp queries.
+- [Get prices](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/perp/get-prices): Gets the index and mark prices of a given perp product.
+- [Subaccount](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/subaccount): The subaccount API contains utilities to view subaccount info.
+- [Link Signer](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/subaccount/link-signer): Links a signer to a subaccount to allow them to sign transactions on behalf of the subaccount
+- [Get Subaccount Linked Signer with Rate limits](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/subaccount/get-subaccount-linked-signer-with-rate-limits): Retrieves the current signer and link signer rate limit from the indexer
+- [Get Subaccount Summary](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/subaccount/get-subaccount-summary): Retrieves subaccount info. Can be done via the engine (off-chain) or from on-chain contracts.
+- [Get Subaccount Fee Rates](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/subaccount/get-subaccount-fee-rates): Queries subaccount fee rates through engine.
+- [Get Subaccount Token Rewards](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/client/subaccount/get-subaccount-token-rewards): Queries all token rewards across epochs for a subaccount
+- [Engine Client](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/engine-client): A sub-client that interacts with the offchain engine. Can be accessed via the context property on the top level client.
+- [Executes](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/engine-client/executes): Interactions with our REST API > Executes via the SDK.
+- [Queries](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/engine-client/queries): Interactions with our REST API > Queries via the SDK.
+- [Indexer Client](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/indexer-client): A sub-client that interacts with the indexer API. Can be accessed via the context property on the top level client.
+- [Base Queries](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/indexer-client/base-queries): Base queries that make HTTP requests to our Indexer API via the SDK.
+- [Paginated Queries](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/indexer-client/paginated-queries): Paginated versions of the base queries.
+- [Websocket](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/websocket): Utilities to build Websocket messages as expected by the server.
+- [Executes](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/websocket/executes): Builds Websocket execute messages.
+- [Queries](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/websocket/queries): Builds Websocket query messages.
+- [Subscriptions](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/websocket/subscriptions): Builds Websocket messages for the Subscriptions API.
+- [Utilities](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/utilities): A collection of utility packages consumed by the top-level clients.
+- [Contracts](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/utilities/contracts): A collection of helper functions that includes interactions with contracts and EIP712 signing. Vertex contracts can be accessed via the context property on the top level client.
+- [Utils](https://docs.vertexprotocol.com/developer-resources/vertex-typescript-sdk/user-guide/utilities/utils): Utility library; e.g. numerical operations, address validation
+- [Contracts](https://docs.vertexprotocol.com/developer-resources/contracts): Vertex contract addresses
+- [API/SDK Terms of Use](https://docs.vertexprotocol.com/developer-resources/api-sdk-terms-of-use): PDF file containing Vertex's terms of use applicable to the API/SDK.

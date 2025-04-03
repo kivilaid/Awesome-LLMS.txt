@@ -1,0 +1,10 @@
+# Abstract API
+
+## Docs
+
+- [Email Validation API](https://abstractapi-email.mintlify.app/email-validation.md): Improve your delivery rate and clean your email lists with Abstract's industry-leading Email Validation API.
+
+
+## Optional
+
+- [Contact Us](mailto:team@abstractapi.com)

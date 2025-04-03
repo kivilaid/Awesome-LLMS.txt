@@ -1,0 +1,22 @@
+# Alphagate Docs
+
+## Alphagate Docs
+
+- [Introduction](https://docs.alphagate.io/introduction)
+- [Our Features](https://docs.alphagate.io/overview/our-features)
+- [Official Links](https://docs.alphagate.io/overview/official-links)
+- [Extension](https://docs.alphagate.io/features/extension)
+- [Discover](https://docs.alphagate.io/features/discover)
+- [Followings](https://docs.alphagate.io/features/followings)
+- [Project](https://docs.alphagate.io/features/project)
+- [KeyProfile](https://docs.alphagate.io/features/keyprofile)
+- [Trending](https://docs.alphagate.io/features/trending)
+- [Feed](https://docs.alphagate.io/features/feed)
+- [Watchlist](https://docs.alphagate.io/features/watchlist): You are able to add Projects and key profiles to your watchlist, refer to the sections below for more details!
+- [Projects](https://docs.alphagate.io/features/watchlist/projects)
+- [Key profiles](https://docs.alphagate.io/features/watchlist/key-profiles)
+- [Preferences](https://docs.alphagate.io/features/watchlist/preferences)
+- [Telegram Bot](https://docs.alphagate.io/features/telegram-bot)
+- [Chat](https://docs.alphagate.io/features/chat)
+- [Referrals](https://docs.alphagate.io/other/referrals)
+- [Discord Role](https://docs.alphagate.io/other/discord-role)

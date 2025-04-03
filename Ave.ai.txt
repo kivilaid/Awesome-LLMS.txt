@@ -1,0 +1,25 @@
+# Ave.ai
+
+## Ave.ai
+
+- [Welcome!](https://docs.ave.ai/welcome)
+- [Quick Start](https://docs.ave.ai/quick-start)
+- [Service Integration Application](https://docs.ave.ai/service-integration-application)
+- [New Swap Integration](https://docs.ave.ai/service-integration-application/new-swap-integration)
+- [New Chain Integration](https://docs.ave.ai/service-integration-application/new-chain-integration)
+- [Ave.ai Telegram Bot](https://docs.ave.ai/ave.ai-telegram-bot)
+- [Ave Buy Bot](https://docs.ave.ai/ave.ai-telegram-bot/ave-buy-bot): Ave.ai token buy bot for telegram community
+- [Ave Price Bot](https://docs.ave.ai/ave.ai-telegram-bot/ave-price-bot): Ave.ai token price bot for telegram community
+- [Business Development](https://docs.ave.ai/business-development)
+- [How Ave.ai support a new chain](https://docs.ave.ai/business-development/how-ave.ai-support-a-new-chain)
+- [How Ave.ai support a new swap](https://docs.ave.ai/business-development/how-ave.ai-support-a-new-swap)
+- [How Ave.ai support token project](https://docs.ave.ai/business-development/how-ave.ai-support-token-project)
+- [How Ave.ai support nft project](https://docs.ave.ai/business-development/how-ave.ai-support-nft-project)
+- [Recruitment for Ave.ai Business Agents](https://docs.ave.ai/business-development/recruitment-for-ave.ai-business-agents)
+- [API Reference](https://docs.ave.ai/reference/api-reference)
+- [v1](https://docs.ave.ai/reference/api-reference/v1)
+- [v2](https://docs.ave.ai/reference/api-reference/v2)
+- [API Fee](https://docs.ave.ai/reference/api-reference/api-fee)
+- [Shared Data Mode](https://docs.ave.ai/reference/api-reference/api-fee/shared-data-mode)
+- [Pro Data Mode](https://docs.ave.ai/reference/api-reference/api-fee/pro-data-mode)
+- [Data Center Mode](https://docs.ave.ai/reference/api-reference/api-fee/data-center-mode)
